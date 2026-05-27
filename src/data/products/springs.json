@@ -1,0 +1,187 @@
+[
+  {
+    "id": "SPR001",
+    "title": "Copper Vastu Spring",
+    "slug": "copper-vastu-spring",
+    "category": "Springs",
+    "subcategory": "Vastu Springs",
+    "price": 699,
+    "discountPrice": 549,
+    "stock": true,
+    "rating": 4.8,
+    "reviews": 132,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "copper spring",
+      "vastu spring",
+      "energy spring",
+      "copper remedy",
+      "vastu correction",
+      "positive energy",
+      "metal spring",
+      "energy balancing"
+    ],
+    "images": [
+      
+      "/products/springs/copper-spring-1.png"
+    ],
+    "shortDescription": "Premium copper vastu spring for energy balancing and vastu defect correction.",
+    "description": "The Copper Vastu Spring is designed according to vastu principles to improve positive energy circulation and neutralize negative vibrations. Crafted from premium quality copper, this spring is commonly used in vastu remedies for balancing disturbed zones and enhancing harmony in residential and commercial spaces. Ideal for concealed installations in walls, floors, and directional correction areas.",
+    "benefits": [
+      "Helps balance positive energy flow",
+      "Supports vastu defect correction",
+      "Made from premium quality copper",
+      "Suitable for home and office use",
+      "Durable and long-lasting construction"
+    ]
+  },
+  {
+    "id": "SPR002",
+    "title": "Iron Vastu Spring",
+    "slug": "iron-vastu-spring",
+    "category": "Springs",
+    "subcategory": "Vastu Springs",
+    "price": 649,
+    "discountPrice": 499,
+    "stock": true,
+    "rating": 4.7,
+    "reviews": 108,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "iron spring",
+      "vastu spring",
+      "energy grounding",
+      "iron remedy",
+      "vastu balancing",
+      "metal spring",
+      "negative energy correction",
+      "energy stabilizer"
+    ],
+    "images": [
+      "/products/springs/iron-spring-1.png",
+      "/products/springs/iron-spring-1.png"
+    ],
+    "shortDescription": "Durable iron vastu spring for grounding energies and directional imbalance correction.",
+    "description": "The Iron Vastu Spring is specially crafted for grounding unstable energies and correcting vastu imbalances. Iron is associated with strength and stability, making this spring effective for reducing negative vibrations and supporting balanced energy flow. Perfect for vastu remedies in homes, offices, and commercial spaces.",
+    "benefits": [
+      "Supports energy grounding",
+      "Helps stabilize disturbed zones",
+      "Useful for vastu balancing",
+      "Strong and durable metal finish",
+      "Ideal for residential and commercial applications"
+    ]
+  },
+  {
+    "id": "SPR003",
+    "title": "Stainless Steel Vastu Spring",
+    "slug": "stainless-steel-vastu-spring",
+    "category": "Springs",
+    "subcategory": "Vastu Springs",
+    "price": 749,
+    "discountPrice": 599,
+    "stock": true,
+    "rating": 4.8,
+    "reviews": 94,
+    "featured": true,
+    "bestSeller": false,
+    "tags": [
+      "stainless steel spring",
+      "vastu spring",
+      "steel remedy",
+      "energy harmonizer",
+      "metal spring",
+      "vastu correction",
+      "rust resistant",
+      "energy balancing"
+    ],
+    "images": [
+      "/products/springs/stainless-spring-1.png",
+      "/products/springs/stainless-spring-1.png"
+    ],
+    "shortDescription": "Premium stainless steel vastu spring for long-lasting energy correction and stability.",
+    "description": "The Stainless Steel Vastu Spring is designed for modern vastu applications requiring durability and balanced energy correction. Made from premium stainless steel, this spring supports energetic stability while resisting corrosion and wear. It is ideal for long-term vastu remedies and concealed installations.",
+    "benefits": [
+      "Rust-resistant premium finish",
+      "Supports vastu energy correction",
+      "Enhances stability and harmony",
+      "Durable and long-lasting material",
+      "Suitable for homes and offices"
+    ]
+  },
+  {
+    "id": "SPR004",
+    "title": "Brass Vastu Spring",
+    "slug": "brass-vastu-spring",
+    "category": "Springs",
+    "subcategory": "Vastu Springs",
+    "price": 799,
+    "discountPrice": 649,
+    "stock": true,
+    "rating": 4.9,
+    "reviews": 88,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "brass spring",
+      "vastu spring",
+      "spiritual energy",
+      "brass remedy",
+      "positive vibrations",
+      "vastu balancing",
+      "metal spring",
+      "prosperity"
+    ],
+    "images": [
+      "/products/springs/brass-spring-1.png",
+      "/products/springs/brass-spring-1.png"
+    ],
+    "shortDescription": "Elegant brass vastu spring for positivity, prosperity, and spiritual harmony.",
+    "description": "The Brass Vastu Spring combines vastu correction benefits with spiritual energy enhancement. Brass is traditionally linked with positivity, prosperity, and purification. This spring helps improve harmonious energy circulation and reduce negative vibrations in homes, offices, temples, and meditation spaces.",
+    "benefits": [
+      "Enhances positive vibrations",
+      "Supports spiritual harmony",
+      "Useful for vastu remedies",
+      "Premium polished brass finish",
+      "Ideal for sacred and meditation spaces"
+    ]
+  },
+  {
+    "id": "SPR005",
+    "title": "Aluminium Vastu Spring",
+    "slug": "aluminium-vastu-spring",
+    "category": "Springs",
+    "subcategory": "Vastu Springs",
+    "price": 599,
+    "discountPrice": 449,
+    "stock": true,
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "aluminium spring",
+      "vastu spring",
+      "lightweight spring",
+      "metal remedy",
+      "energy balancing",
+      "vastu correction",
+      "modern vastu",
+      "corrosion resistant"
+    ],
+    "images": [
+      "/products/springs/aluminium-spring-1.png",
+      "/products/springs/aluminium-spring-1.png"
+    ],
+    "shortDescription": "Lightweight aluminium vastu spring for affordable and effective energy balancing.",
+    "description": "The Aluminium Vastu Spring is a practical and lightweight vastu remedy designed to support balanced energy movement and correction of disturbed zones. Its corrosion-resistant and durable structure makes it ideal for modern homes and offices requiring effective vastu solutions at an affordable price.",
+    "benefits": [
+      "Affordable vastu correction solution",
+      "Lightweight and easy to install",
+      "Corrosion-resistant material",
+      "Supports balanced energy flow",
+      "Suitable for modern interiors"
+    ]
+  }
+]

@@ -1,0 +1,187 @@
+[
+  {
+    "id": "VTP001",
+    "title": "White Vastu Tape 4 Inch",
+    "slug": "white-vastu-tape-4-inch",
+    "category": "Tapes",
+    "subcategory": "Vastu Color Tapes",
+    "price": 399,
+    "discountPrice": 299,
+    "stock": true,
+    "rating": 4.8,
+    "reviews": 124,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "white tape",
+      "vastu tape",
+      "4 inch tape",
+      "color therapy",
+      "vastu remedy",
+      "energy balancing",
+      "peace",
+      "positivity"
+    ],
+    "images": [
+      "/products/white-tape-1.jpg",
+      "/products/white-tape-2.jpg"
+    ],
+    "shortDescription": "Premium white vastu tape for peace, purity, and positive energy correction.",
+    "description": "The White Vastu Tape is designed according to vastu and color therapy principles to create peaceful, calm, and balanced surroundings. White symbolizes purity, clarity, and positivity, making this tape ideal for correcting vastu defects and improving harmonious energy flow. Suitable for homes, offices, meditation rooms, and spiritual spaces.",
+    "benefits": [
+      "Promotes peace and harmony",
+      "Supports vastu defect correction",
+      "Improves positive energy flow",
+      "Easy to apply on floors and walls",
+      "Premium quality 4 inch tape"
+    ]
+  },
+  {
+    "id": "VTP002",
+    "title": "Green Vastu Tape 4 Inch",
+    "slug": "green-vastu-tape-4-inch",
+    "category": "Tapes",
+    "subcategory": "Vastu Color Tapes",
+    "price": 399,
+    "discountPrice": 299,
+    "stock": true,
+    "rating": 4.7,
+    "reviews": 118,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "green tape",
+      "vastu tape",
+      "4 inch tape",
+      "growth",
+      "healing",
+      "nature energy",
+      "vastu balancing",
+      "prosperity"
+    ],
+    "images": [
+      "/products/green-tape-1.jpg",
+      "/products/green-tape-2.jpg"
+    ],
+    "shortDescription": "Green vastu tape for growth, healing, prosperity, and balanced surroundings.",
+    "description": "The Green Vastu Tape is associated with growth, freshness, healing, and prosperity. Designed for vastu remedies and color balancing applications, this tape helps create a soothing and stable environment. It is ideal for spaces related to health, study, financial growth, and emotional balance.",
+    "benefits": [
+      "Encourages growth and prosperity",
+      "Supports emotional balance",
+      "Suitable for vastu corrections",
+      "Easy installation and durable finish",
+      "Ideal for homes and offices"
+    ]
+  },
+  {
+    "id": "VTP003",
+    "title": "Red Vastu Tape 4 Inch",
+    "slug": "red-vastu-tape-4-inch",
+    "category": "Tapes",
+    "subcategory": "Vastu Color Tapes",
+    "price": 399,
+    "discountPrice": 299,
+    "stock": true,
+    "rating": 4.9,
+    "reviews": 96,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "red tape",
+      "vastu tape",
+      "4 inch tape",
+      "strength",
+      "power",
+      "energy activation",
+      "fire element",
+      "vastu remedy"
+    ],
+    "images": [
+      "/products/red-tape-1.jpg",
+      "/products/red-tape-2.jpg"
+    ],
+    "shortDescription": "Powerful red vastu tape for activating energy, confidence, and strength.",
+    "description": "The Red Vastu Tape represents strength, confidence, passion, and active energy. It is commonly used in vastu remedies to energize weak zones and stimulate positivity in living and working spaces. Perfect for areas requiring motivation, action, and enhanced vitality.",
+    "benefits": [
+      "Activates positive energy",
+      "Enhances confidence and motivation",
+      "Useful for vastu balancing",
+      "Strong adhesive and durable material",
+      "Ideal for energy enhancement zones"
+    ]
+  },
+  {
+    "id": "VTP004",
+    "title": "Blue Vastu Tape 4 Inch",
+    "slug": "blue-vastu-tape-4-inch",
+    "category": "Tapes",
+    "subcategory": "Vastu Color Tapes",
+    "price": 399,
+    "discountPrice": 299,
+    "stock": true,
+    "rating": 4.7,
+    "reviews": 87,
+    "featured": true,
+    "bestSeller": false,
+    "tags": [
+      "blue tape",
+      "vastu tape",
+      "4 inch tape",
+      "calmness",
+      "water element",
+      "mental peace",
+      "energy correction",
+      "vastu balancing"
+    ],
+    "images": [
+      "/products/blue-tape-1.jpg",
+      "/products/blue-tape-2.jpg"
+    ],
+    "shortDescription": "Blue vastu tape for calmness, emotional stability, and peaceful energy flow.",
+    "description": "The Blue Vastu Tape is inspired by the calming energy of the water element. It helps reduce stress, improve mental clarity, and create a peaceful atmosphere. Widely used in vastu and color therapy remedies, this tape supports emotional balance and smooth energy circulation.",
+    "benefits": [
+      "Promotes calmness and peace",
+      "Supports emotional balance",
+      "Improves mental clarity",
+      "Suitable for vastu corrections",
+      "Premium quality easy-to-use tape"
+    ]
+  },
+  {
+    "id": "VTP005",
+    "title": "Yellow Vastu Tape 4 Inch",
+    "slug": "yellow-vastu-tape-4-inch",
+    "category": "Tapes",
+    "subcategory": "Vastu Color Tapes",
+    "price": 399,
+    "discountPrice": 299,
+    "stock": true,
+    "rating": 4.8,
+    "reviews": 102,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "yellow tape",
+      "vastu tape",
+      "4 inch tape",
+      "wisdom",
+      "positivity",
+      "solar energy",
+      "success",
+      "vastu remedy"
+    ],
+    "images": [
+      "/products/yellow-tape-1.jpg",
+      "/products/yellow-tape-2.jpg"
+    ],
+    "shortDescription": "Yellow vastu tape for positivity, wisdom, success, and energetic balance.",
+    "description": "The Yellow Vastu Tape symbolizes positivity, intellect, confidence, and success. Designed for vastu and color therapy applications, it helps energize spaces with cheerful and uplifting vibrations. Ideal for study rooms, offices, and areas associated with creativity and learning.",
+    "benefits": [
+      "Boosts positivity and confidence",
+      "Supports learning and creativity",
+      "Useful for vastu balancing",
+      "Strong and durable adhesive",
+      "Suitable for homes, offices, and study spaces"
+    ]
+  }
+]

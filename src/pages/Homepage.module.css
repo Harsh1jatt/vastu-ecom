@@ -1,0 +1,448 @@
+.homepage {
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 clamp(20px, 4vw, 48px);
+}
+
+/* Trust bar */
+.trustBar {
+  background: var(--white);
+  border-bottom: 1px solid rgba(192, 132, 87, 0.1);
+  padding: 32px 0;
+  margin-top: -1px;
+}
+
+.trustGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.trustItem {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px;
+}
+
+.trustIcon {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(192, 132, 87, 0.12), rgba(212, 165, 116, 0.06));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold);
+  font-size: 1.25rem;
+  flex-shrink: 0;
+}
+
+.trustItem strong {
+  display: block;
+  font-size: 0.95rem;
+  color: var(--dark);
+  margin-bottom: 2px;
+}
+
+.trustItem span {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+/* Categories */
+.categories {
+  padding: clamp(80px, 10vw, 120px) 0;
+  background: var(--cream);
+}
+
+.categoryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.categoryCard {
+  position: relative;
+  display: block;
+  padding: 36px 28px;
+  background: var(--white);
+  border-radius: 20px;
+  border: 1px solid rgba(192, 132, 87, 0.12);
+  text-decoration: none;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.categoryCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--gold), #e8c9a0);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+}
+
+.categoryCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px rgba(192, 132, 87, 0.12);
+  border-color: rgba(192, 132, 87, 0.3);
+}
+
+.categoryCard:hover::before {
+  transform: scaleX(1);
+}
+
+.catNumber {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 2px;
+  opacity: 0.7;
+}
+
+.categoryCard h3 {
+  font-family: var(--font-secondary);
+  font-size: 1.5rem;
+  color: var(--dark);
+  margin: 12px 0 8px;
+  font-weight: 500;
+}
+
+.categoryCard p {
+  font-size: 0.85rem;
+  color: #888;
+  margin: 0;
+}
+
+.catArrow {
+  position: absolute;
+  bottom: 28px;
+  right: 28px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--cream);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold);
+  transition: all 0.3s ease;
+}
+
+.categoryCard:hover .catArrow {
+  background: var(--gold);
+  color: var(--white);
+  transform: translate(4px, -4px);
+}
+
+/* Products */
+.featured,
+.bestSellers {
+  padding: clamp(80px, 10vw, 120px) 0;
+}
+
+.featured {
+  background: var(--white);
+}
+
+.bestSellers {
+  background: var(--cream);
+}
+
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 28px;
+}
+
+.ctaWrap {
+  text-align: center;
+  margin-top: 56px;
+}
+
+.ctaBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 40px;
+  background: var(--dark);
+  color: var(--white);
+  border-radius: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.35s ease;
+  letter-spacing: 0.02em;
+}
+
+.ctaBtn:hover {
+  background: var(--gold);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 36px rgba(192, 132, 87, 0.35);
+}
+
+/* Why us */
+.whyUs {
+  padding: clamp(80px, 10vw, 120px) 0;
+  background: var(--dark);
+  color: var(--white);
+  position: relative;
+  overflow: hidden;
+}
+
+.whyUs::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 60%;
+  height: 150%;
+  background: radial-gradient(circle, rgba(192, 132, 87, 0.15), transparent 60%);
+  pointer-events: none;
+}
+
+.whyGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(40px, 6vw, 80px);
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.whyEyebrow {
+  display: inline-block;
+  font-size: 0.75rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #e8c9a0;
+  margin-bottom: 20px;
+}
+
+.whyCopy h2 {
+  font-family: var(--font-secondary);
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 500;
+  color: var(--white);
+  line-height: 1.15;
+  margin-bottom: 20px;
+}
+
+.whyCopy > p {
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.8;
+  margin-bottom: 28px;
+  font-size: 1.05rem;
+}
+
+.whyList {
+  list-style: none;
+  margin: 0 0 36px;
+  padding: 0;
+}
+
+.whyList li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.95rem;
+}
+
+.whyList li svg {
+  color: var(--gold);
+  flex-shrink: 0;
+}
+
+.whyCta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  border: 1px solid rgba(192, 132, 87, 0.5);
+  color: #e8c9a0;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.whyCta:hover {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--white);
+}
+
+.whyVisual {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 360px;
+}
+
+.whyCard {
+  position: relative;
+  z-index: 2;
+  padding: 48px;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.whyCard svg {
+  color: var(--gold);
+}
+
+.whyCard strong {
+  font-family: var(--font-secondary);
+  font-size: 1.5rem;
+  color: var(--white);
+}
+
+.whyCard span {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.whyOrb {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(192, 132, 87, 0.3), transparent 70%);
+  animation: pulse 6s ease infinite;
+}
+
+/* Newsletter */
+.newsletter {
+  padding: clamp(80px, 10vw, 100px) 0;
+  background: linear-gradient(135deg, #faf8f5, var(--cream));
+}
+
+.newsletterInner {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.newsEyebrow {
+  display: inline-block;
+  font-size: 0.75rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 16px;
+}
+
+.newsletterInner h2 {
+  font-family: var(--font-secondary);
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  color: var(--dark);
+  margin-bottom: 12px;
+}
+
+.newsletterInner > div > p {
+  color: #666;
+  margin-bottom: 32px;
+}
+
+.newsForm {
+  display: flex;
+  gap: 12px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.newsForm input {
+  flex: 1;
+  padding: 16px 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 14px;
+  font-size: 1rem;
+  background: var(--white);
+}
+
+.newsForm input:focus {
+  outline: none;
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(192, 132, 87, 0.15);
+}
+
+.newsForm button {
+  padding: 16px 28px;
+  background: linear-gradient(135deg, var(--gold), #d4a574);
+  color: var(--white);
+  border: none;
+  border-radius: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.newsForm button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(192, 132, 87, 0.35);
+}
+
+@media (max-width: 992px) {
+  .trustGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .whyGrid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .whyList li {
+    justify-content: center;
+  }
+
+  .whyVisual {
+    min-height: 240px;
+  }
+}
+
+@media (max-width: 640px) {
+  .trustGrid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .categoryGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .productGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .newsForm {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 400px) {
+  .productGrid {
+    grid-template-columns: 1fr;
+  }
+}

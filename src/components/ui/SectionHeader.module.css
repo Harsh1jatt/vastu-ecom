@@ -1,0 +1,65 @@
+.header {
+  margin-bottom: clamp(40px, 6vw, 64px);
+  max-width: 640px;
+}
+
+.header.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.header.left {
+  text-align: left;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 16px;
+}
+
+.title {
+  font-family: var(--font-secondary);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 500;
+  color: var(--dark);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  font-size: 1.05rem;
+  color: #666;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.line {
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--gold), transparent);
+  margin-top: 24px;
+}
+
+.header.center .line {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.light .title {
+  color: var(--white);
+}
+
+.light .subtitle {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.light .line {
+  background: linear-gradient(90deg, #e8c9a0, transparent);
+}

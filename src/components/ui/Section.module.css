@@ -1,0 +1,29 @@
+.section {
+  padding: 80px 0;
+  background: var(--cream);
+  transition: var(--transition);
+}
+
+.section.dark {
+  background: var(--dark);
+  color: var(--white);
+}
+
+.section.dark h1,
+.section.dark h2,
+.section.dark h3,
+.section.dark h4 {
+  color: var(--white);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 0;
+  }
+}

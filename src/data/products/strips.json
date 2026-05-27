@@ -1,0 +1,187 @@
+[
+  {
+    "id": "STP001",
+    "title": "Copper Energy Strip  8ft .5mm",
+    "slug": "copper-energy-strip",
+    "category": "Strips",
+    "subcategory": "Energy Strips",
+    "price": 499,
+    "discountPrice": 349,
+    "stock": true,
+    "rating": 4.8,
+    "reviews": 142,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "strip",
+      "copper",
+      "energy",
+      "vastu",
+      "metal strip",
+      "vastu correction",
+      "negative energy",
+      "copper strip"
+    ],
+    "images": [
+      "/products/strips/copper-strip-1.webp",
+      "/products/strips/copper-strip-2.webp"
+    ],
+    "shortDescription": "Premium copper vastu strip for balancing negative energies and vastu defect correction.",
+    "description": "The Copper Energy Strip is specially designed for vastu corrections and energy balancing in homes, offices, and commercial spaces. Copper is known for its strong conductive and energy-balancing properties, making it highly effective for neutralizing vastu doshas and restoring harmony. These strips can be installed in floors, walls, entrances, or problematic zones to improve positive energy flow, stability, prosperity, and peace.",
+    "benefits": [
+      "Helps neutralize vastu defects",
+      "Improves positive energy flow",
+      "Suitable for home and office use",
+      "Easy installation under flooring or walls",
+      "Premium quality pure copper finish"
+    ]
+  },
+  {
+    "id": "STP002",
+    "title": "Iron Energy Strip 8ft .5mm",
+    "slug": "iron-energy-strip",
+    "category": "Strips",
+    "subcategory": "Energy Strips",
+    "price": 449,
+    "discountPrice": 329,
+    "stock": true,
+    "rating": 4.7,
+    "reviews": 118,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "strip",
+      "iron",
+      "energy",
+      "vastu",
+      "metal strip",
+      "vastu remedy",
+      "iron strip",
+      "energy balancing"
+    ],
+    "images": [
+      "/products/strips/strip.webp",
+      "/products/strips/aluminium-strip-2.webp"
+    ],
+    "shortDescription": "Durable iron vastu strip designed for energy grounding and vastu imbalance correction.",
+    "description": "The Iron Energy Strip is widely used in vastu remedies for grounding unstable energies and correcting directional imbalances. Crafted from high-quality iron, this strip helps stabilize heavy negative zones and supports better energy alignment in residential and commercial spaces. Ideal for placement in flooring, walls, or entrances where energy correction is required.",
+    "benefits": [
+      "Supports energy grounding",
+      "Effective vastu correction tool",
+      "Strong and durable material",
+      "Suitable for directional imbalance remedies",
+      "Long-lasting performance"
+    ]
+  },
+  {
+    "id": "STP003",
+    "title": "Stainless Steel Energy Strip 8ft .5mm",
+    "slug": "stainless-steel-energy-strip",
+    "category": "Strips",
+    "subcategory": "Energy Strips",
+    "price": 549,
+    "discountPrice": 399,
+    "stock": true,
+    "rating": 4.8,
+    "reviews": 96,
+    "featured": true,
+    "bestSeller": false,
+    "tags": [
+      "strip",
+      "stainless steel",
+      "energy",
+      "vastu",
+      "steel strip",
+      "vastu strip",
+      "metal correction",
+      "energy harmonizer"
+    ],
+    "images": [
+      "/products/strips/strip.webp",
+      "/products/strips/aluminium-strip-2.webp"
+    ],
+    "shortDescription": "Premium stainless steel vastu strip for long-lasting energy correction and stability.",
+    "description": "The Stainless Steel Energy Strip is crafted for modern vastu applications requiring durability, resistance, and balanced energy flow. Stainless steel is associated with stability and protection, helping harmonize disturbed areas and improve energetic balance. These strips are ideal for concealed installations in floors, walls, and structural corrections.",
+    "benefits": [
+      "Rust-resistant premium finish",
+      "Provides long-term vastu correction",
+      "Enhances energetic stability",
+      "Suitable for residential and commercial spaces",
+      "Modern and durable material"
+    ]
+  },
+  {
+    "id": "STP004",
+    "title": "Brass Energy Strip 8ft .5mm",
+    "slug": "brass-energy-strip",
+    "category": "Strips",
+    "subcategory": "Energy Strips",
+    "price": 599,
+    "discountPrice": 449,
+    "stock": true,
+    "rating": 4.9,
+    "reviews": 87,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "strip",
+      "brass",
+      "energy",
+      "vastu",
+      "brass strip",
+      "spiritual energy",
+      "vastu correction",
+      "premium strip"
+    ],
+    "images": [
+      "/products/strips/brass-strip-1.webp",
+      "/products/strips/brass-strip-2.webp"
+    ],
+    "shortDescription": "Elegant brass vastu strip for spiritual harmony, positivity, and vastu balancing.",
+    "description": "The Brass Energy Strip combines spiritual significance with vastu correction benefits. Brass is traditionally associated with positivity, prosperity, and energetic purification. These strips help reduce negative vibrations and encourage harmonious energy circulation throughout your living or working environment. Perfect for entrances, temples, meditation rooms, and vastu-sensitive areas.",
+    "benefits": [
+      "Encourages positive vibrations",
+      "Useful for spiritual and vastu remedies",
+      "Premium brass construction",
+      "Enhances harmony and prosperity",
+      "Ideal for sacred and meditation spaces"
+    ]
+  },
+  {
+    "id": "STP005",
+    "title": "Aluminium Energy Strip 8ft .5mm",
+    "slug": "aluminium-energy-strip",
+    "category": "Strips",
+    "subcategory": "Energy Strips",
+    "price": 399,
+    "discountPrice": 299,
+    "stock": true,
+    "rating": 4.6,
+    "reviews": 74,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "strip",
+      "aluminium",
+      "energy",
+      "vastu",
+      "lightweight strip",
+      "metal strip",
+      "vastu balancing",
+      "aluminium remedy"
+    ],
+    "images": [
+      "/products/strips/aluminium-strip-1.webp",
+      "/products/strips/aluminium-strip-2.webp"
+    ],
+    "shortDescription": "Lightweight aluminium vastu strip for affordable and effective energy balancing.",
+    "description": "The Aluminium Energy Strip is a practical vastu solution designed for lightweight installation and effective energy correction. Aluminium supports balanced energy movement and is commonly used in vastu applications for correcting disturbed zones. Its corrosion-resistant and lightweight nature makes it ideal for modern homes and offices.",
+    "benefits": [
+      "Affordable vastu correction option",
+      "Lightweight and easy to install",
+      "Corrosion-resistant material",
+      "Improves balanced energy flow",
+      "Suitable for modern interiors"
+    ]
+  }
+]

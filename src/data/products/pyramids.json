@@ -1,0 +1,76 @@
+[
+  {
+    "id": "PYR001",
+    "title": "Plastic Vastu Pyramid",
+    "slug": "plastic-vastu-pyramid",
+    "category": "Pyramids",
+    "subcategory": "Vastu Pyramids",
+    "price": 299,
+    "discountPrice": 199,
+    "stock": true,
+    "rating": 4.7,
+    "reviews": 148,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "plastic pyramid",
+      "vastu pyramid",
+      "energy pyramid",
+      "plastic vastu",
+      "positive energy",
+      "vastu remedy",
+      "spiritual healing",
+      "energy balancing"
+    ],
+    "images": [
+      "/products/pyramids/plastic-pyramid-1.png",
+      "/products/pyramids/plastic-pyramid-1.png"
+    ],
+    "shortDescription": "Lightweight plastic vastu pyramid for balancing energies and improving positivity.",
+    "description": "The Plastic Vastu Pyramid is designed according to vastu principles to enhance positive energy flow and reduce negative vibrations in homes, offices, and commercial spaces. Its lightweight and durable construction makes it easy to install in various locations for effective vastu correction and energy balancing. Ideal for study rooms, entrances, workspaces, and meditation areas.",
+    "benefits": [
+      "Helps improve positive energy flow",
+      "Supports vastu defect correction",
+      "Lightweight and durable design",
+      "Easy to install in any space",
+      "Suitable for home and office use"
+    ]
+  },
+  {
+    "id": "PYR002",
+    "title": "Wooden Vastu Pyramid",
+    "slug": "wooden-vastu-pyramid",
+    "category": "Pyramids",
+    "subcategory": "Vastu Pyramids",
+    "price": 499,
+    "discountPrice": 349,
+    "stock": true,
+    "rating": 4.8,
+    "reviews": 124,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "wooden pyramid",
+      "vastu pyramid",
+      "wood pyramid",
+      "natural energy",
+      "vastu remedy",
+      "meditation pyramid",
+      "spiritual harmony",
+      "positive vibrations"
+    ],
+    "images": [
+      "/products/pyramids/wood-pyramid-1.webp",
+      "/products/pyramids/wood-pyramid-1.webp"
+    ],
+    "shortDescription": "Premium wooden vastu pyramid for natural energy balancing and spiritual harmony.",
+    "description": "The Wooden Vastu Pyramid is crafted from high-quality wood and designed to create a peaceful and harmonious environment. Wood symbolizes growth, stability, and natural balance, making this pyramid ideal for vastu remedies, meditation spaces, offices, and homes. It helps improve positivity, concentration, and overall energetic harmony.",
+    "benefits": [
+      "Encourages peace and harmony",
+      "Supports vastu balancing",
+      "Made from premium quality wood",
+      "Ideal for meditation and spiritual spaces",
+      "Enhances positive vibrations naturally"
+    ]
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "id": "HLX001",
+    "title": "Lead Plain Helix 4 Inch",
+    "slug": "lead-plain-helix-4-inch",
+    "category": "Helix",
+    "subcategory": "Metal Helix",
+    "price": 799,
+    "discountPrice": 599,
+    "stock": true,
+    "rating": 4.8,
+    "reviews": 76,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "lead helix",
+      "plain helix",
+      "4 inch helix",
+      "vastu helix",
+      "metal helix",
+      "energy correction",
+      "vastu remedy",
+      "lead spiral"
+    ],
+    "images": [
+      "/products/helix/lead-helix-1.png",
+      "/products/helix/lead-helix-1.png"
+    ],
+    "shortDescription": "Premium lead plain helix for vastu energy balancing and directional defect correction.",
+    "description": "The Lead Plain Helix 4 Inch is specially designed for vastu remedies and energy correction applications. Crafted using high-quality lead metal, this helix helps neutralize negative energies and balance disturbed zones in residential and commercial spaces. It is commonly used in vastu corrections for directional imbalances and energy stabilization.",
+    "benefits": [
+      "Supports vastu defect correction",
+      "Helps stabilize negative energy zones",
+      "Made from premium quality lead",
+      "Suitable for home and office vastu remedies",
+      "Durable and long-lasting finish"
+    ]
+  },
+  {
+    "id": "HLX002",
+    "title": "Brass Plain Helix 4 Inch",
+    "slug": "brass-plain-helix-4-inch",
+    "category": "Helix",
+    "subcategory": "Metal Helix",
+    "price": 899,
+    "discountPrice": 699,
+    "stock": true,
+    "rating": 4.9,
+    "reviews": 92,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "brass helix",
+      "plain helix",
+      "4 inch helix",
+      "vastu helix",
+      "spiritual energy",
+      "metal helix",
+      "positive vibrations",
+      "vastu balancing"
+    ],
+    "images": [
+      "/products/helix/brass-helix-1.png",
+      "/products/helix/brass-helix-1.png"
+    ],
+    "shortDescription": "Elegant brass plain helix for enhancing positivity, harmony, and vastu balance.",
+    "description": "The Brass Plain Helix 4 Inch is a premium vastu correction tool designed to improve positive energy flow and spiritual harmony. Brass is traditionally associated with prosperity, purification, and energetic enhancement. This helix helps reduce vastu imbalances while creating a peaceful and uplifting environment in homes, offices, and meditation spaces.",
+    "benefits": [
+      "Enhances positive energy flow",
+      "Supports spiritual harmony",
+      "Useful for vastu balancing",
+      "Premium polished brass finish",
+      "Ideal for home, office, and meditation areas"
+    ]
+  },
+  {
+    "id": "HLX003",
+    "title": "Zinc Moon Helix 6 Inch",
+    "slug": "zinc-moon-helix-6-inch",
+    "category": "Helix",
+    "subcategory": "Metal Helix",
+    "price": 999,
+    "discountPrice": 749,
+    "stock": true,
+    "rating": 4.7,
+    "reviews": 68,
+    "featured": true,
+    "bestSeller": false,
+    "tags": [
+      "zinc helix",
+      "moon helix",
+      "6 inch helix",
+      "vastu helix",
+      "metal helix",
+      "energy harmonizer",
+      "moon energy",
+      "vastu remedy"
+    ],
+    "images": [
+      "/products/helix/zinc-helix-1.png",
+      "/products/helix/zinc-helix-1.png"
+    ],
+    "shortDescription": "Premium zinc moon helix designed for emotional balance, calmness, and vastu correction.",
+    "description": "The Zinc Moon Helix 6 Inch is inspired by lunar energy principles and vastu balancing techniques. Crafted from high-quality zinc metal, this helix helps harmonize emotional and environmental energies while reducing negativity. Its unique moon helix design supports calmness, mental clarity, and peaceful surroundings, making it ideal for homes, offices, and spiritual spaces.",
+    "benefits": [
+      "Supports emotional and energy balance",
+      "Helps reduce negative vibrations",
+      "Inspired by moon energy principles",
+      "Suitable for vastu correction remedies",
+      "Durable premium zinc construction"
+    ]
+  },
+  {
+    "id": "HLX004",
+    "title": "Copper HII Helix 4 Inch",
+    "slug": "copper-hii-helix-4-inch",
+    "category": "Helix",
+    "subcategory": "Metal Helix",
+    "price": 1699,
+    "discountPrice": 1499,
+    "stock": true,
+    "rating": 4.9,
+    "reviews": 114,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "copper hii helix",
+      "copper helix",
+      "4 inch helix",
+      "vastu helix",
+      "fire element",
+      "south east correction",
+      "energy balancing",
+      "vastu remedy"
+    ],
+    "images": [
+      "/products/helix/copper-hii-helix-1.png",
+      "/products/helix/copper-hii-helix-1.png"
+    ],
+    "shortDescription": "Premium copper HII helix designed for South-East vastu defect correction and fire energy balancing.",
+    "description": "The Copper HII Helix 4 Inch is a powerful vastu correction tool specially crafted to balance the Fire element in the South-East direction. Made from premium quality copper, this helix helps neutralize vastu imbalances caused by improper placement of kitchens, toilets, entrances, or fire-related zones. Its spiral design enhances positive energy circulation, financial stability, harmony, and energetic balance in homes and commercial spaces. Ideal for installation on walls, flooring, skirting areas, or concealed vastu correction zones.",
+    "benefits": [
+      "Supports South-East vastu defect correction",
+      "Balances and activates the Fire element",
+      "Helps improve positive energy flow",
+      "Promotes harmony, stability, and prosperity",
+      "Premium quality copper construction"
+    ]
+  }
+]

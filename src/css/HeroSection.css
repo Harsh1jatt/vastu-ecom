@@ -1,0 +1,109 @@
+/* HeroSection.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap');
+
+.hero{
+    width:100%;
+    min-height:100vh;
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.65),
+        rgba(0,0,0,0.55)
+    ),
+    url('https://images.unsplash.com/photo-1506744038136-46273834b3fb');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:120px 8%;
+    position:relative;
+}
+
+.hero-content{
+    max-width:700px;
+    color:#fff;
+    z-index:2;
+}
+
+.hero-tag{
+    display:inline-block;
+    padding:10px 22px;
+    border-radius:50px;
+    background:rgba(255,255,255,0.12);
+    backdrop-filter:blur(10px);
+    font-size:14px;
+    margin-bottom:24px;
+    letter-spacing:1px;
+    font-family:'Poppins', sans-serif;
+}
+
+.hero-content h1{
+    font-size:72px;
+    line-height:1.1;
+    margin-bottom:24px;
+    font-family:'Cormorant Garamond', serif;
+    font-weight:700;
+}
+
+.hero-content p{
+    font-size:18px;
+    line-height:1.8;
+    color:#e5e5e5;
+    margin-bottom:35px;
+    font-family:'Poppins', sans-serif;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.primary-btn,
+.outline-btn{
+    padding:16px 34px;
+    border:none;
+    border-radius:50px;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:600;
+    transition:0.4s ease;
+    font-family:'Poppins', sans-serif;
+}
+
+.primary-btn{
+    background:linear-gradient(
+        135deg,
+        #c08457,
+        #f5d0a9
+    );
+    color:#111;
+}
+
+.primary-btn:hover{
+    transform:translateY(-5px);
+}
+
+.outline-btn{
+    background:transparent;
+    border:1px solid rgba(255,255,255,0.4);
+    color:#fff;
+}
+
+.outline-btn:hover{
+    background:#fff;
+    color:#111;
+}
+
+@media(max-width:768px){
+
+    .hero-content h1{
+        font-size:48px;
+    }
+
+    .hero{
+        padding:120px 6%;
+    }
+
+}

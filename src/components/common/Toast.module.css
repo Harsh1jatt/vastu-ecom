@@ -1,0 +1,68 @@
+.container {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 360px;
+}
+
+.toast {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: var(--white);
+  border: 1px solid rgba(192, 132, 87, 0.25);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+  color: var(--dark);
+  animation: slideIn 0.35s ease;
+}
+
+.toast p {
+  flex: 1;
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--dark);
+}
+
+.toast button {
+  background: none;
+  border: none;
+  color: #888;
+  cursor: pointer;
+}
+
+.icon {
+  color: var(--gold);
+}
+
+.success .icon {
+  color: #2e7d32;
+}
+
+.error .icon {
+  color: #c62828;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    left: 16px;
+    right: 16px;
+    max-width: none;
+  }
+}

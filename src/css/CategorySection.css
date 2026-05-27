@@ -1,0 +1,32 @@
+/* CategorySection.css */
+
+.category-section{
+    padding:100px 8%;
+    background:#f8f6f3;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-title span{
+    color:#c08457;
+    font-size:14px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    font-family:'Poppins', sans-serif;
+}
+
+.section-title h2{
+    font-size:48px;
+    margin-top:14px;
+    color:#111;
+    font-family:'Cormorant Garamond', serif;
+}
+
+.category-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+}

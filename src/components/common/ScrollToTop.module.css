@@ -1,0 +1,33 @@
+.btn {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid rgba(192, 132, 87, 0.4);
+  background: var(--white);
+  color: var(--gold);
+  cursor: pointer;
+  z-index: 997;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: var(--gold);
+  color: var(--white);
+  transform: translateY(-4px);
+}
+
+@media (max-width: 768px) {
+  .btn {
+    bottom: 16px;
+    right: 16px;
+    width: 44px;
+    height: 44px;
+  }
+}

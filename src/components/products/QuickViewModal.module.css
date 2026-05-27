@@ -1,0 +1,160 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: 3000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.modal {
+  position: relative;
+  max-width: 900px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  background: var(--white);
+  border: 1px solid rgba(192, 132, 87, 0.2);
+  border-radius: 20px;
+  padding: 28px;
+  box-shadow: 0 32px 80px rgba(0, 0, 0, 0.15);
+}
+
+.close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: var(--cream);
+  border: none;
+  color: var(--dark);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+
+.image {
+  position: relative;
+  aspect-ratio: 1;
+  border-radius: 16px;
+  overflow: hidden;
+  background: var(--cream);
+}
+
+.badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: var(--gold);
+  color: var(--white);
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.category {
+  color: var(--gold);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.info h2 {
+  color: var(--dark);
+  margin: 8px 0;
+  font-size: 1.5rem;
+}
+
+.id {
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.desc {
+  color: #666;
+  margin: 12px 0;
+  font-size: 0.95rem;
+}
+
+.rating {
+  color: var(--gold);
+  margin-bottom: 16px;
+}
+
+.price span {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.old {
+  text-decoration: line-through;
+  color: #aaa !important;
+  font-size: 1rem !important;
+  margin-right: 10px;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.actions button,
+.actions a {
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+}
+
+.actions button:first-child {
+  background: linear-gradient(135deg, var(--gold), #d4a574);
+  border: none;
+  color: var(--white);
+  flex: 1;
+}
+
+.actions button:nth-child(2) {
+  background: var(--cream);
+  border: 1px solid #ddd;
+  color: var(--dark);
+}
+
+.wishActive {
+  color: #e53935 !important;
+}
+
+.actions a {
+  color: var(--gold);
+  border: 1px solid var(--gold);
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .modal {
+    padding: 20px;
+  }
+}

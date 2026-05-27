@@ -1,0 +1,143 @@
+.page {
+  min-height: 100vh;
+  background: var(--cream);
+}
+
+.header {
+  background: linear-gradient(135deg, var(--gold), #d4a574);
+  color: var(--white);
+  padding: 60px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 3rem;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.content {
+  background: var(--white);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  line-height: 1.8;
+}
+
+.content p {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.faqItem {
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.faqItem:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.faqItem h3 {
+  font-size: 1.2rem;
+  color: var(--gold);
+  margin-bottom: 12px;
+}
+
+.faqItem p {
+  color: #666;
+}
+
+.policySection {
+  margin-bottom: 24px;
+}
+
+.policySection h3 {
+  font-size: 1.2rem;
+  color: var(--gold);
+  margin-bottom: 8px;
+}
+
+.policySection p {
+  color: #666;
+}
+
+.notFound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: var(--cream);
+}
+
+.notFoundContent {
+  text-align: center;
+  background: var(--white);
+  padding: 60px 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.notFoundContent h1 {
+  font-size: 5rem;
+  color: var(--gold);
+  margin-bottom: 16px;
+}
+
+.notFoundContent h2 {
+  font-size: 2rem;
+  color: var(--dark);
+  margin-bottom: 12px;
+}
+
+.notFoundContent p {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 32px;
+}
+
+.backLink {
+  display: inline-block;
+  padding: 14px 40px;
+  background: linear-gradient(135deg, var(--gold), #d4a574);
+  color: var(--white);
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.backLink:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(192, 132, 87, 0.3);
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .container {
+    padding: 40px 20px;
+  }
+
+  .notFoundContent {
+    padding: 40px 24px;
+  }
+
+  .notFoundContent h1 {
+    font-size: 3rem;
+  }
+
+  .notFoundContent h2 {
+    font-size: 1.5rem;
+  }
+}

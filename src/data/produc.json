@@ -1,0 +1,2741 @@
+[
+  {
+    "id": "STP001",
+    "title": "Copper Energy Strip",
+    "slug": "copper-energy-strip",
+    "category": "Strips",
+    "subcategory": "Energy Strips",
+    "price": 499,
+    "discountPrice": 349,
+    "stock": true,
+    "rating": 4.8,
+    "reviews": 142,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "strip",
+      "copper",
+      "energy",
+      "vastu",
+      "metal strip",
+      "vastu correction",
+      "negative energy",
+      "copper strip"
+    ],
+    "images": [
+      "/products/copper-strip-1.jpg",
+      "/products/copper-strip-2.jpg"
+    ],
+    "shortDescription": "Premium copper vastu strip for balancing negative energies and vastu defect correction.",
+    "description": "The Copper Energy Strip is specially designed for vastu corrections and energy balancing in homes, offices, and commercial spaces. Copper is known for its strong conductive and energy-balancing properties, making it highly effective for neutralizing vastu doshas and restoring harmony. These strips can be installed in floors, walls, entrances, or problematic zones to improve positive energy flow, stability, prosperity, and peace.",
+    "benefits": [
+      "Helps neutralize vastu defects",
+      "Improves positive energy flow",
+      "Suitable for home and office use",
+      "Easy installation under flooring or walls",
+      "Premium quality pure copper finish"
+    ]
+  },
+  {
+    "id": "STP002",
+    "title": "Iron Energy Strip",
+    "slug": "iron-energy-strip",
+    "category": "Strips",
+    "subcategory": "Energy Strips",
+    "price": 449,
+    "discountPrice": 329,
+    "stock": true,
+    "rating": 4.7,
+    "reviews": 118,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "strip",
+      "iron",
+      "energy",
+      "vastu",
+      "metal strip",
+      "vastu remedy",
+      "iron strip",
+      "energy balancing"
+    ],
+    "images": [
+      "/products/iron-strip-1.jpg",
+      "/products/iron-strip-2.jpg"
+    ],
+    "shortDescription": "Durable iron vastu strip designed for energy grounding and vastu imbalance correction.",
+    "description": "The Iron Energy Strip is widely used in vastu remedies for grounding unstable energies and correcting directional imbalances. Crafted from high-quality iron, this strip helps stabilize heavy negative zones and supports better energy alignment in residential and commercial spaces. Ideal for placement in flooring, walls, or entrances where energy correction is required.",
+    "benefits": [
+      "Supports energy grounding",
+      "Effective vastu correction tool",
+      "Strong and durable material",
+      "Suitable for directional imbalance remedies",
+      "Long-lasting performance"
+    ]
+  },
+  {
+    "id": "STP003",
+    "title": "Stainless Steel Energy Strip",
+    "slug": "stainless-steel-energy-strip",
+    "category": "Strips",
+    "subcategory": "Energy Strips",
+    "price": 549,
+    "discountPrice": 399,
+    "stock": true,
+    "rating": 4.8,
+    "reviews": 96,
+    "featured": true,
+    "bestSeller": false,
+    "tags": [
+      "strip",
+      "stainless steel",
+      "energy",
+      "vastu",
+      "steel strip",
+      "vastu strip",
+      "metal correction",
+      "energy harmonizer"
+    ],
+    "images": [
+      "/products/stainless-strip-1.jpg",
+      "/products/stainless-strip-2.jpg"
+    ],
+    "shortDescription": "Premium stainless steel vastu strip for long-lasting energy correction and stability.",
+    "description": "The Stainless Steel Energy Strip is crafted for modern vastu applications requiring durability, resistance, and balanced energy flow. Stainless steel is associated with stability and protection, helping harmonize disturbed areas and improve energetic balance. These strips are ideal for concealed installations in floors, walls, and structural corrections.",
+    "benefits": [
+      "Rust-resistant premium finish",
+      "Provides long-term vastu correction",
+      "Enhances energetic stability",
+      "Suitable for residential and commercial spaces",
+      "Modern and durable material"
+    ]
+  },
+  {
+    "id": "STP004",
+    "title": "Brass Energy Strip",
+    "slug": "brass-energy-strip",
+    "category": "Strips",
+    "subcategory": "Energy Strips",
+    "price": 599,
+    "discountPrice": 449,
+    "stock": true,
+    "rating": 4.9,
+    "reviews": 87,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "strip",
+      "brass",
+      "energy",
+      "vastu",
+      "brass strip",
+      "spiritual energy",
+      "vastu correction",
+      "premium strip"
+    ],
+    "images": [
+      "/products/brass-strip-1.jpg",
+      "/products/brass-strip-2.jpg"
+    ],
+    "shortDescription": "Elegant brass vastu strip for spiritual harmony, positivity, and vastu balancing.",
+    "description": "The Brass Energy Strip combines spiritual significance with vastu correction benefits. Brass is traditionally associated with positivity, prosperity, and energetic purification. These strips help reduce negative vibrations and encourage harmonious energy circulation throughout your living or working environment. Perfect for entrances, temples, meditation rooms, and vastu-sensitive areas.",
+    "benefits": [
+      "Encourages positive vibrations",
+      "Useful for spiritual and vastu remedies",
+      "Premium brass construction",
+      "Enhances harmony and prosperity",
+      "Ideal for sacred and meditation spaces"
+    ]
+  },
+  {
+    "id": "STP005",
+    "title": "Aluminium Energy Strip",
+    "slug": "aluminium-energy-strip",
+    "category": "Strips",
+    "subcategory": "Energy Strips",
+    "price": 399,
+    "discountPrice": 299,
+    "stock": true,
+    "rating": 4.6,
+    "reviews": 74,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "strip",
+      "aluminium",
+      "energy",
+      "vastu",
+      "lightweight strip",
+      "metal strip",
+      "vastu balancing",
+      "aluminium remedy"
+    ],
+    "images": [
+      "/products/aluminium-strip-1.jpg",
+      "/products/aluminium-strip-2.jpg"
+    ],
+    "shortDescription": "Lightweight aluminium vastu strip for affordable and effective energy balancing.",
+    "description": "The Aluminium Energy Strip is a practical vastu solution designed for lightweight installation and effective energy correction. Aluminium supports balanced energy movement and is commonly used in vastu applications for correcting disturbed zones. Its corrosion-resistant and lightweight nature makes it ideal for modern homes and offices.",
+    "benefits": [
+      "Affordable vastu correction option",
+      "Lightweight and easy to install",
+      "Corrosion-resistant material",
+      "Improves balanced energy flow",
+      "Suitable for modern interiors"
+    ]
+  },
+  {
+    "id": "VTP001",
+    "title": "White Vastu Tape 4 Inch",
+    "slug": "white-vastu-tape-4-inch",
+    "category": "Tapes",
+    "subcategory": "Vastu Color Tapes",
+    "price": 399,
+    "discountPrice": 299,
+    "stock": true,
+    "rating": 4.8,
+    "reviews": 124,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "white tape",
+      "vastu tape",
+      "4 inch tape",
+      "color therapy",
+      "vastu remedy",
+      "energy balancing",
+      "peace",
+      "positivity"
+    ],
+    "images": [
+      "/products/white-tape-1.jpg",
+      "/products/white-tape-2.jpg"
+    ],
+    "shortDescription": "Premium white vastu tape for peace, purity, and positive energy correction.",
+    "description": "The White Vastu Tape is designed according to vastu and color therapy principles to create peaceful, calm, and balanced surroundings. White symbolizes purity, clarity, and positivity, making this tape ideal for correcting vastu defects and improving harmonious energy flow. Suitable for homes, offices, meditation rooms, and spiritual spaces.",
+    "benefits": [
+      "Promotes peace and harmony",
+      "Supports vastu defect correction",
+      "Improves positive energy flow",
+      "Easy to apply on floors and walls",
+      "Premium quality 4 inch tape"
+    ]
+  },
+  {
+    "id": "VTP002",
+    "title": "Green Vastu Tape 4 Inch",
+    "slug": "green-vastu-tape-4-inch",
+    "category": "Tapes",
+    "subcategory": "Vastu Color Tapes",
+    "price": 399,
+    "discountPrice": 299,
+    "stock": true,
+    "rating": 4.7,
+    "reviews": 118,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "green tape",
+      "vastu tape",
+      "4 inch tape",
+      "growth",
+      "healing",
+      "nature energy",
+      "vastu balancing",
+      "prosperity"
+    ],
+    "images": [
+      "/products/green-tape-1.jpg",
+      "/products/green-tape-2.jpg"
+    ],
+    "shortDescription": "Green vastu tape for growth, healing, prosperity, and balanced surroundings.",
+    "description": "The Green Vastu Tape is associated with growth, freshness, healing, and prosperity. Designed for vastu remedies and color balancing applications, this tape helps create a soothing and stable environment. It is ideal for spaces related to health, study, financial growth, and emotional balance.",
+    "benefits": [
+      "Encourages growth and prosperity",
+      "Supports emotional balance",
+      "Suitable for vastu corrections",
+      "Easy installation and durable finish",
+      "Ideal for homes and offices"
+    ]
+  },
+  {
+    "id": "VTP003",
+    "title": "Red Vastu Tape 4 Inch",
+    "slug": "red-vastu-tape-4-inch",
+    "category": "Tapes",
+    "subcategory": "Vastu Color Tapes",
+    "price": 399,
+    "discountPrice": 299,
+    "stock": true,
+    "rating": 4.9,
+    "reviews": 96,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "red tape",
+      "vastu tape",
+      "4 inch tape",
+      "strength",
+      "power",
+      "energy activation",
+      "fire element",
+      "vastu remedy"
+    ],
+    "images": [
+      "/products/red-tape-1.jpg",
+      "/products/red-tape-2.jpg"
+    ],
+    "shortDescription": "Powerful red vastu tape for activating energy, confidence, and strength.",
+    "description": "The Red Vastu Tape represents strength, confidence, passion, and active energy. It is commonly used in vastu remedies to energize weak zones and stimulate positivity in living and working spaces. Perfect for areas requiring motivation, action, and enhanced vitality.",
+    "benefits": [
+      "Activates positive energy",
+      "Enhances confidence and motivation",
+      "Useful for vastu balancing",
+      "Strong adhesive and durable material",
+      "Ideal for energy enhancement zones"
+    ]
+  },
+  {
+    "id": "VTP004",
+    "title": "Blue Vastu Tape 4 Inch",
+    "slug": "blue-vastu-tape-4-inch",
+    "category": "Tapes",
+    "subcategory": "Vastu Color Tapes",
+    "price": 399,
+    "discountPrice": 299,
+    "stock": true,
+    "rating": 4.7,
+    "reviews": 87,
+    "featured": true,
+    "bestSeller": false,
+    "tags": [
+      "blue tape",
+      "vastu tape",
+      "4 inch tape",
+      "calmness",
+      "water element",
+      "mental peace",
+      "energy correction",
+      "vastu balancing"
+    ],
+    "images": [
+      "/products/blue-tape-1.jpg",
+      "/products/blue-tape-2.jpg"
+    ],
+    "shortDescription": "Blue vastu tape for calmness, emotional stability, and peaceful energy flow.",
+    "description": "The Blue Vastu Tape is inspired by the calming energy of the water element. It helps reduce stress, improve mental clarity, and create a peaceful atmosphere. Widely used in vastu and color therapy remedies, this tape supports emotional balance and smooth energy circulation.",
+    "benefits": [
+      "Promotes calmness and peace",
+      "Supports emotional balance",
+      "Improves mental clarity",
+      "Suitable for vastu corrections",
+      "Premium quality easy-to-use tape"
+    ]
+  },
+  {
+    "id": "VTP005",
+    "title": "Yellow Vastu Tape 4 Inch",
+    "slug": "yellow-vastu-tape-4-inch",
+    "category": "Tapes",
+    "subcategory": "Vastu Color Tapes",
+    "price": 399,
+    "discountPrice": 299,
+    "stock": true,
+    "rating": 4.8,
+    "reviews": 102,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "yellow tape",
+      "vastu tape",
+      "4 inch tape",
+      "wisdom",
+      "positivity",
+      "solar energy",
+      "success",
+      "vastu remedy"
+    ],
+    "images": [
+      "/products/yellow-tape-1.jpg",
+      "/products/yellow-tape-2.jpg"
+    ],
+    "shortDescription": "Yellow vastu tape for positivity, wisdom, success, and energetic balance.",
+    "description": "The Yellow Vastu Tape symbolizes positivity, intellect, confidence, and success. Designed for vastu and color therapy applications, it helps energize spaces with cheerful and uplifting vibrations. Ideal for study rooms, offices, and areas associated with creativity and learning.",
+    "benefits": [
+      "Boosts positivity and confidence",
+      "Supports learning and creativity",
+      "Useful for vastu balancing",
+      "Strong and durable adhesive",
+      "Suitable for homes, offices, and study spaces"
+    ]
+  },
+  {
+    "id": "HLX001",
+    "title": "Lead Plain Helix 4 Inch",
+    "slug": "lead-plain-helix-4-inch",
+    "category": "Helix",
+    "subcategory": "Metal Helix",
+    "price": 799,
+    "discountPrice": 599,
+    "stock": true,
+    "rating": 4.8,
+    "reviews": 76,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "lead helix",
+      "plain helix",
+      "4 inch helix",
+      "vastu helix",
+      "metal helix",
+      "energy correction",
+      "vastu remedy",
+      "lead spiral"
+    ],
+    "images": [
+      "/products/lead-helix-1.jpg",
+      "/products/lead-helix-2.jpg"
+    ],
+    "shortDescription": "Premium lead plain helix for vastu energy balancing and directional defect correction.",
+    "description": "The Lead Plain Helix 4 Inch is specially designed for vastu remedies and energy correction applications. Crafted using high-quality lead metal, this helix helps neutralize negative energies and balance disturbed zones in residential and commercial spaces. It is commonly used in vastu corrections for directional imbalances and energy stabilization.",
+    "benefits": [
+      "Supports vastu defect correction",
+      "Helps stabilize negative energy zones",
+      "Made from premium quality lead",
+      "Suitable for home and office vastu remedies",
+      "Durable and long-lasting finish"
+    ]
+  },
+  {
+    "id": "HLX002",
+    "title": "Brass Plain Helix 4 Inch",
+    "slug": "brass-plain-helix-4-inch",
+    "category": "Helix",
+    "subcategory": "Metal Helix",
+    "price": 899,
+    "discountPrice": 699,
+    "stock": true,
+    "rating": 4.9,
+    "reviews": 92,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "brass helix",
+      "plain helix",
+      "4 inch helix",
+      "vastu helix",
+      "spiritual energy",
+      "metal helix",
+      "positive vibrations",
+      "vastu balancing"
+    ],
+    "images": [
+      "/products/brass-helix-1.jpg",
+      "/products/brass-helix-2.jpg"
+    ],
+    "shortDescription": "Elegant brass plain helix for enhancing positivity, harmony, and vastu balance.",
+    "description": "The Brass Plain Helix 4 Inch is a premium vastu correction tool designed to improve positive energy flow and spiritual harmony. Brass is traditionally associated with prosperity, purification, and energetic enhancement. This helix helps reduce vastu imbalances while creating a peaceful and uplifting environment in homes, offices, and meditation spaces.",
+    "benefits": [
+      "Enhances positive energy flow",
+      "Supports spiritual harmony",
+      "Useful for vastu balancing",
+      "Premium polished brass finish",
+      "Ideal for home, office, and meditation areas"
+    ]
+  },
+  {
+    "id": "HLX003",
+    "title": "Zinc Moon Helix 6 Inch",
+    "slug": "zinc-moon-helix-6-inch",
+    "category": "Helix",
+    "subcategory": "Metal Helix",
+    "price": 999,
+    "discountPrice": 749,
+    "stock": true,
+    "rating": 4.7,
+    "reviews": 68,
+    "featured": true,
+    "bestSeller": false,
+    "tags": [
+      "zinc helix",
+      "moon helix",
+      "6 inch helix",
+      "vastu helix",
+      "metal helix",
+      "energy harmonizer",
+      "moon energy",
+      "vastu remedy"
+    ],
+    "images": [
+      "/products/zinc-helix-1.jpg",
+      "/products/zinc-helix-2.jpg"
+    ],
+    "shortDescription": "Premium zinc moon helix designed for emotional balance, calmness, and vastu correction.",
+    "description": "The Zinc Moon Helix 6 Inch is inspired by lunar energy principles and vastu balancing techniques. Crafted from high-quality zinc metal, this helix helps harmonize emotional and environmental energies while reducing negativity. Its unique moon helix design supports calmness, mental clarity, and peaceful surroundings, making it ideal for homes, offices, and spiritual spaces.",
+    "benefits": [
+      "Supports emotional and energy balance",
+      "Helps reduce negative vibrations",
+      "Inspired by moon energy principles",
+      "Suitable for vastu correction remedies",
+      "Durable premium zinc construction"
+    ]
+  },
+  {
+    "id": "HLX004",
+    "title": "Copper HII Helix 4 Inch",
+    "slug": "copper-hii-helix-4-inch",
+    "category": "Helix",
+    "subcategory": "Metal Helix",
+    "price": 1699,
+    "discountPrice": 1499,
+    "stock": true,
+    "rating": 4.9,
+    "reviews": 114,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "copper hii helix",
+      "copper helix",
+      "4 inch helix",
+      "vastu helix",
+      "fire element",
+      "south east correction",
+      "energy balancing",
+      "vastu remedy"
+    ],
+    "images": [
+      "/products/copper-hii-helix-1.jpg",
+      "/products/copper-hii-helix-2.jpg"
+    ],
+    "shortDescription": "Premium copper HII helix designed for South-East vastu defect correction and fire energy balancing.",
+    "description": "The Copper HII Helix 4 Inch is a powerful vastu correction tool specially crafted to balance the Fire element in the South-East direction. Made from premium quality copper, this helix helps neutralize vastu imbalances caused by improper placement of kitchens, toilets, entrances, or fire-related zones. Its spiral design enhances positive energy circulation, financial stability, harmony, and energetic balance in homes and commercial spaces. Ideal for installation on walls, flooring, skirting areas, or concealed vastu correction zones.",
+    "benefits": [
+      "Supports South-East vastu defect correction",
+      "Balances and activates the Fire element",
+      "Helps improve positive energy flow",
+      "Promotes harmony, stability, and prosperity",
+      "Premium quality copper construction"
+    ]
+  },
+   {
+    "id": "SPR001",
+    "title": "Copper Vastu Spring",
+    "slug": "copper-vastu-spring",
+    "category": "Springs",
+    "subcategory": "Vastu Springs",
+    "price": 699,
+    "discountPrice": 549,
+    "stock": true,
+    "rating": 4.8,
+    "reviews": 132,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "copper spring",
+      "vastu spring",
+      "energy spring",
+      "copper remedy",
+      "vastu correction",
+      "positive energy",
+      "metal spring",
+      "energy balancing"
+    ],
+    "images": [
+      "/products/copper-spring-1.jpg",
+      "/products/copper-spring-2.jpg"
+    ],
+    "shortDescription": "Premium copper vastu spring for energy balancing and vastu defect correction.",
+    "description": "The Copper Vastu Spring is designed according to vastu principles to improve positive energy circulation and neutralize negative vibrations. Crafted from premium quality copper, this spring is commonly used in vastu remedies for balancing disturbed zones and enhancing harmony in residential and commercial spaces. Ideal for concealed installations in walls, floors, and directional correction areas.",
+    "benefits": [
+      "Helps balance positive energy flow",
+      "Supports vastu defect correction",
+      "Made from premium quality copper",
+      "Suitable for home and office use",
+      "Durable and long-lasting construction"
+    ]
+  },
+  {
+    "id": "SPR002",
+    "title": "Iron Vastu Spring",
+    "slug": "iron-vastu-spring",
+    "category": "Springs",
+    "subcategory": "Vastu Springs",
+    "price": 649,
+    "discountPrice": 499,
+    "stock": true,
+    "rating": 4.7,
+    "reviews": 108,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "iron spring",
+      "vastu spring",
+      "energy grounding",
+      "iron remedy",
+      "vastu balancing",
+      "metal spring",
+      "negative energy correction",
+      "energy stabilizer"
+    ],
+    "images": [
+      "/products/iron-spring-1.jpg",
+      "/products/iron-spring-2.jpg"
+    ],
+    "shortDescription": "Durable iron vastu spring for grounding energies and directional imbalance correction.",
+    "description": "The Iron Vastu Spring is specially crafted for grounding unstable energies and correcting vastu imbalances. Iron is associated with strength and stability, making this spring effective for reducing negative vibrations and supporting balanced energy flow. Perfect for vastu remedies in homes, offices, and commercial spaces.",
+    "benefits": [
+      "Supports energy grounding",
+      "Helps stabilize disturbed zones",
+      "Useful for vastu balancing",
+      "Strong and durable metal finish",
+      "Ideal for residential and commercial applications"
+    ]
+  },
+  {
+    "id": "SPR003",
+    "title": "Stainless Steel Vastu Spring",
+    "slug": "stainless-steel-vastu-spring",
+    "category": "Springs",
+    "subcategory": "Vastu Springs",
+    "price": 749,
+    "discountPrice": 599,
+    "stock": true,
+    "rating": 4.8,
+    "reviews": 94,
+    "featured": true,
+    "bestSeller": false,
+    "tags": [
+      "stainless steel spring",
+      "vastu spring",
+      "steel remedy",
+      "energy harmonizer",
+      "metal spring",
+      "vastu correction",
+      "rust resistant",
+      "energy balancing"
+    ],
+    "images": [
+      "/products/stainless-spring-1.jpg",
+      "/products/stainless-spring-2.jpg"
+    ],
+    "shortDescription": "Premium stainless steel vastu spring for long-lasting energy correction and stability.",
+    "description": "The Stainless Steel Vastu Spring is designed for modern vastu applications requiring durability and balanced energy correction. Made from premium stainless steel, this spring supports energetic stability while resisting corrosion and wear. It is ideal for long-term vastu remedies and concealed installations.",
+    "benefits": [
+      "Rust-resistant premium finish",
+      "Supports vastu energy correction",
+      "Enhances stability and harmony",
+      "Durable and long-lasting material",
+      "Suitable for homes and offices"
+    ]
+  },
+  {
+    "id": "SPR004",
+    "title": "Brass Vastu Spring",
+    "slug": "brass-vastu-spring",
+    "category": "Springs",
+    "subcategory": "Vastu Springs",
+    "price": 799,
+    "discountPrice": 649,
+    "stock": true,
+    "rating": 4.9,
+    "reviews": 88,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "brass spring",
+      "vastu spring",
+      "spiritual energy",
+      "brass remedy",
+      "positive vibrations",
+      "vastu balancing",
+      "metal spring",
+      "prosperity"
+    ],
+    "images": [
+      "/products/brass-spring-1.jpg",
+      "/products/brass-spring-2.jpg"
+    ],
+    "shortDescription": "Elegant brass vastu spring for positivity, prosperity, and spiritual harmony.",
+    "description": "The Brass Vastu Spring combines vastu correction benefits with spiritual energy enhancement. Brass is traditionally linked with positivity, prosperity, and purification. This spring helps improve harmonious energy circulation and reduce negative vibrations in homes, offices, temples, and meditation spaces.",
+    "benefits": [
+      "Enhances positive vibrations",
+      "Supports spiritual harmony",
+      "Useful for vastu remedies",
+      "Premium polished brass finish",
+      "Ideal for sacred and meditation spaces"
+    ]
+  },
+  {
+    "id": "SPR005",
+    "title": "Aluminium Vastu Spring",
+    "slug": "aluminium-vastu-spring",
+    "category": "Springs",
+    "subcategory": "Vastu Springs",
+    "price": 599,
+    "discountPrice": 449,
+    "stock": true,
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "aluminium spring",
+      "vastu spring",
+      "lightweight spring",
+      "metal remedy",
+      "energy balancing",
+      "vastu correction",
+      "modern vastu",
+      "corrosion resistant"
+    ],
+    "images": [
+      "/products/aluminium-spring-1.jpg",
+      "/products/aluminium-spring-2.jpg"
+    ],
+    "shortDescription": "Lightweight aluminium vastu spring for affordable and effective energy balancing.",
+    "description": "The Aluminium Vastu Spring is a practical and lightweight vastu remedy designed to support balanced energy movement and correction of disturbed zones. Its corrosion-resistant and durable structure makes it ideal for modern homes and offices requiring effective vastu solutions at an affordable price.",
+    "benefits": [
+      "Affordable vastu correction solution",
+      "Lightweight and easy to install",
+      "Corrosion-resistant material",
+      "Supports balanced energy flow",
+      "Suitable for modern interiors"
+    ]
+  },
+  {
+    "id": "STD001",
+    "title": "Copper Vastu Stud 3 Inch",
+    "slug": "copper-vastu-stud-3-inch",
+    "category": "Studs",
+    "subcategory": "Vastu Metal Studs",
+    "price": 499,
+    "discountPrice": 349,
+    "stock": true,
+    "rating": 4.8,
+    "reviews": 126,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "copper stud",
+      "vastu stud",
+      "3 inch stud",
+      "metal stud",
+      "energy correction",
+      "vastu remedy",
+      "positive energy",
+      "copper vastu"
+    ],
+    "images": [
+      "/products/copper-stud-1.jpg",
+      "/products/copper-stud-2.jpg"
+    ],
+    "shortDescription": "Premium copper vastu stud for balancing energies and correcting vastu defects.",
+    "description": "The Copper Vastu Stud 3 Inch is specially designed for vastu corrections and energy balancing applications. Made from premium quality copper, this stud helps neutralize negative vibrations and improve positive energy circulation in homes, offices, and commercial spaces. Ideal for concealed vastu remedies in flooring, walls, and directional correction zones.",
+    "benefits": [
+      "Supports vastu defect correction",
+      "Improves positive energy flow",
+      "Made from premium quality copper",
+      "Suitable for residential and commercial use",
+      "Durable and corrosion-resistant finish"
+    ]
+  },
+  {
+    "id": "STD002",
+    "title": "Iron Vastu Stud 3 Inch",
+    "slug": "iron-vastu-stud-3-inch",
+    "category": "Studs",
+    "subcategory": "Vastu Metal Studs",
+    "price": 449,
+    "discountPrice": 329,
+    "stock": true,
+    "rating": 4.7,
+    "reviews": 104,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "iron stud",
+      "vastu stud",
+      "3 inch stud",
+      "energy grounding",
+      "metal remedy",
+      "vastu balancing",
+      "iron vastu",
+      "negative energy correction"
+    ],
+    "images": [
+      "/products/iron-stud-1.jpg",
+      "/products/iron-stud-2.jpg"
+    ],
+    "shortDescription": "Durable iron vastu stud designed for grounding energies and directional balance.",
+    "description": "The Iron Vastu Stud 3 Inch is crafted for vastu remedies related to grounding unstable energies and correcting directional imbalances. Iron is associated with stability and strength, making this stud highly effective for reducing negative vibrations and improving balanced energy flow in homes and workplaces.",
+    "benefits": [
+      "Supports energy grounding",
+      "Helps stabilize disturbed zones",
+      "Useful for vastu balancing",
+      "Strong and durable construction",
+      "Ideal for long-term installations"
+    ]
+  },
+  {
+    "id": "STD003",
+    "title": "Stainless Steel Vastu Stud 3 Inch",
+    "slug": "stainless-steel-vastu-stud-3-inch",
+    "category": "Studs",
+    "subcategory": "Vastu Metal Studs",
+    "price": 549,
+    "discountPrice": 399,
+    "stock": true,
+    "rating": 4.8,
+    "reviews": 88,
+    "featured": true,
+    "bestSeller": false,
+    "tags": [
+      "stainless steel stud",
+      "vastu stud",
+      "3 inch stud",
+      "steel remedy",
+      "energy harmonizer",
+      "metal correction",
+      "rust resistant",
+      "vastu balancing"
+    ],
+    "images": [
+      "/products/stainless-stud-1.jpg",
+      "/products/stainless-stud-2.jpg"
+    ],
+    "shortDescription": "Premium stainless steel vastu stud for long-lasting stability and energy correction.",
+    "description": "The Stainless Steel Vastu Stud 3 Inch is designed for modern vastu applications requiring durability, resistance, and energetic stability. Crafted from premium stainless steel, this stud helps harmonize disturbed areas while offering corrosion resistance and long-lasting performance.",
+    "benefits": [
+      "Rust-resistant premium finish",
+      "Supports vastu correction remedies",
+      "Enhances energetic stability",
+      "Suitable for modern interiors",
+      "Long-lasting and durable material"
+    ]
+  },
+  {
+    "id": "STD004",
+    "title": "Brass Vastu Stud 3 Inch",
+    "slug": "brass-vastu-stud-3-inch",
+    "category": "Studs",
+    "subcategory": "Vastu Metal Studs",
+    "price": 599,
+    "discountPrice": 449,
+    "stock": true,
+    "rating": 4.9,
+    "reviews": 81,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "brass stud",
+      "vastu stud",
+      "3 inch stud",
+      "spiritual energy",
+      "positive vibrations",
+      "metal stud",
+      "vastu remedy",
+      "prosperity"
+    ],
+    "images": [
+      "/products/brass-stud-1.jpg",
+      "/products/brass-stud-2.jpg"
+    ],
+    "shortDescription": "Elegant brass vastu stud for positivity, harmony, and spiritual energy balancing.",
+    "description": "The Brass Vastu Stud 3 Inch combines vastu correction benefits with spiritual energy enhancement. Brass is traditionally associated with positivity, prosperity, and purification. This stud helps reduce negative vibrations while improving harmony and peaceful energy circulation.",
+    "benefits": [
+      "Enhances positive vibrations",
+      "Supports spiritual harmony",
+      "Useful for vastu remedies",
+      "Premium polished brass finish",
+      "Ideal for sacred and meditation spaces"
+    ]
+  },
+  {
+    "id": "STD005",
+    "title": "Aluminium Vastu Stud 3 Inch",
+    "slug": "aluminium-vastu-stud-3-inch",
+    "category": "Studs",
+    "subcategory": "Vastu Metal Studs",
+    "price": 399,
+    "discountPrice": 299,
+    "stock": true,
+    "rating": 4.6,
+    "reviews": 69,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "aluminium stud",
+      "vastu stud",
+      "3 inch stud",
+      "lightweight stud",
+      "metal remedy",
+      "energy balancing",
+      "vastu correction",
+      "corrosion resistant"
+    ],
+    "images": [
+      "/products/aluminium-stud-1.jpg",
+      "/products/aluminium-stud-2.jpg"
+    ],
+    "shortDescription": "Lightweight aluminium vastu stud for affordable and effective energy balancing.",
+    "description": "The Aluminium Vastu Stud 3 Inch is a practical vastu correction solution designed for lightweight and efficient energy balancing. Its corrosion-resistant structure and durable finish make it ideal for modern homes and offices requiring affordable vastu remedies.",
+    "benefits": [
+      "Affordable vastu correction option",
+      "Lightweight and easy to install",
+      "Corrosion-resistant material",
+      "Supports balanced energy flow",
+      "Suitable for modern interiors"
+    ]
+  },
+   {
+    "id": "PYR001",
+    "title": "Plastic Vastu Pyramid",
+    "slug": "plastic-vastu-pyramid",
+    "category": "Pyramids",
+    "subcategory": "Vastu Pyramids",
+    "price": 299,
+    "discountPrice": 199,
+    "stock": true,
+    "rating": 4.7,
+    "reviews": 148,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "plastic pyramid",
+      "vastu pyramid",
+      "energy pyramid",
+      "plastic vastu",
+      "positive energy",
+      "vastu remedy",
+      "spiritual healing",
+      "energy balancing"
+    ],
+    "images": [
+      "/products/plastic-pyramid-1.jpg",
+      "/products/plastic-pyramid-2.jpg"
+    ],
+    "shortDescription": "Lightweight plastic vastu pyramid for balancing energies and improving positivity.",
+    "description": "The Plastic Vastu Pyramid is designed according to vastu principles to enhance positive energy flow and reduce negative vibrations in homes, offices, and commercial spaces. Its lightweight and durable construction makes it easy to install in various locations for effective vastu correction and energy balancing. Ideal for study rooms, entrances, workspaces, and meditation areas.",
+    "benefits": [
+      "Helps improve positive energy flow",
+      "Supports vastu defect correction",
+      "Lightweight and durable design",
+      "Easy to install in any space",
+      "Suitable for home and office use"
+    ]
+  },
+  {
+    "id": "PYR002",
+    "title": "Wooden Vastu Pyramid",
+    "slug": "wooden-vastu-pyramid",
+    "category": "Pyramids",
+    "subcategory": "Vastu Pyramids",
+    "price": 499,
+    "discountPrice": 349,
+    "stock": true,
+    "rating": 4.8,
+    "reviews": 124,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "wooden pyramid",
+      "vastu pyramid",
+      "wood pyramid",
+      "natural energy",
+      "vastu remedy",
+      "meditation pyramid",
+      "spiritual harmony",
+      "positive vibrations"
+    ],
+    "images": [
+      "/products/wooden-pyramid-1.jpg",
+      "/products/wooden-pyramid-2.jpg"
+    ],
+    "shortDescription": "Premium wooden vastu pyramid for natural energy balancing and spiritual harmony.",
+    "description": "The Wooden Vastu Pyramid is crafted from high-quality wood and designed to create a peaceful and harmonious environment. Wood symbolizes growth, stability, and natural balance, making this pyramid ideal for vastu remedies, meditation spaces, offices, and homes. It helps improve positivity, concentration, and overall energetic harmony.",
+    "benefits": [
+      "Encourages peace and harmony",
+      "Supports vastu balancing",
+      "Made from premium quality wood",
+      "Ideal for meditation and spiritual spaces",
+      "Enhances positive vibrations naturally"
+    ]
+  },
+
+  {
+    "id": "ROD001",
+    "title": "Copper Vastu Rod",
+    "slug": "copper-vastu-rod",
+    "category": "Rods",
+    "subcategory": "Vastu Rods",
+    "price": 899,
+    "discountPrice": 699,
+    "stock": true,
+    "rating": 4.8,
+    "reviews": 136,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "copper rod",
+      "vastu rod",
+      "energy rod",
+      "copper remedy",
+      "vastu correction",
+      "positive energy",
+      "metal rod",
+      "energy balancing"
+    ],
+    "images": [
+      "/products/copper-rod-1.jpg",
+      "/products/copper-rod-2.jpg"
+    ],
+    "shortDescription": "Premium copper vastu rod for energy balancing and vastu defect correction.",
+    "description": "The Copper Vastu Rod is specially designed to improve positive energy circulation and neutralize vastu defects in homes, offices, and commercial spaces. Crafted from premium quality copper, this rod helps balance disturbed zones and supports harmonious energy flow. Ideal for concealed installations in walls, flooring, and directional correction areas.",
+    "benefits": [
+      "Supports vastu defect correction",
+      "Improves positive energy flow",
+      "Made from premium quality copper",
+      "Suitable for residential and commercial spaces",
+      "Durable and corrosion-resistant finish"
+    ]
+  },
+  {
+    "id": "ROD002",
+    "title": "Iron Vastu Rod",
+    "slug": "iron-vastu-rod",
+    "category": "Rods",
+    "subcategory": "Vastu Rods",
+    "price": 799,
+    "discountPrice": 599,
+    "stock": true,
+    "rating": 4.7,
+    "reviews": 112,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "iron rod",
+      "vastu rod",
+      "energy grounding",
+      "iron remedy",
+      "vastu balancing",
+      "metal rod",
+      "negative energy correction",
+      "energy stabilizer"
+    ],
+    "images": [
+      "/products/iron-rod-1.jpg",
+      "/products/iron-rod-2.jpg"
+    ],
+    "shortDescription": "Durable iron vastu rod designed for grounding energies and directional balance.",
+    "description": "The Iron Vastu Rod is crafted for vastu remedies related to grounding unstable energies and correcting directional imbalances. Iron symbolizes strength and stability, making this rod effective for reducing negative vibrations and supporting balanced energy flow in residential and commercial environments.",
+    "benefits": [
+      "Supports energy grounding",
+      "Helps stabilize disturbed zones",
+      "Useful for vastu balancing",
+      "Strong and durable construction",
+      "Ideal for long-term installations"
+    ]
+  },
+  {
+    "id": "ROD003",
+    "title": "Stainless Steel Vastu Rod",
+    "slug": "stainless-steel-vastu-rod",
+    "category": "Rods",
+    "subcategory": "Vastu Rods",
+    "price": 999,
+    "discountPrice": 749,
+    "stock": true,
+    "rating": 4.8,
+    "reviews": 95,
+    "featured": true,
+    "bestSeller": false,
+    "tags": [
+      "stainless steel rod",
+      "vastu rod",
+      "steel remedy",
+      "energy harmonizer",
+      "metal correction",
+      "rust resistant",
+      "vastu balancing",
+      "premium rod"
+    ],
+    "images": [
+      "/products/stainless-rod-1.jpg",
+      "/products/stainless-rod-2.jpg"
+    ],
+    "shortDescription": "Premium stainless steel vastu rod for long-lasting energy correction and stability.",
+    "description": "The Stainless Steel Vastu Rod is designed for modern vastu applications requiring durability, stability, and balanced energy correction. Crafted from premium stainless steel, this rod resists corrosion while helping harmonize disturbed spaces and improve energetic balance.",
+    "benefits": [
+      "Rust-resistant premium finish",
+      "Supports vastu correction remedies",
+      "Enhances energetic stability",
+      "Suitable for modern interiors",
+      "Durable and long-lasting material"
+    ]
+  },
+  {
+    "id": "ROD004",
+    "title": "Brass Vastu Rod",
+    "slug": "brass-vastu-rod",
+    "category": "Rods",
+    "subcategory": "Vastu Rods",
+    "price": 1099,
+    "discountPrice": 849,
+    "stock": true,
+    "rating": 4.9,
+    "reviews": 84,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "brass rod",
+      "vastu rod",
+      "spiritual energy",
+      "brass remedy",
+      "positive vibrations",
+      "metal rod",
+      "vastu remedy",
+      "prosperity"
+    ],
+    "images": [
+      "/products/brass-rod-1.jpg",
+      "/products/brass-rod-2.jpg"
+    ],
+    "shortDescription": "Elegant brass vastu rod for positivity, harmony, and spiritual energy balancing.",
+    "description": "The Brass Vastu Rod combines vastu correction benefits with spiritual energy enhancement. Brass is associated with prosperity, purification, and positivity, helping improve harmonious energy circulation while reducing negative vibrations in homes, offices, and meditation spaces.",
+    "benefits": [
+      "Enhances positive vibrations",
+      "Supports spiritual harmony",
+      "Useful for vastu remedies",
+      "Premium polished brass finish",
+      "Ideal for sacred and meditation spaces"
+    ]
+  },
+  {
+    "id": "ROD005",
+    "title": "Aluminium Vastu Rod",
+    "slug": "aluminium-vastu-rod",
+    "category": "Rods",
+    "subcategory": "Vastu Rods",
+    "price": 699,
+    "discountPrice": 499,
+    "stock": true,
+    "rating": 4.6,
+    "reviews": 73,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "aluminium rod",
+      "vastu rod",
+      "lightweight rod",
+      "metal remedy",
+      "energy balancing",
+      "vastu correction",
+      "modern vastu",
+      "corrosion resistant"
+    ],
+    "images": [
+      "/products/aluminium-rod-1.jpg",
+      "/products/aluminium-rod-2.jpg"
+    ],
+    "shortDescription": "Lightweight aluminium vastu rod for affordable and effective energy balancing.",
+    "description": "The Aluminium Vastu Rod is a practical vastu correction solution designed for lightweight and efficient energy balancing. Its corrosion-resistant construction and durable finish make it suitable for modern homes and offices requiring affordable vastu remedies.",
+    "benefits": [
+      "Affordable vastu correction option",
+      "Lightweight and easy to install",
+      "Corrosion-resistant material",
+      "Supports balanced energy flow",
+      "Suitable for modern interiors"
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  {
+    "id": "DVD001",
+    "number": 1,
+    "title": "Shikhi Devta Div No. 1 — Sacred 45 Devta Vastu Energizer",
+    "slug": "shikhi-devta-div-no-1-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1499,
+    "discountPrice": 1199,
+    "stock": 50,
+    "rating": 4.8,
+    "reviews": 128,
+    "featured": true,
+    "bestSeller": false,
+    "tags": [
+      "fire element",
+      "southeast vastu",
+      "energy activation",
+      "agni",
+      "vastu correction"
+    ],
+    "images": [
+      "/products/shikhi-divs-1.jpg",
+      "/products/shikhi-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Shikhi Devta Div No. 1 — Divine fire element activator for the southeast Vastu zone, purifying energies and igniting prosperity.",
+    "description": "The Shikhi Devta Div No. 1 embodies the divine fire element, representing illumination, purification, and the sacred flame of cosmic consciousness. In Vastu Shastra, Shikhi governs the southeast zone of your space, channeling transformative fire energy to ignite prosperity and remove negativity. Crafted with sacred geometric precision and infused with Vedic mantras during production, this premium Div is an essential cornerstone of any complete 45 Devta Vastu setup. Placing the Shikhi Devta Div activates the Agni corner of your home or workspace, bringing warmth, motivation, and the divine spark of success into your daily life.",
+    "benefits": [
+      "Ignites the fire element in your Vastu grid",
+      "Purifies negative energies from the southeast zone",
+      "Activates motivation and passion in inhabitants",
+      "Supports healthy digestion and metabolic fire",
+      "Enhances courage and leadership qualities"
+    ]
+  },
+  {
+    "id": "DVD002",
+    "number": 2,
+    "title": "Parjanya Devta Div No. 2 — Sacred 45 Devta Vastu Energizer",
+    "slug": "parjanya-devta-div-no-2-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1549,
+    "discountPrice": 1249,
+    "stock": 50,
+    "rating": 4.7,
+    "reviews": 94,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "rain energy",
+      "abundance",
+      "water element",
+      "prosperity",
+      "stagnation removal"
+    ],
+    "images": [
+      "/products/parjanya-divs-1.jpg",
+      "/products/parjanya-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Parjanya Devta Div No. 2 — Celestial rain energy activator for abundance, timely opportunities, and removal of stagnation.",
+    "description": "The Parjanya Devta Div No. 2 channels the divine energy of rain, thunder, and celestial moisture. As the lord of clouds and precipitation, Parjanya governs the flow of abundance and timely blessings into your life and home. This sacred Div activates the northern water corridors of your Vastu grid, ensuring a steady inflow of wealth, resources, and cosmic nourishment. Handcrafted with premium materials and consecrated through traditional Vedic processes, the Parjanya Div is revered by Vastu experts for its ability to bring timely opportunities and remove the stagnation of unfulfilled potential. Install this Div to invite the refreshing rains of prosperity and divine grace.",
+    "benefits": [
+      "Activates the rain and abundance energies in your space",
+      "Stimulates timely arrival of opportunities and wealth",
+      "Removes stagnation and blockages in career and finances",
+      "Balances moisture element for health and vitality",
+      "Brings divine grace and celestial blessings to the household"
+    ]
+  },
+  {
+    "id": "DVD003",
+    "number": 3,
+    "title": "Jayant Devta Div No. 3 — Sacred 45 Devta Vastu Energizer",
+    "slug": "jayant-devta-div-no-3-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1599,
+    "discountPrice": 1299,
+    "stock": 50,
+    "rating": 4.9,
+    "reviews": 156,
+    "featured": false,
+    "bestSeller": true,
+    "tags": [
+      "victory",
+      "success",
+      "obstacle removal",
+      "triumph",
+      "achievement"
+    ],
+    "images": [
+      "/products/jayant-divs-1.jpg",
+      "/products/jayant-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Jayant Devta Div No. 3 — Divine victory energy activator for success, recognition, and overcoming all obstacles.",
+    "description": "The Jayant Devta Div No. 3 embodies the triumphant energy of victory, success, and divine conquest. Son of Indra and beloved of the celestial realm, Jayant carries the vibration of overcoming all obstacles and emerging victorious in every endeavor. This powerful Div activates zones of achievement and recognition in your Vastu grid, making it an ideal companion for professionals, entrepreneurs, and anyone seeking to rise above competition. Produced with meticulous Vedic standards and embedded with victory-invoking intentions, the Jayant Div fills your environment with the irresistible momentum of success and divine favor.",
+    "benefits": [
+      "Invokes the energy of victory and triumph in all pursuits",
+      "Removes obstacles blocking success and recognition",
+      "Activates competitive advantage and leadership aura",
+      "Supports legal victories and dispute resolution",
+      "Enhances confidence and magnetic personal presence"
+    ]
+  },
+  {
+    "id": "DVD004",
+    "number": 4,
+    "title": "Mahendra Devta Div No. 4 — Sacred 45 Devta Vastu Energizer",
+    "slug": "mahendra-devta-div-no-4-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1649,
+    "discountPrice": 1349,
+    "stock": 50,
+    "rating": 4.8,
+    "reviews": 112,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "supreme power",
+      "northeast vastu",
+      "authority",
+      "protection",
+      "divine energy"
+    ],
+    "images": [
+      "/products/mahendra-divs-1.jpg",
+      "/products/mahendra-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Mahendra Devta Div No. 4 — Supreme celestial power activator for divine authority, protection, and northeast energy zone.",
+    "description": "The Mahendra Devta Div No. 4 embodies supreme celestial power, majesty, and divine authority. As one of the most potent Devtas in the sacred 45-Div system, Mahendra governs the northeast zone of profound energy, channeling the highest frequencies of divine consciousness into your living or working space. This magnificent Div is crafted with the finest materials and treated with sacred herbs and Vedic infusions to amplify its vibrational potency. The Mahendra Div is especially prized by spiritual practitioners, business leaders, and heads of family who seek to establish commanding authority, divine protection, and an atmosphere of reverence in their environments.",
+    "benefits": [
+      "Establishes supreme authority and commanding presence",
+      "Activates the northeast divine energy corridor",
+      "Provides powerful protection against negative forces",
+      "Enhances spiritual awareness and meditative depth",
+      "Supports expansion, growth, and organizational leadership"
+    ]
+  },
+  {
+    "id": "DVD005",
+    "number": 5,
+    "title": "Surya Devta Div No. 5 — Sacred 45 Devta Vastu Energizer",
+    "slug": "surya-devta-div-no-5-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1749,
+    "discountPrice": 1399,
+    "stock": 50,
+    "rating": 4.9,
+    "reviews": 203,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "solar energy",
+      "east zone",
+      "health",
+      "vitality",
+      "sun devta"
+    ],
+    "images": [
+      "/products/surya-divs-1.jpg",
+      "/products/surya-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Surya Devta Div No. 5 — Solar energy activator for the east zone, channeling vitality, confidence, and radiant health.",
+    "description": "The Surya Devta Div No. 5 channels the life-giving energy of the Sun, the central luminary of our solar system and the source of all vitality, health, and enlightenment. In the 45 Devta Vastu system, Surya holds a position of supreme importance, governing the east zone of rising energy and new beginnings. This radiant Div is crafted to invite the warm, golden frequencies of solar consciousness into your home, stimulating physical health, mental clarity, and the confidence to illuminate your true potential. Ideal for placement in the east-facing areas of homes and offices, the Surya Devta Div is among the most essential of the complete 45-Div sacred set.",
+    "benefits": [
+      "Channels solar vitality and radiant health energy",
+      "Activates the east zone for new beginnings and opportunities",
+      "Enhances confidence, visibility, and personal authority",
+      "Supports eye health, bone strength, and overall vitality",
+      "Invites recognition, fame, and social respect"
+    ]
+  },
+  {
+    "id": "DVD006",
+    "number": 6,
+    "title": "Satya Devta Div No. 6 — Sacred 45 Devta Vastu Energizer",
+    "slug": "satya-devta-div-no-6-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1549,
+    "discountPrice": 1249,
+    "stock": 50,
+    "rating": 4.7,
+    "reviews": 87,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "truth",
+      "integrity",
+      "dharma",
+      "clarity",
+      "protection"
+    ],
+    "images": [
+      "/products/satya-divs-1.jpg",
+      "/products/satya-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Satya Devta Div No. 6 — Divine truth energy activator for integrity, clarity, and protection from deception.",
+    "description": "The Satya Devta Div No. 6 is consecrated to divine truth, cosmic righteousness, and the unwavering power of integrity. In an age of uncertainty, the Satya Div stands as a spiritual anchor, filling your environment with vibrations of honesty, clarity, and dharmic alignment. Placed within the Vastu grid, this sacred Div activates truth-seeking energies that sharpen discernment, dispel illusion, and protect inhabitants from deception. Beautifully crafted with premium materials and Vedic precision, the Satya Div is treasured by seekers, judges, teachers, and all who hold truth as a supreme value in their lives and work.",
+    "benefits": [
+      "Infuses the space with vibrations of truth and integrity",
+      "Protects inhabitants from deception and false influences",
+      "Sharpens mental discernment and clarity of thought",
+      "Supports honest communication and transparent relationships",
+      "Aligns daily life with dharmic principles and cosmic order"
+    ]
+  },
+  {
+    "id": "DVD007",
+    "number": 7,
+    "title": "Bhrisha Devta Div No. 7 — Sacred 45 Devta Vastu Energizer",
+    "slug": "bhrisha-devta-div-no-7-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1499,
+    "discountPrice": 1199,
+    "stock": 50,
+    "rating": 4.6,
+    "reviews": 76,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "strength",
+      "resilience",
+      "endurance",
+      "stability",
+      "courage"
+    ],
+    "images": [
+      "/products/bhrisha-divs-1.jpg",
+      "/products/bhrisha-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Bhrisha Devta Div No. 7 — Divine strength and resilience activator for building unshakeable foundations and endurance.",
+    "description": "The Bhrisha Devta Div No. 7 represents divine strength, resilience, and the unyielding power of endurance. This sacred Div channels the earth-rooted energy of steadfastness and invincibility into your Vastu grid, making it an invaluable companion for those who face persistent challenges or seek to build unshakeable foundations in their personal and professional lives. Meticulously crafted using traditional Vedic specifications, the Bhrisha Div carries a grounded, powerful vibration that reinforces structural integrity in both physical spaces and personal character, helping inhabitants rise above adversity with grace and undefeated spirit.",
+    "benefits": [
+      "Channels divine strength and resilience into your space",
+      "Builds unshakeable foundations for long-term success",
+      "Helps inhabitants overcome persistent challenges and adversity",
+      "Reinforces structural and energetic integrity of the property",
+      "Supports physical endurance, stamina, and fortitude"
+    ]
+  },
+  {
+    "id": "DVD008",
+    "number": 8,
+    "title": "Akash Devta Div No. 8 — Sacred 45 Devta Vastu Energizer",
+    "slug": "akash-devta-div-no-8-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1599,
+    "discountPrice": 1299,
+    "stock": 50,
+    "rating": 4.8,
+    "reviews": 119,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "sky element",
+      "ether",
+      "expansion",
+      "spiritual",
+      "infinite possibilities"
+    ],
+    "images": [
+      "/products/akash-divs-1.jpg",
+      "/products/akash-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Akash Devta Div No. 8 — Sky element activator for infinite possibilities, creative expansion, and spiritual awareness.",
+    "description": "The Akash Devta Div No. 8 embodies the infinite sky element, representing boundless possibilities, expansive consciousness, and the vast freedom of the cosmic space. In Vastu Shastra, Akash or Ether is the most subtle of the five elements and governs the upper regions of any enclosed space. The Akash Div opens the crown of your home's energy field, allowing higher frequencies of inspiration, divine guidance, and creative intelligence to flow in freely. This beautifully detailed Div is essential for those who seek to expand their horizons, dissolve mental limitations, and connect with the infinite creative intelligence of the universe.",
+    "benefits": [
+      "Opens the space to infinite possibilities and expansion",
+      "Activates ether element for heightened spiritual awareness",
+      "Removes mental limitations and expands creative consciousness",
+      "Supports meditation, prayer, and intuitive development",
+      "Brings a sense of spaciousness, peace, and divine connection"
+    ]
+  },
+  {
+    "id": "DVD009",
+    "number": 9,
+    "title": "Anil Devta Div No. 9 — Sacred 45 Devta Vastu Energizer",
+    "slug": "anil-devta-div-no-9-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1549,
+    "discountPrice": 1249,
+    "stock": 50,
+    "rating": 4.7,
+    "reviews": 98,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "wind element",
+      "communication",
+      "mental agility",
+      "air vastu",
+      "flow"
+    ],
+    "images": [
+      "/products/anil-divs-1.jpg",
+      "/products/anil-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Anil Devta Div No. 9 — Wind element activator for communication, mental agility, and fresh dynamic energy flow.",
+    "description": "The Anil Devta Div No. 9 governs the sacred wind element, the vital breath of life that animates all living beings and carries the divine whisper of cosmic intelligence. As one of the five elemental Devtas, Anil holds mastery over movement, communication, and the invisible forces that carry energy from one place to another. Placing the Anil Div in your Vastu grid activates zones of communication, travel, and mental agility, bringing fresh energy flow that dissolves stagnation and breathes new life into every dimension of your living space. Perfect for offices, study rooms, and spaces where dynamic thought and communication are paramount.",
+    "benefits": [
+      "Activates the wind element for fresh energy circulation",
+      "Enhances communication, eloquence, and mental agility",
+      "Removes stagnation and invites dynamic movement",
+      "Supports respiratory health and vital breath regulation",
+      "Improves networking, travel, and opportunistic flow"
+    ]
+  },
+  {
+    "id": "DVD010",
+    "number": 10,
+    "title": "Pusha Devta Div No. 10 — Sacred 45 Devta Vastu Energizer",
+    "slug": "pusha-devta-div-no-10-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1649,
+    "discountPrice": 1349,
+    "stock": 50,
+    "rating": 4.8,
+    "reviews": 143,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "nourishment",
+      "abundance",
+      "food prosperity",
+      "provision",
+      "sustenance"
+    ],
+    "images": [
+      "/products/pusha-divs-1.jpg",
+      "/products/pusha-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Pusha Devta Div No. 10 — Divine nourishment activator for abundance, steady provision, and life-giving sustenance.",
+    "description": "The Pusha Devta Div No. 10 embodies divine nourishment, abundance, and the celestial caretaker who ensures all beings receive their proper sustenance. Associated with the sun's nurturing aspect, Pusha governs the flow of resources, food, and material wellbeing into the household. This exquisitely crafted Div activates zones of provision and plenty in your Vastu grid, making it especially valuable for homes seeking to strengthen financial stability, food security, and the generous flow of divine provision. The Pusha Div is particularly revered in dining areas and kitchens, where its vibration of nourishment enhances the life-giving quality of every meal.",
+    "benefits": [
+      "Activates divine nourishment and abundance frequencies",
+      "Ensures steady flow of resources and material provision",
+      "Enhances the life-giving quality of food and nutrition",
+      "Supports agricultural prosperity and garden growth",
+      "Brings the energy of generous caretaking and provision"
+    ]
+  },
+  {
+    "id": "DVD011",
+    "number": 11,
+    "title": "Vitatha Devta Div No. 11 — Sacred 45 Devta Vastu Energizer",
+    "slug": "vitatha-devta-div-no-11-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1499,
+    "discountPrice": 1199,
+    "stock": 50,
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "transformation",
+      "sacred fire",
+      "change",
+      "evolution",
+      "alchemy"
+    ],
+    "images": [
+      "/products/vitatha-divs-1.jpg",
+      "/products/vitatha-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Vitatha Devta Div No. 11 — Sacred transformation activator for major life changes, inner truth, and spiritual evolution.",
+    "description": "The Vitatha Devta Div No. 11 channels the sacred transformative fire of inner truth and higher aspiration. This powerful Div works within the deeper currents of your home's energy field to transmute lower vibrations into elevated states of consciousness and material manifestation. Vitatha is revered in classical Vastu texts as a guardian of transformative processes, making this Div especially valuable during periods of significant life change, business pivots, or spiritual evolution. Crafted with painstaking attention to Vedic detail, the Vitatha Div serves as a spiritual alchemist in your sacred space.",
+    "benefits": [
+      "Facilitates powerful energetic transformation in the space",
+      "Transmutes lower vibrations into elevated manifestation energy",
+      "Supports major life transitions with grace and clarity",
+      "Activates inner truth and higher spiritual aspiration",
+      "Guards the transformative processes within the Vastu grid"
+    ]
+  },
+  {
+    "id": "DVD012",
+    "number": 12,
+    "title": "Brihatkshat Devta Div No. 12 — Sacred 45 Devta Vastu Energizer",
+    "slug": "brihatkshat-devta-div-no-12-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1699,
+    "discountPrice": 1399,
+    "stock": 50,
+    "rating": 4.7,
+    "reviews": 88,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "protection",
+      "guardian",
+      "security",
+      "shield",
+      "property safety"
+    ],
+    "images": [
+      "/products/brihatkshat-divs-1.jpg",
+      "/products/brihatkshat-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Brihatkshat Devta Div No. 12 — Divine guardian activator for powerful property protection and security of the household.",
+    "description": "The Brihatkshat Devta Div No. 12 stands as a mighty guardian and protector within the 45 Devta Vastu system. The name itself means 'great protector of the field,' and this Div channels the fierce, watchful energy of divine guardianship into your property. Placed at the designated point in your Vastu grid, the Brihatkshat Div creates an invisible shield of cosmic protection around your home or workspace, warding off negative intrusions, psychic disturbances, and environmental hazards. Vastu practitioners prize this Div for its exceptional protective qualities and recommend it as an essential component of any comprehensive Vastu remedy.",
+    "benefits": [
+      "Establishes a powerful shield of divine protection",
+      "Guards against negative intrusions and psychic disturbances",
+      "Protects property from environmental and structural hazards",
+      "Activates fierce guardian energy in the designated zone",
+      "Ensures the security and sanctity of the household"
+    ]
+  },
+  {
+    "id": "DVD013",
+    "number": 13,
+    "title": "Yama Devta Div No. 13 — Sacred 45 Devta Vastu Energizer",
+    "slug": "yama-devta-div-no-13-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1749,
+    "discountPrice": 1449,
+    "stock": 50,
+    "rating": 4.9,
+    "reviews": 167,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "justice",
+      "karma",
+      "dharmic order",
+      "fairness",
+      "cosmic law"
+    ],
+    "images": [
+      "/products/yama-divs-1.jpg",
+      "/products/yama-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Yama Devta Div No. 13 — Cosmic justice activator for dharmic order, fairness in legal matters, and karmic balance.",
+    "description": "The Yama Devta Div No. 13 embodies divine cosmic justice, dharmic order, and the sacred principle of karmic balance. As the lord of dharma and cosmic accountant of all actions, Yama's presence in your Vastu grid ensures that your space operates in perfect alignment with natural law and divine justice. Far from being ominous, the Yama Div brings clarity, fairness, and the restoration of balance to any environment where chaos or injustice has taken root. Crafted with sacred precision and consecrated with dharma-invoking Vedic processes, this Div is especially valued by those who seek fairness in legal matters, business dealings, and interpersonal relationships.",
+    "benefits": [
+      "Restores cosmic justice and dharmic order to the space",
+      "Brings clarity and fairness to legal and business matters",
+      "Activates the principle of karmic balance and accountability",
+      "Removes the consequences of past energetic imbalances",
+      "Supports righteous action and ethical decision-making"
+    ]
+  },
+  {
+    "id": "DVD014",
+    "number": 14,
+    "title": "Gandharva Devta Div No. 14 — Sacred 45 Devta Vastu Energizer",
+    "slug": "gandharva-devta-div-no-14-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1649,
+    "discountPrice": 1349,
+    "stock": 50,
+    "rating": 4.8,
+    "reviews": 134,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "music",
+      "harmony",
+      "arts",
+      "beauty",
+      "celestial energy"
+    ],
+    "images": [
+      "/products/gandharva-divs-1.jpg",
+      "/products/gandharva-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Gandharva Devta Div No. 14 — Celestial harmony activator for artistic inspiration, beauty, and harmonious relationships.",
+    "description": "The Gandharva Devta Div No. 14 channels the sublime energies of celestial music, harmony, and the divine aesthetic consciousness that makes life beautiful. The Gandharvas are the celestial musicians of the heavenly realms, and their divine representative in the 45 Devta system fills your space with vibrations of beauty, artistic inspiration, and harmonious relationships. This artistically crafted Div is a favorite among musicians, artists, designers, and all creative professionals who seek to elevate the aesthetic quality and inspirational atmosphere of their workspaces. The Gandharva Div transforms any ordinary room into a sanctuary of beauty and creative flow.",
+    "benefits": [
+      "Fills the space with celestial music and harmony vibrations",
+      "Activates artistic inspiration and creative flow",
+      "Enhances the aesthetic quality and beauty of the environment",
+      "Supports harmonious relationships and peaceful coexistence",
+      "Attracts joy, celebration, and festive positive energy"
+    ]
+  },
+  {
+    "id": "DVD015",
+    "number": 15,
+    "title": "Bhringraj Devta Div No. 15 — Sacred 45 Devta Vastu Energizer",
+    "slug": "bhringraj-devta-div-no-15-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1549,
+    "discountPrice": 1249,
+    "stock": 50,
+    "rating": 4.7,
+    "reviews": 101,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "growth",
+      "rejuvenation",
+      "health",
+      "nature",
+      "renewal"
+    ],
+    "images": [
+      "/products/bhringraj-divs-1.jpg",
+      "/products/bhringraj-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Bhringraj Devta Div No. 15 — Divine growth and rejuvenation activator for health, vitality, and nature's renewal energy.",
+    "description": "The Bhringraj Devta Div No. 15 embodies divine growth, regeneration, and the lush, vital energy of nature's perpetual renewal. Named after the sacred Bhringraj herb renowned in Ayurveda for its restorative properties, this Div channels the healing intelligence of nature into your Vastu grid. The Bhringraj Div activates zones of health, growth, and rejuvenation, making it particularly valuable for families seeking improved wellbeing, for gardens and green spaces, and for businesses engaged in healing, wellness, or natural products. Its vibration of perpetual renewal supports both physical vitality and the regeneration of depleted resources.",
+    "benefits": [
+      "Activates divine growth and regeneration in the space",
+      "Channels the healing intelligence of nature's renewal",
+      "Supports physical health, hair vitality, and rejuvenation",
+      "Enhances the growth of businesses in wellness and natural sectors",
+      "Brings lush, fertile energy to gardens and living spaces"
+    ]
+  },
+  {
+    "id": "DVD016",
+    "number": 16,
+    "title": "Mriga Devta Div No. 16 — Sacred 45 Devta Vastu Energizer",
+    "slug": "mriga-devta-div-no-16-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1499,
+    "discountPrice": 1199,
+    "stock": 50,
+    "rating": 4.6,
+    "reviews": 68,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "grace",
+      "intuition",
+      "meditation",
+      "awareness",
+      "sensitivity"
+    ],
+    "images": [
+      "/products/mriga-divs-1.jpg",
+      "/products/mriga-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Mriga Devta Div No. 16 — Graceful awareness activator for intuition, meditation, and refined perceptual sensitivity.",
+    "description": "The Mriga Devta Div No. 16 embodies the gentle, graceful energy of the celestial deer, symbolizing purity of heart, swiftness of thought, and the beautiful alertness of heightened awareness. In the sacred Vastu tradition, Mriga governs zones of sensitivity, intuition, and the fine perceptual qualities that allow us to navigate life with elegance and grace. This beautifully crafted Div brings a soft yet powerful vibration of gentleness and awareness to your space, supporting meditation, intuitive development, and the cultivation of refined sensory intelligence. The Mriga Div is especially cherished in meditation rooms, yoga spaces, and children's areas.",
+    "benefits": [
+      "Brings gentle, graceful, and awareness-enhancing energy",
+      "Supports intuitive development and refined perception",
+      "Creates a soft, peaceful, meditative atmosphere",
+      "Enhances alertness and swift, graceful decision-making",
+      "Ideal for meditation rooms, yoga spaces, and creative areas"
+    ]
+  },
+  {
+    "id": "DVD017",
+    "number": 17,
+    "title": "Pitru Devta Div No. 17 — Sacred 45 Devta Vastu Energizer",
+    "slug": "pitru-devta-div-no-17-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1749,
+    "discountPrice": 1449,
+    "stock": 50,
+    "rating": 4.8,
+    "reviews": 145,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "ancestors",
+      "lineage",
+      "heritage",
+      "karma clearing",
+      "family"
+    ],
+    "images": [
+      "/products/pitru-divs-1.jpg",
+      "/products/pitru-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Pitru Devta Div No. 17 — Ancestral blessing activator for clearing karmic lineage blockages and generational harmony.",
+    "description": "The Pitru Devta Div No. 17 is consecrated to the sacred ancestral lineage, honoring the divine connection between the living and those who have passed into the higher realms. In Vastu Shastra, maintaining a harmonious relationship with ancestral energies is considered essential for family prosperity, health, and continuity of divine grace across generations. The Pitru Div activates the ancestral corridor of your Vastu grid, clearing karmic blockages from the family lineage and inviting the blessings and guidance of enlightened ancestors. This deeply meaningful Div is especially valued by families seeking to heal generational patterns and strengthen the spiritual foundation of their bloodline.",
+    "benefits": [
+      "Honors and activates sacred ancestral blessings",
+      "Clears karmic blockages from the family lineage",
+      "Strengthens generational continuity of divine grace",
+      "Invites the guidance and protection of enlightened ancestors",
+      "Supports healing of deep-rooted family patterns"
+    ]
+  },
+  {
+    "id": "DVD018",
+    "number": 18,
+    "title": "Dwarik Devta Div No. 18 — Sacred 45 Devta Vastu Energizer",
+    "slug": "dwarik-devta-div-no-18-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1599,
+    "discountPrice": 1299,
+    "stock": 50,
+    "rating": 4.7,
+    "reviews": 93,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "threshold",
+      "entry",
+      "new beginnings",
+      "door energy",
+      "auspicious"
+    ],
+    "images": [
+      "/products/dwarik-divs-1.jpg",
+      "/products/dwarik-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Dwarik Devta Div No. 18 — Divine threshold activator for auspicious entry energy, new beginnings, and good fortune.",
+    "description": "The Dwarik Devta Div No. 18 governs the divine energy of thresholds, doorways, and new beginnings. In Vastu Shastra, entry points are considered the mouth of the home through which all energy enters, and the Dwarik Div ensures that only auspicious, elevated vibrations cross your threshold. Placed according to precise Vastu specifications, this sacred Div transforms your main entrance into a portal of divine grace, filtering out negative energies while attracting abundance, good fortune, and welcome guests. The Dwarik Div is considered one of the most immediately impactful Divs in the complete set for improving the overall energy of any home or establishment.",
+    "benefits": [
+      "Transforms entryways into portals of divine grace",
+      "Filters negative energies and attracts auspicious influences",
+      "Governs the threshold energy and first impression of the space",
+      "Invites welcome guests, opportunities, and good fortune",
+      "Activates new beginnings and fresh starts in life"
+    ]
+  },
+  {
+    "id": "DVD019",
+    "number": 19,
+    "title": "Sugreev Devta Div No. 19 — Sacred 45 Devta Vastu Energizer",
+    "slug": "sugreev-devta-div-no-19-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1549,
+    "discountPrice": 1249,
+    "stock": 50,
+    "rating": 4.7,
+    "reviews": 89,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "valor",
+      "swift action",
+      "strategy",
+      "courage",
+      "leadership"
+    ],
+    "images": [
+      "/products/sugreev-divs-1.jpg",
+      "/products/sugreev-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Sugreev Devta Div No. 19 — Valorous swift energy activator for strategic courage, alliances, and rapid positive action.",
+    "description": "The Sugreev Devta Div No. 19 channels the dynamic, valorous energy of swift action, strategic courage, and victorious leadership. Drawing from the legendary Sugreev of the Ramayana, this Div embodies the qualities of a brilliant tactician who rallies resources, builds alliances, and achieves triumph through bold, decisive action. Placed in the appropriate zone of your Vastu grid, the Sugreev Div activates a powerful current of swift energy and strategic intelligence that benefits entrepreneurs, executives, military personnel, and anyone engaged in competitive endeavors. This Div is renowned for its ability to break through inertia and catalyze rapid positive movement.",
+    "benefits": [
+      "Activates swift, valorous, and strategic energy",
+      "Builds powerful alliances and team-building capacity",
+      "Breaks through inertia and catalyzes rapid positive action",
+      "Supports competitive advantage and tactical brilliance",
+      "Enhances leadership qualities and organizational courage"
+    ]
+  },
+  {
+    "id": "DVD020",
+    "number": 20,
+    "title": "Pushpadant Devta Div No. 20 — Sacred 45 Devta Vastu Energizer",
+    "slug": "pushpadant-devta-div-no-20-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1649,
+    "discountPrice": 1349,
+    "stock": 50,
+    "rating": 4.8,
+    "reviews": 127,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "beauty",
+      "flowers",
+      "joy",
+      "grace",
+      "welcoming energy"
+    ],
+    "images": [
+      "/products/pushpadant-divs-1.jpg",
+      "/products/pushpadant-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Pushpadant Devta Div No. 20 — Celestial floral beauty activator for joy, aesthetic grace, and welcoming positive energy.",
+    "description": "The Pushpadant Devta Div No. 20 embodies the exquisite beauty and divine fragrance of celestial blossoms, bringing the grace, elegance, and life-affirming beauty of heavenly flowers into your earthly space. As the divine energy of floral blessing, Pushpadant fills your environment with subtle vibrations of joy, appreciation, and aesthetic delight. This intricately crafted Div activates the beauty and pleasure zones of your Vastu grid, making spaces more welcoming, joyful, and magnetically attractive to positive people and experiences. The Pushpadant Div is particularly valued in reception areas, living rooms, and any space where you wish to create a warm, beautiful, and positively charged atmosphere.",
+    "benefits": [
+      "Fills the space with floral beauty and celestial grace",
+      "Activates joy, appreciation, and aesthetic pleasure",
+      "Makes spaces magnetically welcoming and beautiful",
+      "Enhances romantic energy and relationship warmth",
+      "Brings the divine fragrance of heavenly blessings"
+    ]
+  },
+  {
+    "id": "DVD021",
+    "number": 21,
+    "title": "Varun Devta Div No. 21 — Sacred 45 Devta Vastu Energizer",
+    "slug": "varun-devta-div-no-21-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1799,
+    "discountPrice": 1499,
+    "stock": 50,
+    "rating": 4.9,
+    "reviews": 178,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "water element",
+      "cosmic order",
+      "purification",
+      "legal harmony",
+      "varun"
+    ],
+    "images": [
+      "/products/varun-divs-1.jpg",
+      "/products/varun-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Varun Devta Div No. 21 — Cosmic water and divine order activator for purification, legal harmony, and fluid vitality.",
+    "description": "The Varun Devta Div No. 21 channels the profound energy of cosmic water, divine order, and the celestial guardian of the western ocean. As one of the most ancient and revered Vedic deities, Varun governs contracts, oaths, cosmic law, and the cleansing, healing properties of water. Placing the Varun Div in your home activates powerful purification and legal harmony within the space, making it invaluable for those engaged in contracts, partnerships, and matters requiring divine oversight. The Varun Div also governs the body's fluid systems, supporting kidney health, blood purity, and the harmonious flow of vital fluids throughout the household's inhabitants.",
+    "benefits": [
+      "Activates cosmic water element and divine purification",
+      "Ensures harmony in contracts, oaths, and legal matters",
+      "Supports kidney health and the body's fluid systems",
+      "Purifies the energetic atmosphere of the entire space",
+      "Governs the western zone with ancient divine authority"
+    ]
+  },
+  {
+    "id": "DVD022",
+    "number": 22,
+    "title": "Asur Devta Div No. 22 — Sacred 45 Devta Vastu Energizer",
+    "slug": "asur-devta-div-no-22-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1549,
+    "discountPrice": 1249,
+    "stock": 50,
+    "rating": 4.6,
+    "reviews": 74,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "power",
+      "authority",
+      "transformation",
+      "strength",
+      "opposition"
+    ],
+    "images": [
+      "/products/asur-divs-1.jpg",
+      "/products/asur-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Asur Devta Div No. 22 — Raw power transmutation activator for turning opposition into strength and commanding authority.",
+    "description": "The Asur Devta Div No. 22 channels the raw, primal power of authority and the transmuted energy of opposition transformed into strength. In the balanced cosmology of Vastu Shastra, all forces including those of the Asuras have their designated place in the cosmic grid, and the Asur Div governs the transformation of opposing forces into sources of personal power and resilience. This powerful Div is particularly valued by those who face strong opposition in business or personal life, as it transmutes adversarial energy into fuel for growth and success. Crafted with protective sacred geometry, the Asur Div ensures that all forces in your environment work in your ultimate favor.",
+    "benefits": [
+      "Transmutes opposing forces into sources of personal power",
+      "Provides strength and resilience in the face of adversity",
+      "Governs the raw power zones of the Vastu grid",
+      "Protects against psychic attacks and energy vampires",
+      "Channels primal authority and commanding presence"
+    ]
+  },
+  {
+    "id": "DVD023",
+    "number": 23,
+    "title": "Shosha Devta Div No. 23 — Sacred 45 Devta Vastu Energizer",
+    "slug": "shosha-devta-div-no-23-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1599,
+    "discountPrice": 1299,
+    "stock": 50,
+    "rating": 4.7,
+    "reviews": 96,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "purification",
+      "cleansing",
+      "negativity removal",
+      "reset",
+      "clarity"
+    ],
+    "images": [
+      "/products/shosha-divs-1.jpg",
+      "/products/shosha-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Shosha Devta Div No. 23 — Divine purification activator for absorbing negativity and resetting the energetic atmosphere.",
+    "description": "The Shosha Devta Div No. 23 embodies the divine principle of purification, absorption of negativity, and the sacred process of drawing out impurities from any environment. In classical Vastu texts, Shosha is revered as the divine vacuum that absorbs stagnant, toxic, and harmful energies from the space, leaving behind a clarified, pure, and harmonious atmosphere. This uniquely powerful Div is especially recommended for spaces that have housed illness, conflict, financial loss, or emotional trauma, as its purifying vibration actively cleanses the energetic residue of past negative events. The Shosha Div is an essential reset tool in the Vastu practitioner's toolkit.",
+    "benefits": [
+      "Actively absorbs and purifies negative energies from the space",
+      "Cleanses the residue of past illness, conflict, and trauma",
+      "Resets the energetic atmosphere to a state of purity",
+      "Supports detoxification processes in inhabitants' bodies",
+      "Essential tool for energetic reset of troubled spaces"
+    ]
+  },
+  {
+    "id": "DVD024",
+    "number": 24,
+    "title": "Papyakshma Devta Div No. 24 — Sacred 45 Devta Vastu Energizer",
+    "slug": "papyakshma-devta-div-no-24-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1699,
+    "discountPrice": 1399,
+    "stock": 50,
+    "rating": 4.7,
+    "reviews": 91,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "disease removal",
+      "health protection",
+      "healing",
+      "energy purification",
+      "wellness"
+    ],
+    "images": [
+      "/products/papyakshma-divs-1.jpg",
+      "/products/papyakshma-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Papyakshma Devta Div No. 24 — Energetic disease removal activator for health protection and subtle imbalance dissolution.",
+    "description": "The Papyakshma Devta Div No. 24 is a uniquely powerful Div dedicated to the removal of energetic diseases, karmic ailments, and the subtle vibrational imbalances that precede physical illness. In the holistic Vastu worldview, many health challenges have their root in the distorted energy fields of living spaces, and the Papyakshma Div specifically targets these subtle disease-generating frequencies for elimination. Placed in the appropriate zone of your Vastu grid, this specialized Div creates an energetically healthy atmosphere that supports the immune systems of all inhabitants and dissolves the subtle seeds of potential health issues before they can manifest in physical reality.",
+    "benefits": [
+      "Removes energetic disease patterns from the living space",
+      "Targets subtle vibrational imbalances that precede illness",
+      "Strengthens the energetic immune system of the household",
+      "Dissolves karmic roots of recurring health challenges",
+      "Creates a fundamentally health-supportive energetic atmosphere"
+    ]
+  },
+  {
+    "id": "DVD025",
+    "number": 25,
+    "title": "Roga Devta Div No. 25 — Sacred 45 Devta Vastu Energizer",
+    "slug": "roga-devta-div-no-25-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1649,
+    "discountPrice": 1349,
+    "stock": 50,
+    "rating": 4.6,
+    "reviews": 82,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "health balance",
+      "disease neutralization",
+      "vitality",
+      "wellbeing",
+      "healing"
+    ],
+    "images": [
+      "/products/roga-divs-1.jpg",
+      "/products/roga-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Roga Devta Div No. 25 — Divine health balance activator for neutralizing disease energies and maintaining vital wellbeing.",
+    "description": "The Roga Devta Div No. 25 governs the energetic dimension of health, disease, and the divine balance between illness and cure. While the name may suggest disease, in Vastu Shastra the Roga Div is placed precisely to govern and neutralize the disease-related energies of the cosmic grid, preventing them from manifesting in the inhabitants of the space. This highly specialized Div acts as a divine health governor, maintaining the delicate energetic balance that keeps the household's inhabitants in a state of optimal vitality. Vastu experts consider this Div essential for homes where recurring health issues have been a concern, as it addresses the root energetic cause rather than merely the symptoms.",
+    "benefits": [
+      "Governs and neutralizes disease energies in the Vastu grid",
+      "Maintains the energetic balance essential for health",
+      "Prevents recurring health patterns from manifesting",
+      "Acts as a divine health governor for the household",
+      "Addresses energetic root causes of physical health challenges"
+    ]
+  },
+  {
+    "id": "DVD026",
+    "number": 26,
+    "title": "Naga Devta Div No. 26 — Sacred 45 Devta Vastu Energizer",
+    "slug": "naga-devta-div-no-26-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1749,
+    "discountPrice": 1449,
+    "stock": 50,
+    "rating": 4.8,
+    "reviews": 138,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "serpent wisdom",
+      "kundalini",
+      "earth energy",
+      "protection",
+      "mysteries"
+    ],
+    "images": [
+      "/products/naga-divs-1.jpg",
+      "/products/naga-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Naga Devta Div No. 26 — Serpent wisdom activator for Kundalini energy, underground protection, and earth mysteries.",
+    "description": "The Naga Devta Div No. 26 channels the ancient, serpentine wisdom of the Nagas, the divine serpent beings who guard the hidden treasures of the earth and hold mastery over the Kundalini force, underground energies, and the deep mysteries of transformation. Placing the Naga Div in your Vastu grid activates powerful protective underground earth energies, guards against geopathic stress, and awakens the dormant spiritual potential within the space and its inhabitants. This Div is particularly valuable for properties that sit on or near underground water streams, geological fault lines, or other powerful earth energy channels.",
+    "benefits": [
+      "Channels serpentine wisdom and Kundalini awakening energy",
+      "Guards against geopathic stress and underground disturbances",
+      "Protects hidden treasures and secret wealth of the property",
+      "Activates dormant spiritual potential in space and inhabitants",
+      "Governs underground energy channels and earth mysteries"
+    ]
+  },
+  {
+    "id": "DVD027",
+    "number": 27,
+    "title": "Mukhya Devta Div No. 27 — Sacred 45 Devta Vastu Energizer",
+    "slug": "mukhya-devta-div-no-27-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1599,
+    "discountPrice": 1299,
+    "stock": 50,
+    "rating": 4.7,
+    "reviews": 107,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "leadership",
+      "prominence",
+      "authority",
+      "distinction",
+      "chief energy"
+    ],
+    "images": [
+      "/products/mukhya-divs-1.jpg",
+      "/products/mukhya-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Mukhya Devta Div No. 27 — Divine leadership prominence activator for chief authority, distinction, and organizational power.",
+    "description": "The Mukhya Devta Div No. 27 embodies the energy of prominence, leadership, and the distinguished quality of being first among many. The name Mukhya literally means 'chief' or 'principal,' and this Div channels the energy of primal leadership, organizational authority, and the commanding presence that naturally draws respect and followership. This Div is especially valuable for heads of household, company directors, organizational leaders, and anyone who wishes to establish undeniable prominence and leadership presence in their professional and social sphere. The Mukhya Div activates the leadership zones of your Vastu grid with powerful frequencies of authority and distinction.",
+    "benefits": [
+      "Activates leadership, prominence, and organizational authority",
+      "Establishes commanding presence and natural followership",
+      "Enhances the authority of heads of household and executives",
+      "Creates an atmosphere of distinction and high standing",
+      "Governs the chief energy coordinates of the Vastu grid"
+    ]
+  },
+  {
+    "id": "DVD028",
+    "number": 28,
+    "title": "Bhallat Devta Div No. 28 — Sacred 45 Devta Vastu Energizer",
+    "slug": "bhallat-devta-div-no-28-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1549,
+    "discountPrice": 1249,
+    "stock": 50,
+    "rating": 4.7,
+    "reviews": 85,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "courage",
+      "fearlessness",
+      "warrior",
+      "boldness",
+      "resolve"
+    ],
+    "images": [
+      "/products/bhallat-divs-1.jpg",
+      "/products/bhallat-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Bhallat Devta Div No. 28 — Courageous warrior energy activator for fearlessness, bold action, and invincible resolve.",
+    "description": "The Bhallat Devta Div No. 28 is dedicated to divine courage, fearlessness, and the warrior spirit that meets every challenge with unwavering boldness. In the Vastu tradition, Bhallat governs zones of courageous action and protective strength, making this Div an essential companion for soldiers, athletes, entrepreneurs, and anyone who regularly faces high-stakes situations requiring nerves of steel. Crafted with protective sacred geometry and powerful Vedic infusions, the Bhallat Div fills your space with a palpable vibration of fearlessness that dissolves anxiety, strengthens resolve, and activates the inner warrior consciousness in all inhabitants.",
+    "benefits": [
+      "Activates divine courage and fearlessness in the space",
+      "Dissolves anxiety, worry, and fear-based limitations",
+      "Strengthens resolve and inner warrior consciousness",
+      "Protects athletes, soldiers, and risk-takers",
+      "Invokes boldness and decisive action in challenging situations"
+    ]
+  },
+  {
+    "id": "DVD029",
+    "number": 29,
+    "title": "Soma Devta Div No. 29 — Sacred 45 Devta Vastu Energizer",
+    "slug": "soma-devta-div-no-29-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1799,
+    "discountPrice": 1499,
+    "stock": 50,
+    "rating": 4.9,
+    "reviews": 192,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "moon energy",
+      "lunar",
+      "healing",
+      "peace",
+      "emotional harmony"
+    ],
+    "images": [
+      "/products/soma-divs-1.jpg",
+      "/products/soma-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Soma Devta Div No. 29 — Lunar nectar activator for emotional healing, peace, and deeply restorative moonlight energy.",
+    "description": "The Soma Devta Div No. 29 channels the luminous, soothing energy of the Moon and the sacred nectar of divine bliss that the Vedic tradition calls Amrita. Soma governs the cool, nourishing, feminine, and receptive qualities of cosmic consciousness, bringing peace, emotional harmony, and the quiet, reflective intelligence of moonlight into your space. This exquisitely crafted Div activates the lunar energy channels of your Vastu grid, supporting emotional healing, restful sleep, and the cultivation of the gentle, receptive awareness that makes deep relationships and spiritual growth possible. The Soma Div is considered one of the most healing Divs in the complete set of 45.",
+    "benefits": [
+      "Channels lunar energy and divine nectar frequencies",
+      "Promotes emotional healing, peace, and harmonious relationships",
+      "Supports restful, deep, and restorative sleep",
+      "Activates the cool, feminine, receptive energy channels",
+      "Cultivates reflective awareness and spiritual receptivity"
+    ]
+  },
+  {
+    "id": "DVD030",
+    "number": 30,
+    "title": "Sarpa Devta Div No. 30 — Sacred 45 Devta Vastu Energizer",
+    "slug": "sarpa-devta-div-no-30-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1699,
+    "discountPrice": 1399,
+    "stock": 50,
+    "rating": 4.8,
+    "reviews": 149,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "transformation",
+      "regeneration",
+      "renewal",
+      "cycles",
+      "life force"
+    ],
+    "images": [
+      "/products/sarpa-divs-1.jpg",
+      "/products/sarpa-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Sarpa Devta Div No. 30 — Cosmic serpent transformation activator for regeneration, cycles of renewal, and life force.",
+    "description": "The Sarpa Devta Div No. 30 embodies the transformative, coiling energy of the cosmic serpent, representing cycles of death and rebirth, the shedding of old forms, and the continuous regeneration of life force energy. In the Vastu system, Sarpa governs the zones of cyclical change, regeneration, and the powerful transformative processes that allow outdated structures to dissolve so that new and more vital forms can emerge. This profoundly transformative Div is invaluable during major life transitions, property renovations, business restructuring, and any situation requiring the graceful release of the old to make way for powerful new beginnings.",
+    "benefits": [
+      "Activates transformative regeneration and cyclic renewal",
+      "Supports graceful release of outdated patterns and structures",
+      "Governs powerful cycles of death, rebirth, and regeneration",
+      "Essential companion for major life and business transitions",
+      "Channels the serpentine life force of continuous renewal"
+    ]
+  },
+  {
+    "id": "DVD031",
+    "number": 31,
+    "title": "Aditi Devta Div No. 31 — Sacred 45 Devta Vastu Energizer",
+    "slug": "aditi-devta-div-no-31-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1849,
+    "discountPrice": 1549,
+    "stock": 50,
+    "rating": 4.9,
+    "reviews": 221,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "mother energy",
+      "abundance",
+      "love",
+      "protection",
+      "fertility"
+    ],
+    "images": [
+      "/products/aditi-divs-1.jpg",
+      "/products/aditi-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Aditi Devta Div No. 31 — Infinite mother energy activator for boundless love, unlimited abundance, and maternal protection.",
+    "description": "The Aditi Devta Div No. 31 channels the boundless, infinite motherly energy of Aditi, the primordial mother of all gods and the cosmic womb of creation itself. In the Vedic tradition, Aditi represents unlimited space, freedom, and the inexhaustible maternal abundance from which all existence springs. Placing the Aditi Div in your home activates the highest feminine frequencies of unconditional love, unlimited abundance, and boundless protective maternal energy. This Div is especially cherished by mothers, families, and anyone seeking to fill their home with the warm, infinite, unconditionally loving energy of the divine mother.",
+    "benefits": [
+      "Channels infinite maternal love and abundance frequencies",
+      "Activates the cosmic womb of unlimited creative potential",
+      "Fills the space with unconditional love and warmth",
+      "Provides boundless maternal protection for all inhabitants",
+      "Supports fertility, family harmony, and motherly blessings"
+    ]
+  },
+  {
+    "id": "DVD032",
+    "number": 32,
+    "title": "Diti Devta Div No. 32 — Sacred 45 Devta Vastu Energizer",
+    "slug": "diti-devta-div-no-32-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1649,
+    "discountPrice": 1349,
+    "stock": 50,
+    "rating": 4.7,
+    "reviews": 103,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "earthly abundance",
+      "material prosperity",
+      "wealth",
+      "tenacity",
+      "growth"
+    ],
+    "images": [
+      "/products/diti-divs-1.jpg",
+      "/products/diti-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Diti Devta Div No. 32 — Earthly abundance activator for material prosperity, tenacious growth, and tangible wealth.",
+    "description": "The Diti Devta Div No. 32 governs earthly abundance, the material dimension of prosperity, and the fertile, tangible wealth of the earth plane. As the consort of the primordial sage Kashyapa and mother of the Daityas, Diti embodies the determined, persistent, earth-rooted energy of material acquisition and the tenacious cultivation of worldly success. The Diti Div channels powerful abundance frequencies into the material and financial zones of your Vastu grid, supporting business growth, property acquisition, agricultural prosperity, and the steady accumulation of tangible wealth and resources.",
+    "benefits": [
+      "Channels earthly abundance and material prosperity energy",
+      "Supports business growth and tangible wealth accumulation",
+      "Activates persistent, tenacious energy for material success",
+      "Governs agricultural prosperity and property acquisition",
+      "Brings determined earth-rooted abundance to the household"
+    ]
+  },
+  {
+    "id": "DVD033",
+    "number": 33,
+    "title": "Brahma Devta Div No. 33 — Sacred 45 Devta Vastu Energizer",
+    "slug": "brahma-devta-div-no-33-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1999,
+    "discountPrice": 1699,
+    "stock": 50,
+    "rating": 5.0,
+    "reviews": 287,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "brahma",
+      "creation",
+      "wisdom",
+      "cosmic order",
+      "divine knowledge"
+    ],
+    "images": [
+      "/products/brahma-divs-1.jpg",
+      "/products/brahma-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Brahma Devta Div No. 33 — Supreme creation energy activator for divine wisdom, cosmic ordering, and creative intelligence.",
+    "description": "The Brahma Devta Div No. 33 embodies the supreme creative intelligence of the cosmos, the primordial creator who brings all worlds and all beings into existence through the divine power of consciousness and intention. In the Vastu system, Brahma governs the central zone of creation and holds the entire 45 Devta grid in divine creative harmony. Placing the Brahma Div in your space activates the highest levels of creative intelligence, divine knowledge, and the cosmic ordering principle that ensures all aspects of your life align in perfect, divinely orchestrated harmony. This is among the most sacred and powerful Divs in the complete set.",
+    "benefits": [
+      "Activates supreme creative intelligence and divine ordering",
+      "Governs the central creation zone of the Vastu grid",
+      "Aligns all aspects of life in divine harmonious arrangement",
+      "Supports access to deep wisdom, knowledge, and learning",
+      "Channels the primordial force of cosmic creation and manifestation"
+    ]
+  },
+  {
+    "id": "DVD034",
+    "number": 34,
+    "title": "Aryama Devta Div No. 34 — Sacred 45 Devta Vastu Energizer",
+    "slug": "aryama-devta-div-no-34-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1699,
+    "discountPrice": 1399,
+    "stock": 50,
+    "rating": 4.8,
+    "reviews": 118,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "noble conduct",
+      "solar energy",
+      "virtue",
+      "heritage",
+      "legacy"
+    ],
+    "images": [
+      "/products/aryama-divs-1.jpg",
+      "/products/aryama-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Aryama Devta Div No. 34 — Noble solar conduct activator for virtue, cultural heritage, and lasting respected legacy.",
+    "description": "The Aryama Devta Div No. 34 channels the noble, solar energy of Aryama, the Aditya who governs ancestral customs, noble conduct, and the path of the sun through the cosmic sky. Aryama represents the principle of nobility, aristocratic virtue, and the timeless traditions that provide a stable foundation for civilized, purposeful living. Placing the Aryama Div in your home activates zones of tradition, noble character, and the virtuous solar qualities that build lasting respect and legacy. This Div is especially valued by those who wish to honor their heritage while achieving excellence in their contemporary pursuits.",
+    "benefits": [
+      "Activates noble conduct and aristocratic virtue in the space",
+      "Honors ancestral traditions and cultural heritage",
+      "Channels solar nobility and principled leadership energy",
+      "Builds lasting respect, reputation, and social legacy",
+      "Supports the development of timeless, virtuous character"
+    ]
+  },
+  {
+    "id": "DVD035",
+    "number": 35,
+    "title": "Mitra Devta Div No. 35 — Sacred 45 Devta Vastu Energizer",
+    "slug": "mitra-devta-div-no-35-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1749,
+    "discountPrice": 1449,
+    "stock": 50,
+    "rating": 4.8,
+    "reviews": 124,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "friendship",
+      "partnership",
+      "alliance",
+      "cooperation",
+      "harmony"
+    ],
+    "images": [
+      "/products/mitra-divs-1.jpg",
+      "/products/mitra-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Mitra Devta Div No. 35 — Divine friendship and alliance activator for trustworthy partnerships and cooperative harmony.",
+    "description": "The Mitra Devta Div No. 35 channels the radiant energy of divine friendship, sacred alliances, and the harmonizing solar principle that binds all beings in cooperative, mutually beneficial relationship. As one of the twelve Adityas, Mitra governs the zone of partnerships, contracts, and the divinely facilitated connections that bring people together for shared purpose and mutual growth. Placing the Mitra Div in your workspace or home activates powerful frequencies of cooperative harmony, trustworthy partnership, and the magnetic quality that attracts reliable, high-quality relationships into your professional and personal life.",
+    "benefits": [
+      "Activates divine friendship and sacred partnership energy",
+      "Attracts trustworthy, high-quality relationships and alliances",
+      "Governs the harmonizing principle of mutual cooperation",
+      "Supports contracts, joint ventures, and business partnerships",
+      "Fills the space with warmth, camaraderie, and social harmony"
+    ]
+  },
+  {
+    "id": "DVD036",
+    "number": 36,
+    "title": "Prithvidhar Devta Div No. 36 — Sacred 45 Devta Vastu Energizer",
+    "slug": "prithvidhar-devta-div-no-36-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1699,
+    "discountPrice": 1399,
+    "stock": 50,
+    "rating": 4.7,
+    "reviews": 99,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "earth support",
+      "stability",
+      "foundation",
+      "grounding",
+      "structure"
+    ],
+    "images": [
+      "/products/prithvidhar-divs-1.jpg",
+      "/products/prithvidhar-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Prithvidhar Devta Div No. 36 — Earth support activator for structural stability, groundedness, and permanent foundations.",
+    "description": "The Prithvidhar Devta Div No. 36 embodies the foundational energy of the divine earth support, the cosmic pillar that holds the weight of worlds and provides the unshakeable stability upon which all structures rest. As the divine bearer of the earth, Prithvidhar channels the deepest frequencies of structural stability, groundedness, and the immovable strength of bedrock into your Vastu grid. This Div is indispensable for properties with structural concerns, for businesses seeking long-term stability, and for individuals who seek to build permanent, lasting foundations in every area of their lives.",
+    "benefits": [
+      "Channels foundational earth support and structural stability",
+      "Provides unshakeable groundedness for space and inhabitants",
+      "Addresses structural energy concerns in the property",
+      "Builds permanent, lasting foundations for long-term success",
+      "Activates the cosmic pillar of divine support and stability"
+    ]
+  },
+  {
+    "id": "DVD037",
+    "number": 37,
+    "title": "Savitra Devta Div No. 37 — Sacred 45 Devta Vastu Energizer",
+    "slug": "savitra-devta-div-no-37-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1799,
+    "discountPrice": 1499,
+    "stock": 50,
+    "rating": 4.8,
+    "reviews": 141,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "solar wisdom",
+      "education",
+      "discernment",
+      "scholarship",
+      "clarity"
+    ],
+    "images": [
+      "/products/savitra-divs-1.jpg",
+      "/products/savitra-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Savitra Devta Div No. 37 — Golden solar wisdom activator for discernment, enlightened education, and scholarly clarity.",
+    "description": "The Savitra Devta Div No. 37 channels the golden solar wisdom of Savitra, the luminous solar deity who stimulates all life and intelligence with the divine light of discernment and enlightened understanding. In the Vastu tradition, Savitra governs the zones of wisdom, education, and the solar intelligence that illuminates the mind and reveals the highest truth in every situation. This beautifully crafted Div is especially valued in study rooms, libraries, educational institutions, and the workspaces of scholars, researchers, and spiritual teachers. The Savitra Div fills any environment with the golden light of discernment and the awakening power of divine solar wisdom.",
+    "benefits": [
+      "Channels golden solar wisdom and discerning intelligence",
+      "Activates education zones and scholarly achievement energy",
+      "Illuminates the mind with divine light and higher understanding",
+      "Supports researchers, scholars, and spiritual teachers",
+      "Brings clarity, insight, and the power of enlightened judgment"
+    ]
+  },
+  {
+    "id": "DVD038",
+    "number": 38,
+    "title": "Savita Devta Div No. 38 — Sacred 45 Devta Vastu Energizer",
+    "slug": "savita-devta-div-no-38-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1749,
+    "discountPrice": 1449,
+    "stock": 50,
+    "rating": 4.8,
+    "reviews": 131,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "activation",
+      "potential",
+      "solar force",
+      "new ventures",
+      "ignition"
+    ],
+    "images": [
+      "/products/savita-divs-1.jpg",
+      "/products/savita-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Savita Devta Div No. 38 — Generative solar force activator for awakening dormant potential and igniting new ventures.",
+    "description": "The Savita Devta Div No. 38 embodies the generative solar force that stimulates, activates, and brings to life all latent potential within the cosmic field. While Savitra illuminates, Savita activates, serving as the divine solar ignition system that transforms dormant possibility into dynamic, living reality. Placing the Savita Div in your space creates a powerful activation field that awakens sleeping potentials, stimulates dormant projects, and energizes any area of life that has been waiting for the divine spark of manifestation. This Div is especially valuable for entrepreneurs launching new ventures and for anyone seeking to activate a dormant aspect of their creative or professional potential.",
+    "benefits": [
+      "Activates dormant potential and sleeping creative forces",
+      "Ignites new ventures, projects, and manifestation processes",
+      "Channels the generative solar force of divine activation",
+      "Transforms latent possibility into dynamic living reality",
+      "Stimulates entrepreneurial energy and innovation drive"
+    ]
+  },
+  {
+    "id": "DVD039",
+    "number": 39,
+    "title": "Vivaswan Devta Div No. 39 — Sacred 45 Devta Vastu Energizer",
+    "slug": "vivaswan-devta-div-no-39-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1749,
+    "discountPrice": 1449,
+    "stock": 50,
+    "rating": 4.8,
+    "reviews": 129,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "clarity",
+      "solar energy",
+      "vision",
+      "confusion removal",
+      "illumination"
+    ],
+    "images": [
+      "/products/vivaswan-divs-1.jpg",
+      "/products/vivaswan-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Vivaswan Devta Div No. 39 — Bright solar clarity activator for dissolving confusion and illuminating the clear life path.",
+    "description": "The Vivaswan Devta Div No. 39 channels the bright, clarifying solar energy of Vivaswan, the shining one, whose radiant light dispels all darkness, confusion, and the shadows of ignorance. As the solar ancestor of the human race and father of Manu, Vivaswan connects your home to the illuminated ancestral lineage of solar consciousness that stretches back to the very origins of humanity. This powerful Div activates zones of clarity, vision, and the bright-eyed awareness that allows you to see your life path with perfect lucidity. The Vivaswan Div is particularly valued for its ability to dissolve the fog of confusion and reveal the clear, bright truth of any situation.",
+    "benefits": [
+      "Channels bright solar clarity and dispels all confusion",
+      "Connects the space to the illuminated solar ancestral lineage",
+      "Activates perfect vision, lucidity, and clear life direction",
+      "Dissolves the fog of indecision and mental confusion",
+      "Brings bright-eyed awareness and radiant positive outlook"
+    ]
+  },
+  {
+    "id": "DVD040",
+    "number": 40,
+    "title": "Indra Devta Div No. 40 — Sacred 45 Devta Vastu Energizer",
+    "slug": "indra-devta-div-no-40-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1999,
+    "discountPrice": 1699,
+    "stock": 50,
+    "rating": 5.0,
+    "reviews": 263,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "indra",
+      "supreme authority",
+      "thunder",
+      "kingship",
+      "divine power"
+    ],
+    "images": [
+      "/products/indra-divs-1.jpg",
+      "/products/indra-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Indra Devta Div No. 40 — Supreme divine king activator for thunderous authority, invincible protection, and royal blessings.",
+    "description": "The Indra Devta Div No. 40 channels the supreme, thunderous authority of Indra, king of the gods, lord of thunder and lightning, and the mightiest warrior of the celestial realm. In the complete 45 Devta system, Indra holds the position of divine king, governing the eastern zones of leadership, conquest, and the commanding power that shapes entire civilizations. Placing the Indra Div in your home or office activates the most powerful frequencies of divine kingship, invincible authority, and the thunderous presence that commands universal respect. This Div is the crown jewel of any Vastu grid seeking the highest levels of authority, protection, and divine favor.",
+    "benefits": [
+      "Activates supreme divine kingship and thunderous authority",
+      "Commands universal respect and invincible protection",
+      "Governs the eastern zones with celestial royal power",
+      "Attracts abundant rainfall of divine blessings and prosperity",
+      "Establishes lordship and dominion over the property's energy"
+    ]
+  },
+  {
+    "id": "DVD041",
+    "number": 41,
+    "title": "Rudra Devta Div No. 41 — Sacred 45 Devta Vastu Energizer",
+    "slug": "rudra-devta-div-no-41-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1899,
+    "discountPrice": 1599,
+    "stock": 50,
+    "rating": 4.9,
+    "reviews": 198,
+    "featured": false,
+    "bestSeller": true,
+    "tags": [
+      "rudra",
+      "fierce healing",
+      "purification",
+      "transformation",
+      "storms"
+    ],
+    "images": [
+      "/products/rudra-divs-1.jpg",
+      "/products/rudra-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Rudra Devta Div No. 41 — Fierce healing storm activator for deep purification, stubborn blockage removal, and transformation.",
+    "description": "The Rudra Devta Div No. 41 channels the fierce, healing, and transformative energy of Rudra, the howling storm god and primordial healer whose terrifying compassion destroys disease, ignorance, and obstruction to liberate the highest potential in all things. Rudra is the raw, uncompromising face of divine love that tears away everything false to reveal the indestructible truth beneath. The Rudra Div activates powerful healing and purification currents in your space that work on the deepest levels of energetic reality, dissolving stubborn blockages and transforming challenging situations with remarkable speed and intensity.",
+    "benefits": [
+      "Channels fierce healing and transformative storm energy",
+      "Dissolves the most stubborn energetic blockages",
+      "Activates deep purification and liberation currents in the space",
+      "Heals physical and energetic diseases at the root level",
+      "Transforms challenging situations with speed and intensity"
+    ]
+  },
+  {
+    "id": "DVD042",
+    "number": 42,
+    "title": "Apavatsa Devta Div No. 42 — Sacred 45 Devta Vastu Energizer",
+    "slug": "apavatsa-devta-div-no-42-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1649,
+    "discountPrice": 1349,
+    "stock": 50,
+    "rating": 4.7,
+    "reviews": 88,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "pure water",
+      "cleansing",
+      "detox",
+      "clarity",
+      "purity"
+    ],
+    "images": [
+      "/products/apavatsa-divs-1.jpg",
+      "/products/apavatsa-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Apavatsa Devta Div No. 42 — Pure water clarity activator for pristine cleansing, detoxification, and mental clarity.",
+    "description": "The Apavatsa Devta Div No. 42 governs the sacred energy of pure, clean water and the divine principle of pristine clarity. As a guardian of water purity and the divine qualities of cleanliness and clarity, Apavatsa fills your Vastu grid with the vibrations of pristine purity, clear thinking, and the refreshing clarity of perfectly clean, life-giving water. This Div is especially valuable in kitchens, bathrooms, and healing spaces, and for households where the quality of water, thought, and environmental cleanliness is a high priority. The Apavatsa Div supports physical detoxification and mental clarity simultaneously.",
+    "benefits": [
+      "Governs pure water energy and divine pristine clarity",
+      "Activates cleansing frequencies throughout the Vastu grid",
+      "Supports physical detoxification and environmental purity",
+      "Brings clarity of thought and refreshing mental cleanliness",
+      "Ideal for kitchens, healing spaces, and wellness centers"
+    ]
+  },
+  {
+    "id": "DVD043",
+    "number": 43,
+    "title": "Apa Devta Div No. 43 — Sacred 45 Devta Vastu Energizer",
+    "slug": "apa-devta-div-no-43-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1599,
+    "discountPrice": 1299,
+    "stock": 50,
+    "rating": 4.7,
+    "reviews": 92,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "water element",
+      "emotional depth",
+      "flow",
+      "vitality",
+      "connection"
+    ],
+    "images": [
+      "/products/apa-divs-1.jpg",
+      "/products/apa-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Apa Devta Div No. 43 — Primordial water element activator for emotional depth, financial flow, and connective vitality.",
+    "description": "The Apa Devta Div No. 43 channels the fundamental water element in its most essential form, the primordial life-giving force of divine water that nourishes all life, connects all things, and carries the memory and intelligence of the entire cosmos. In the five-element system, water is the element of depth, emotional intelligence, and the connective tissue that binds all living beings in a web of shared vitality. The Apa Div activates the deep water energies of your Vastu grid, supporting emotional depth, relational intimacy, financial flow, and the beautiful quality of being fully alive to the sensory richness of existence.",
+    "benefits": [
+      "Channels primordial water element and connective life force",
+      "Activates emotional depth and relational intimacy in the space",
+      "Supports financial flow and the abundant movement of resources",
+      "Connects all inhabitants in a web of shared vitality and care",
+      "Brings the living, breathing intelligence of water into the grid"
+    ]
+  },
+  {
+    "id": "DVD044",
+    "number": 44,
+    "title": "Marichi Devta Div No. 44 — Sacred 45 Devta Vastu Energizer",
+    "slug": "marichi-devta-div-no-44-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1799,
+    "discountPrice": 1499,
+    "stock": 50,
+    "rating": 4.8,
+    "reviews": 154,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "radiant light",
+      "wisdom",
+      "cosmic rays",
+      "guidance",
+      "insight"
+    ],
+    "images": [
+      "/products/marichi-divs-1.jpg",
+      "/products/marichi-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Marichi Devta Div No. 44 — Radiant cosmic light activator for sage wisdom, spiritual insight, and divine guidance.",
+    "description": "The Marichi Devta Div No. 44 channels the radiant, directional light of Marichi, one of the primordial rays of the sun who carries the divine intelligence of cosmic illumination to the farthest corners of the universe. As one of the ten Prajapatis and a sage of the highest order, Marichi combines solar radiance with sage wisdom, making this Div a powerful activator of illumined intelligence, spiritual insight, and the guiding light of divine consciousness. Placing the Marichi Div in your space fills it with the penetrating light of cosmic wisdom that reveals the highest path in every situation and illuminates the sacred potential within every person.",
+    "benefits": [
+      "Channels radiant cosmic illumination and sage wisdom",
+      "Activates the guiding light of divine consciousness in the space",
+      "Reveals the highest path and sacred potential in all situations",
+      "Combines solar radiance with the depth of primordial wisdom",
+      "Supports spiritual insight, meditation, and divine guidance"
+    ]
+  },
+  {
+    "id": "DVD045",
+    "number": 45,
+    "title": "Rajyakshma Devta Div No. 45 — Sacred 45 Devta Vastu Energizer",
+    "slug": "rajyakshma-devta-div-no-45-sacred-45-devta-vastu-energizer",
+    "category": "Devta Divs",
+    "subcategory": "45 Devta Divs",
+    "price": 1849,
+    "discountPrice": 1549,
+    "stock": 50,
+    "rating": 4.9,
+    "reviews": 211,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "royal health",
+      "completeness",
+      "45 devta",
+      "sovereignty",
+      "grid completion"
+    ],
+    "images": [
+      "/products/rajyakshma-divs-1.jpg",
+      "/products/rajyakshma-divs-2.jpg"
+    ],
+    "shortDescription": "Sacred Rajyakshma Devta Div No. 45 — Royal health and completeness activator, crowning the 45 Devta grid with sovereign harmony.",
+    "description": "The Rajyakshma Devta Div No. 45 is the final and culminating Div of the complete 45 Devta set, embodying the divine principle of royal health, sovereign vitality, and the majestic completeness of a fully activated Vastu grid. Rajyakshma represents the peak state of energetic excellence, where all 45 divine forces are in perfect harmonious alignment and the space radiates the full spectrum of Vedic cosmic intelligence. Placing the Rajyakshma Div completes the sacred 45-Div system and activates the highest possible level of Vastu harmony, ushering in a reign of royal health, sovereign prosperity, and the majestic fullness of a life lived in complete alignment with divine cosmic order.",
+    "benefits": [
+      "Completes and activates the full 45 Devta Vastu grid",
+      "Embodies royal health, sovereign vitality, and majestic prosperity",
+      "Crowns the sacred set with the energy of divine completeness",
+      "Activates the highest possible level of Vastu grid harmony",
+      "Ushers in a reign of majestic prosperity and royal wellbeing"
+    ]
+  }
+]
