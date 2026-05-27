@@ -27,14 +27,7 @@ const ProductCard = ({ product, index = 0 }) => {
 console.log(product)
   return (
     <>
-      <motion.article
-        className={styles.card}
-        initial={{ opacity: 0, y: 24 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, margin: '-40px' }}
-        transition={{ duration: 0.5, delay: index * 0.06 }}
-        whileHover={{ y: -6 }}
-      >
+      <article className={styles.card}>
         <div className={styles.imageWrap}>
           <Link to={`/product/${product.slug}`} className={styles.imageLink}>
             <ProductImage src={product.images[0]} alt={product.title} className={styles.image} />
@@ -125,7 +118,7 @@ console.log(product)
             <FiEye /> View Details
           </Link>
         </div>
-      </motion.article>
+      </article>
 
       {quickView && (
         <QuickViewModal product={product} onClose={() => setQuickView(false)} />

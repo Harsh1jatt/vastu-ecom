@@ -1,47 +1,45 @@
+/* ProductCard.module.css */
+
 .card {
   position: relative;
   background: var(--white);
   border-radius: 20px;
   overflow: hidden;
+
+  /* SAFER MOBILE RENDERING */
+  transform: translateZ(0);
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+
   border: 1px solid rgba(192, 132, 87, 0.1);
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
-  transition: box-shadow 0.4s ease, border-color 0.4s ease;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.card::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: 20px;
-  padding: 1px;
-  background: linear-gradient(135deg, transparent, rgba(192, 132, 87, 0.3), transparent);
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  opacity: 0;
-  transition: opacity 0.4s ease;
-  pointer-events: none;
-  z-index: 1;
-}
+/* REMOVED MASK COMPOSITE EFFECT */
+/* It causes GPU glitches on Android Chrome */
 
 .card:hover {
-  box-shadow: 0 20px 50px rgba(192, 132, 87, 0.15);
-  border-color: rgba(192, 132, 87, 0.25);
+  transform: translateY(-4px);
+  box-shadow: 0 14px 34px rgba(192, 132, 87, 0.12);
+  border-color: rgba(192, 132, 87, 0.2);
 }
 
-.card:hover::before {
-  opacity: 1;
-}
 .imageWrap {
   position: relative;
   width: 100%;
-  aspect-ratio: 1 / 1;
+  height: 240px;
   overflow: hidden;
-  background: linear-gradient(145deg, #faf8f5, #f0ebe4);
+  background: #f8f5f1;
 }
 
 .imageLink {
@@ -55,13 +53,19 @@
 .imageAlt {
   position: absolute;
   inset: 0;
+
   width: 100%;
   height: 100%;
+
   object-fit: cover;
   display: block;
-  transition:
-    transform 0.6s cubic-bezier(0.22, 1, 0.36, 1),
-    opacity 0.5s ease;
+
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+
+  transform: translateZ(0);
+
+  transition: opacity 0.35s ease;
 }
 
 .image {
@@ -74,85 +78,114 @@
   z-index: 2;
 }
 
-.card:hover .image {
-  opacity: 0;
-  transform: scale(1.08);
-}
+/* DESKTOP HOVER ONLY */
+@media (hover: hover) {
+  .card:hover .image {
+    opacity: 0;
+  }
 
-.card:hover .imageAlt {
-  opacity: 1;
-  transform: scale(1.08);
+  .card:hover .imageAlt {
+    opacity: 1;
+  }
 }
 
 .discountBadge {
   position: absolute;
   top: 14px;
   left: 14px;
+
   padding: 6px 12px;
+
   background: linear-gradient(135deg, var(--gold), #d4a574);
   color: var(--white);
-  font-size: 0.7rem;
+
+  font-size: 0.72rem;
   font-weight: 700;
+
   border-radius: 8px;
-  z-index: 3;
+
+  z-index: 5;
   letter-spacing: 0.5px;
 }
 
 .stockBadge {
   position: absolute;
   inset: 0;
-  background: rgba(17, 17, 17, 0.65);
-  backdrop-filter: blur(4px);
+
+  background: rgba(17, 17, 17, 0.72);
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   color: var(--white);
   font-weight: 600;
   font-size: 0.9rem;
-  z-index: 4;
+
+  z-index: 5;
 }
+
+/* ACTION BUTTONS */
 
 .floatingActions {
   position: absolute;
   top: 14px;
   right: 14px;
+
   display: flex;
   flex-direction: column;
   gap: 8px;
-  z-index: 3;
+
+  z-index: 5;
+
   opacity: 0;
-  transform: translateX(12px);
-  transition: all 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+  transform: translateX(10px);
+
+  transition:
+    opacity 0.25s ease,
+    transform 0.25s ease;
 }
 
-.card:hover .floatingActions {
-  opacity: 1;
-  transform: translateX(0);
+/* DESKTOP ONLY */
+@media (hover: hover) {
+  .card:hover .floatingActions {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .actionBtn {
-  width: 40px;
-  height: 40px;
+  width: 42px;
+  height: 42px;
+
   border-radius: 12px;
   border: none;
-  background: var(--white);
+
+  background: rgba(255, 255, 255, 0.96);
   color: var(--dark);
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   cursor: pointer;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
-  transition: all 0.25s ease;
+
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
 }
 
 .actionBtn:hover:not(:disabled) {
   background: var(--gold);
   color: var(--white);
-  transform: scale(1.08);
+  transform: scale(1.05);
 }
 
 .actionBtn:disabled {
-  opacity: 0.4;
+  opacity: 0.45;
   cursor: not-allowed;
 }
 
@@ -161,38 +194,60 @@
   color: var(--white) !important;
 }
 
+/* QUICK ADD */
+
 .quickAdd {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
+
   padding: 14px;
-  background: linear-gradient(to top, rgba(17, 17, 17, 0.85), transparent);
+
+  background: linear-gradient(
+    to top,
+    rgba(17, 17, 17, 0.9),
+    rgba(17, 17, 17, 0.2)
+  );
+
   border: none;
+
   color: var(--white);
+
   font-weight: 600;
   font-size: 0.85rem;
+
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
+
   cursor: pointer;
+
   transform: translateY(100%);
-  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
-  z-index: 3;
+
+  transition: transform 0.3s ease;
+
+  z-index: 4;
 }
 
-.card:hover .quickAdd {
-  transform: translateY(0);
+/* DESKTOP ONLY */
+@media (hover: hover) {
+  .card:hover .quickAdd {
+    transform: translateY(0);
+  }
 }
 
 .quickAdd:disabled {
   display: none;
 }
 
+/* BODY */
+
 .body {
-  padding: 20px;
+  padding: 18px;
   flex: 1;
+
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -208,28 +263,33 @@
 .category {
   font-size: 0.7rem;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.4px;
   color: var(--gold);
   font-weight: 600;
 }
 
 .sku {
-  font-size: 0.65rem;
-  color: #bbb;
+  font-size: 0.68rem;
+  color: #b4b4b4;
 }
 
 .title {
   font-family: var(--font-secondary);
-  font-size: 1.1rem;
+
+  font-size: 1.08rem;
   font-weight: 500;
+
   color: var(--dark);
+
   line-height: 1.35;
-  text-decoration: none;
+
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+
   overflow: hidden;
-  transition: color 0.2s;
+
+  transition: color 0.2s ease;
 }
 
 .body a:hover .title {
@@ -237,12 +297,14 @@
 }
 
 .desc {
-  font-size: 0.8rem;
+  font-size: 0.82rem;
   color: #888;
   line-height: 1.5;
+
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+
   overflow: hidden;
 }
 
@@ -250,6 +312,7 @@
   display: flex;
   align-items: center;
   gap: 6px;
+
   font-size: 0.8rem;
   color: #666;
 }
@@ -267,14 +330,17 @@
   display: flex;
   align-items: baseline;
   gap: 10px;
+
   margin-top: auto;
   padding-top: 8px;
 }
 
 .price {
   font-family: var(--font-secondary);
-  font-size: 1.35rem;
+
+  font-size: 1.32rem;
   font-weight: 600;
+
   color: var(--dark);
 }
 
@@ -288,40 +354,97 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
+
   font-size: 0.8rem;
   font-weight: 600;
+
   color: var(--gold);
+
   text-decoration: none;
+
   margin-top: 4px;
-  opacity: 0;
-  transform: translateY(4px);
-  transition: all 0.3s ease;
+
+  transition: opacity 0.2s ease;
 }
 
-.card:hover .viewLink {
-  opacity: 1;
-  transform: translateY(0);
-}
+/* ========================= */
+/* MOBILE RESPONSIVE */
+/* ========================= */
 
 @media (max-width: 768px) {
+  .card {
+    border-radius: 16px;
+  }
+
+  .imageWrap {
+    height: 180px;
+  }
+
+  .body {
+    padding: 14px;
+  }
+
+  .title {
+    font-size: 0.98rem;
+  }
+
+  .desc {
+    font-size: 0.76rem;
+  }
+
+  .price {
+    font-size: 1.15rem;
+  }
+
   .floatingActions {
     opacity: 1;
     transform: none;
+
     flex-direction: row;
+
     top: auto;
-    bottom: 56px;
+    bottom: 10px;
     right: 10px;
   }
 
+  .actionBtn {
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+  }
+
   .quickAdd {
-    transform: translateY(0);
-    position: relative;
-    background: linear-gradient(135deg, var(--gold), #d4a574);
-    border-radius: 0;
+    display: none;
   }
 
   .viewLink {
     opacity: 1;
-    transform: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .imageWrap {
+    height: 160px;
+  }
+
+  .body {
+    padding: 12px;
+  }
+
+  .title {
+    font-size: 0.92rem;
+  }
+
+  .desc {
+    font-size: 0.72rem;
+  }
+
+  .price {
+    font-size: 1.05rem;
+  }
+
+  .actionBtn {
+    width: 34px;
+    height: 34px;
   }
 }
