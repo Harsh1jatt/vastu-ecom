@@ -7,6 +7,7 @@ import pyramids from './pyramids.json';
 import rods from './rods.json';
 import devtaDivs from './devta-divs.json';
 import Yantras from './yantras.json';
+import Compass from './compass.json';
 
 /**
  * Aggregated products data from all category-wise JSON files
@@ -23,6 +24,7 @@ const productsData = [
   ...rods,
   ...devtaDivs,
   ...Yantras,
+  ...Compass
 ];
 
 export default productsData;

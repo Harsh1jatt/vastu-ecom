@@ -83,13 +83,25 @@ const mainMenus = {
     'व्यापार लॉकेट',
   ],
 
-  oils: [
-    'Essential Oils',
-    'Healing Oils',
-    'Meditation Oils',
-    'Aroma Oils',
-    'Anointing Oils',
+  energyvastu: [
+    'Kilak',
+    'Resin Articles',
+    'Energy Plates',
+    'Space Energizers',
+    'Vastu Remedies',
   ],
+
+  gemstones: [
+    'Gemstone Bracelet',
+    'Gemstone Pendant',
+    'Loose Gemstone',
+    'Rudraksha',
+    'Crystal Tree',
+    'Healing Crystal',
+    'Crystal Pyramid',
+    'Crystal Bracelet',
+  ],
+
 };
 
 
@@ -314,14 +326,6 @@ const Navbar = () => {
               >
                 <FiSearch />
               </button>
-
-              <Link
-                to="/account"
-                className={styles.iconBtn}
-              >
-                <FiUser />
-              </Link>
-
               <Link
                 to="/cart"
                 className={styles.iconBtn}

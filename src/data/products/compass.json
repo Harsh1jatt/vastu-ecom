@@ -1,0 +1,41 @@
+[
+  {
+    "id": "CMP001",
+    "title": "Prismatic Military Type Lensatic Compass",
+    "slug": "prismatic-military-type-lensatic-compass",
+    "category": "Compass",
+    "subcategory": "Compass",
+    "price": 699,
+    "discountPrice": 432,
+    "stock": true,
+    "rating": 4.0,
+    "reviews": 120,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "military compass",
+      "lensatic compass",
+      "prismatic compass",
+      "liquid compass",
+      "navigation compass",
+      "camping gear",
+      "hiking compass",
+      "survival tool",
+      "army compass",
+      "outdoor equipment"
+    ],
+    "images": [
+      "/products/compass/militry-compass.webp",
+      "/products/compass/militry-compass.webp"
+    ],
+    "shortDescription": "Military-style liquid prismatic lensatic compass for accurate outdoor navigation and direction finding.",
+    "description": "The Prismatic Military Type Lensatic Compass is a durable and reliable navigation tool designed for trekking, camping, hiking, survival training, and outdoor adventures. Built with a military-style lensatic design, it provides accurate directional readings with a liquid-filled mechanism for stable needle movement. Its rugged construction and portable design make it suitable for both beginners and professionals in outdoor navigation.",
+    "benefits": [
+      "Provides accurate directional guidance",
+      "Military-style lensatic design",
+      "Liquid-filled for smooth and stable readings",
+      "Durable and portable construction",
+      "Suitable for hiking, trekking, camping, and outdoor survival"
+    ]
+  }
+]
