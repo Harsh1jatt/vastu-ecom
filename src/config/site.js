@@ -1,5 +1,18 @@
-/** Site-wide config — edit WhatsApp number here */
+/** Site-wide config — edit contact details here */
 export const SITE_NAME = 'VASTU DIVINE';
-export const WHATSAPP_NUMBER = '917589434135';
+export const WHATSAPP_NUMBER = '919115175769'; // Default WhatsApp
+
 export const CONTACT_EMAIL = 'info@vastudivine.com';
-export const CONTACT_PHONE = '+91 98765 43210';
+
+export const CONTACT_PERSONS = [
+  {
+    name: 'Vansyka Achary',
+    phone: '+91 91151 75769',
+    whatsapp: '919115175769'
+  },
+  {
+    name: 'Manoj Kumar',
+    phone: '+91 91155 73937',
+    whatsapp: '919115573937'
+  }
+];

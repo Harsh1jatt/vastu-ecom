@@ -19,7 +19,7 @@ const Footer = () => {
               <span className={styles.logoText}>Vaastu Sanctuary</span>
             </div>
             <p className={styles.description}>
-              Premium spiritual products for your wellness journey. Experience the power of crystals, 
+              Premium spiritual products for your wellness journey. Experience the power of crystals,
               rudraksha, and healing remedies from around the world.
             </p>
             <div className={styles.social}>
@@ -77,22 +77,35 @@ const Footer = () => {
           {/* Contact Info */}
           <div className={styles.column}>
             <h4>Contact Us</h4>
+
             <div className={styles.contactInfo}>
               <p>
                 <strong>Email:</strong><br />
-                <a href="mailto:info@vaastusu.com">info@vaastusanctuary.com</a>
+                <a href="mailto:info@vastudivine.com">
+                  info@vastudivine.com
+                </a>
               </p>
+
               <p>
-                <strong>Phone:</strong><br />
-                <a href="tel:+919876543210">+91 98765 43210</a>
+                <strong>Vansyka Achary:</strong><br />
+                <a href="tel:+919115175769">
+                  +91 91151 75769
+                </a>
               </p>
+
+              <p>
+                <strong>Manoj Kumar:</strong><br />
+                <a href="tel:+919115573937">
+                  +91 91155 73937
+                </a>
+              </p>
+
               <p>
                 <strong>Address:</strong><br />
                 New Delhi, India
               </p>
             </div>
-          </div>
-        </div>
+          </div>        </div>
 
         {/* Bottom Footer */}
         <div className={styles.bottom}>
