@@ -36,7 +36,19 @@ const SearchBar = ({ isOpen, onClose }) => {
     navigate(`/shop?search=${encodeURIComponent(query)}`);
     onClose();
   };
+useEffect(() => {
+  const handleKeyDown = (e) => {
+    if (e.key === 'Escape') {
+      onClose();
+    }
+  };
 
+  window.addEventListener('keydown', handleKeyDown);
+
+  return () => {
+    window.removeEventListener('keydown', handleKeyDown);
+  };
+}, [onClose]);
   return (
     <AnimatePresence>
       {isOpen && (
@@ -64,12 +76,13 @@ const SearchBar = ({ isOpen, onClose }) => {
             <div className={styles.inputWrap}>
               <FiSearch size={22} />
               <input
-                ref={inputRef}
-                type="search"
-                placeholder="Crystals, rudraksha, vastu, bracelets..."
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-              />
+  ref={inputRef}
+  type="search"
+  placeholder="Search products..."
+  value={query}
+  onChange={(e) => setQuery(e.target.value)}
+  autoComplete="off"
+/>
             </div>
             {results.length > 0 && (
               <ul className={styles.results}>

@@ -12,17 +12,22 @@ const slides = [
   {
     id: 1,
     image: "/images/slide1.webp",
-    category: "/category/crystals",
+    category: "/vastu",
   },
   {
     id: 2,
-    image: "/images/slide1.webp",
-    category: "/category/pyramids",
+    image: "/images/slide2.webp",
+    category: "/energyvastu",
   },
   {
     id: 3,
-    image: "/images/slide1.webp",
-    category: "/category/vastu-remedies",
+    image: "/images/slide3.webp",
+    category: "/gemstones",
+  },
+  {
+    id: 4,
+    image: "/images/slide4.webp",
+    category: "/yantra",
   },
 ];
 
