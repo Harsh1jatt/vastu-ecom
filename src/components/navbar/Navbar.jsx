@@ -24,7 +24,7 @@ import { useCart } from '../../hooks/useCart';
 
 import SearchBar from '../common/SearchBar';
 
-import products from '../../data/products';
+import products from '../../data/products/';
 
 import styles from './Navbar.module.css';
 
@@ -83,12 +83,16 @@ const mainMenus = {
     'व्यापार लॉकेट',
   ],
 
-  energyvastu: [
-    'Kilak',
-    'Resin Articles',
-    'Energy Plates',
-    'Space Energizers',
-    'Vastu Remedies',
+energyvastu: [
+    'Brahmbooster',
+    'Foundation Remedy',
+    'Blocker',
+    'Shield',
+    'Opener',
+    'Zone Remedy',
+    'Direction Booster',
+    'Balancer',
+    'Protector',
   ],
 };
 
@@ -115,58 +119,65 @@ const Navbar = () => {
   // =========================
   // DYNAMIC MENU ITEMS
   // =========================
-  const menuItems = useMemo(() => {
-    return Object.entries(mainMenus).map(
-      ([menuSlug, allowedCategories]) => {
-        let filteredProducts = [];
-        let categories = [];
+ const menuItems = useMemo(() => {
 
-        // YANTRA
-        if (menuSlug === 'yantra') {
-          filteredProducts = products.filter(
-            (product) =>
-              allowedCategories.includes(
-                product.subcategory
-              )
-          );
+  console.log(
+    'Energy Vastu Products:',
+    products.filter(
+      p => p.category === 'Energy Vastu'
+    )
+  );
 
-          categories = [
-            ...new Set(
-              filteredProducts.map(
-                (product) => product.subcategory
-              )
-            ),
-          ];
-        }
+  return Object.entries(mainMenus).map(
+    ([menuSlug, allowedCategories]) => {
+      let filteredProducts = [];
+      let categories = [];
 
-        // NORMAL MENUS
-        else {
-          filteredProducts = products.filter(
-            (product) =>
-              allowedCategories.includes(
-                product.category
-              )
-          );
+      if (
+        menuSlug === 'yantra' ||
+        menuSlug === 'energyvastu'
+      ) {
+        filteredProducts = products.filter(
+          (product) =>
+            allowedCategories.includes(
+              product.subcategory
+            )
+        );
 
-          categories = [
-            ...new Set(
-              filteredProducts.map(
-                (product) => product.category
-              )
-            ),
-          ];
-        }
+        categories = [
+          ...new Set(
+            filteredProducts.map(
+              (product) => product.subcategory
+            )
+          ),
+        ];
+      } else {
+        filteredProducts = products.filter(
+          (product) =>
+            allowedCategories.includes(
+              product.category
+            )
+        );
 
-        return {
-          title:
-            menuSlug.charAt(0).toUpperCase() +
-            menuSlug.slice(1),
-          slug: menuSlug,
-          categories,
-        };
+        categories = [
+          ...new Set(
+            filteredProducts.map(
+              (product) => product.category
+            )
+          ),
+        ];
       }
-    );
-  }, []);
+
+      return {
+        title:
+          menuSlug.charAt(0).toUpperCase() +
+          menuSlug.slice(1),
+        slug: menuSlug,
+        categories,
+      };
+    }
+  );
+}, []);
 
 
 

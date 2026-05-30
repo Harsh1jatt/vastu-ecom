@@ -65,6 +65,17 @@ const categoryGroups = {
   gemstones: [
     'Gemstones',
   ],
+  energyvastu: [
+    'Brahmbooster',
+    'Foundation Remedy',
+    'Blocker',
+    'Shield',
+    'Opener',
+    'Zone Remedy',
+    'Direction Booster',
+    'Balancer',
+    'Protector',
+  ],
   bracelets: [
     'Healing Bracelets',
     'Protection Bracelets',
@@ -118,7 +129,7 @@ const CategoryPage = () => {
       // YANTRA SPECIAL CASE
       // =========================
 
-      if (category === 'yantra') {
+      if (category === 'yantra' || category === 'energyvastu') {
 
         return products.filter(
           (product) =>
@@ -143,10 +154,14 @@ const CategoryPage = () => {
     // =========================
 
     if (category === 'yantra') {
-
       return products.filter(
-        (product) =>
-          product.category === 'Yantra'
+        product => product.category === 'Yantra'
+      );
+    }
+
+    if (category === 'energyvastu') {
+      return products.filter(
+        product => product.category === 'Energy Vastu'
       );
     }
 
@@ -167,13 +182,13 @@ const CategoryPage = () => {
 
   const pageTitle =
     category === 'yantra' &&
-    decodedSubcategory
+      decodedSubcategory
       ? decodedSubcategory
       : currentTitle
-          ?.replace(/-/g, ' ')
-          .replace(/\b\w/g, (char) =>
-            char.toUpperCase()
-          );
+        ?.replace(/-/g, ' ')
+        .replace(/\b\w/g, (char) =>
+          char.toUpperCase()
+        );
 
   return (
     <div className={styles.page}>
@@ -182,7 +197,6 @@ const CategoryPage = () => {
 
       <section className={styles.hero}>
         <div className={styles.overlay}></div>
-
         <div className={styles.heroContent}>
 
           <motion.div
