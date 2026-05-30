@@ -1,25 +1,28 @@
 .hero {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: min(100vh, 900px);
+  min-height: 500px;
   overflow: hidden;
 }
 
 .slide {
   position: absolute;
   inset: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  background: #000;
 }
 
 .overlay {
   position: absolute;
   inset: 0;
-
   background: linear-gradient(
     to top,
     rgba(0, 0, 0, 0.45),
@@ -31,30 +34,26 @@
 
 .exploreBtn {
   position: absolute;
-
   left: 50%;
   bottom: 90px;
-
   transform: translateX(-50%);
-
   z-index: 5;
 
   text-decoration: none;
 
-  padding: 16px 36px;
-
+  padding: 16px 38px;
   border-radius: 999px;
 
-  background: #ffffff;
-
+  background: #fff;
   color: #111;
 
   font-weight: 700;
+  font-size: 1rem;
+  white-space: nowrap;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 
   transition: all 0.3s ease;
-
-  box-shadow:
-    0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .exploreBtn:hover {
@@ -65,21 +64,19 @@
 
 .arrow {
   position: absolute;
-
   top: 50%;
   transform: translateY(-50%);
 
-  width: 55px;
-  height: 55px;
+  width: 56px;
+  height: 56px;
 
   border: none;
   border-radius: 50%;
 
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(12px);
 
-  backdrop-filter: blur(10px);
-
-  color: white;
+  color: #fff;
 
   display: flex;
   align-items: center;
@@ -91,7 +88,7 @@
 
   z-index: 10;
 
-  transition: 0.3s;
+  transition: all 0.3s ease;
 }
 
 .arrow:hover {
@@ -99,24 +96,23 @@
 }
 
 .left {
-  left: 25px;
+  left: 24px;
 }
 
 .right {
-  right: 25px;
+  right: 24px;
 }
 
 /* DOTS */
 
 .dots {
   position: absolute;
-
   left: 50%;
   bottom: 30px;
-
   transform: translateX(-50%);
 
   display: flex;
+  align-items: center;
   gap: 10px;
 
   z-index: 10;
@@ -132,30 +128,121 @@
   background: rgba(255, 255, 255, 0.5);
 
   cursor: pointer;
+
+  transition: all 0.3s ease;
 }
 
 .activeDot {
-  width: 35px !important;
+  width: 34px !important;
+  border-radius: 999px !important;
+  background: #fff !important;
+}
 
-  border-radius: 30px !important;
+/* LARGE DESKTOP */
 
-  background: white !important;
+@media (min-width: 1600px) {
+  .exploreBtn {
+    padding: 18px 42px;
+    font-size: 1.05rem;
+  }
+
+  .arrow {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+/* TABLET */
+
+@media (max-width: 992px) {
+  .hero {
+    height: 80vh;
+    min-height: 450px;
+  }
+
+  .exploreBtn {
+    bottom: 80px;
+    padding: 14px 32px;
+  }
+
+  .arrow {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 /* MOBILE */
 
 @media (max-width: 768px) {
   .hero {
-    height: 80vh;
-  }
-
-  .arrow {
-    width: 45px;
-    height: 45px;
+    height: 70vh;
+    min-height: 380px;
   }
 
   .exploreBtn {
-    padding: 14px 28px;
+    bottom: 70px;
+    padding: 13px 28px;
     font-size: 0.95rem;
+  }
+
+  .arrow {
+    width: 42px;
+    height: 42px;
+    font-size: 1.1rem;
+  }
+
+  .left {
+    left: 12px;
+  }
+
+  .right {
+    right: 12px;
+  }
+
+  .dots {
+    bottom: 20px;
+  }
+}
+
+/* SMALL MOBILE */
+
+@media (max-width: 480px) {
+  .hero {
+    height: 60vh;
+    min-height: 320px;
+  }
+
+  .exploreBtn {
+    bottom: 60px;
+    padding: 12px 24px;
+    font-size: 0.9rem;
+  }
+
+  .arrow {
+    width: 38px;
+    height: 38px;
+    font-size: 1rem;
+  }
+
+  .dots button {
+    width: 10px;
+    height: 10px;
+  }
+
+  .activeDot {
+    width: 28px !important;
+  }
+}
+
+/* VERY SMALL DEVICES */
+
+@media (max-width: 360px) {
+  .exploreBtn {
+    padding: 10px 20px;
+    font-size: 0.85rem;
+  }
+
+  .hero {
+    min-height: 280px;
   }
 }

@@ -1,0 +1,492 @@
+[
+    {
+        "id": "GEM001",
+        "title": "Blue Sapphire (Neelam)",
+        "slug": "blue-sapphire-neelam",
+        "category": "Gemstones",
+        "subcategory": "Precious Gemstones",
+        "price": 14999,
+        "discountPrice": 12999,
+        "stock": true,
+        "rating": 4.9,
+        "reviews": 186,
+        "featured": true,
+        "bestSeller": true,
+        "tags": [
+            "blue sapphire",
+            "neelam",
+            "saturn stone",
+            "astrology gemstone",
+            "natural sapphire"
+        ],
+        "images": [
+            "/products/gemstones/blue-sapphire.webp",
+            "/products/gemstones/blue-sapphire.webp"
+        ],
+        "shortDescription": "Natural Blue Sapphire (Neelam) gemstone associated with the planet Saturn. Known for its deep blue brilliance and astrological significance, this gemstone is traditionally worn to enhance focus, discipline, confidence, and professional success.",
+        "description": "Blue Sapphire, popularly known as Neelam, is one of the most powerful gemstones in Vedic astrology and is associated with the planet Saturn (Shani). This beautiful blue gemstone is admired for its rich color, exceptional clarity, and strong astrological importance. It is believed to enhance concentration, discipline, determination, and confidence while helping individuals overcome obstacles in their personal and professional lives. Neelam is often recommended for career growth, financial stability, and improved decision-making abilities. Many people wear this gemstone to strengthen Saturn's positive influence and attract success, prosperity, and long-term stability. Carefully selected for quality and authenticity, this gemstone combines beauty with spiritual significance.",
+        "benefits": [
+            "Supports career growth",
+            "Improves focus",
+            "Enhances confidence",
+            "Associated with Saturn",
+            "Promotes discipline"
+        ]
+    },
+    {
+        "id": "GEM002",
+        "title": "Yellow Sapphire (Pukhraj)",
+        "slug": "yellow-sapphire-pukhraj",
+        "category": "Gemstones",
+        "subcategory": "Precious Gemstones",
+        "price": 11999,
+        "discountPrice": 9999,
+        "stock": true,
+        "rating": 4.8,
+        "reviews": 164,
+        "featured": true,
+        "bestSeller": true,
+        "tags": [
+            "yellow sapphire",
+            "pukhraj",
+            "jupiter stone",
+            "guru ratna"
+        ],
+        "images": [
+            "/products/gemstones/pukhraj.webp",
+            "/products/gemstones/pukhraj.webp"
+        ],
+        "shortDescription": "Premium Yellow Sapphire (Pukhraj) gemstone associated with Jupiter. Traditionally valued for attracting prosperity, wisdom, success, and positive opportunities in life.",
+        "description": "Yellow Sapphire, commonly known as Pukhraj, is a highly respected gemstone connected with the planet Jupiter (Guru). Renowned for its vibrant golden-yellow appearance, this gemstone symbolizes wisdom, prosperity, and spiritual growth. It is believed to help attract financial abundance, educational success, and positive relationships. Pukhraj is often worn by individuals seeking stability, better decision-making abilities, and professional advancement. Its uplifting energy is said to promote optimism, confidence, and clarity of thought. This gemstone has been treasured for centuries for its ability to support growth, good fortune, and personal development while enhancing the positive influence of Jupiter.",
+        "benefits": [
+            "Attracts prosperity",
+            "Enhances wisdom",
+            "Supports education",
+            "Improves decision making",
+            "Associated with Jupiter"
+        ]
+    },
+    {
+        "id": "GEM003",
+        "title": "Emerald (Panna)",
+        "slug": "emerald-panna",
+        "category": "Gemstones",
+        "subcategory": "Precious Gemstones",
+        "price": 9999,
+        "discountPrice": 8499,
+        "stock": true,
+        "rating": 4.8,
+        "reviews": 143,
+        "featured": true,
+        "bestSeller": true,
+        "tags": [
+            "emerald",
+            "panna",
+            "mercury stone",
+            "business gemstone"
+        ],
+        "images": [
+            "/products/gemstones/panna.webp",
+            "/products/gemstones/panna.webp"
+        ],
+        "shortDescription": "Natural Emerald (Panna) gemstone associated with Mercury. Known for supporting communication, intelligence, creativity, and business success.",
+        "description": "Emerald, popularly called Panna, is a stunning green gemstone associated with the planet Mercury (Budh). It is widely recognized for enhancing communication skills, memory, creativity, and intellectual abilities. Panna is often recommended for students, professionals, entrepreneurs, and individuals involved in communication-based careers. It is believed to improve analytical thinking, confidence, and decision-making while encouraging innovation and personal growth. This gemstone is also associated with business success and financial progress. Carefully selected for its vibrant green color and quality, Emerald remains one of the most valued gemstones for both astrological and ornamental purposes.",
+        "benefits": [
+            "Improves communication",
+            "Enhances memory",
+            "Supports creativity",
+            "Business success",
+            "Associated with Mercury"
+        ]
+    },
+    {
+        "id": "GEM004",
+        "title": "Ruby (Manik)",
+        "slug": "ruby-manik",
+        "category": "Gemstones",
+        "subcategory": "Precious Gemstones",
+        "price": 12999,
+        "discountPrice": 10999,
+        "stock": true,
+        "rating": 4.9,
+        "reviews": 172,
+        "featured": true,
+        "bestSeller": true,
+        "tags": [
+            "ruby",
+            "manik",
+            "sun stone",
+            "leadership gemstone"
+        ],
+        "images": [
+            "/products/gemstones/manik.webp",
+            "/products/gemstones/manik.webp"
+        ],
+        "shortDescription": "Premium Ruby (Manik) gemstone associated with the Sun. Revered for enhancing confidence, leadership, authority, and personal strength.",
+        "description": "Ruby, also known as Manik, is a magnificent red gemstone associated with the Sun. Known as the gemstone of royalty and leadership, it symbolizes confidence, courage, and authority. Ruby is believed to strengthen self-esteem, motivation, and determination while helping individuals develop leadership qualities. It is often recommended for those seeking recognition, success, and influence in their professional and personal lives. Its vibrant red color represents passion, energy, and vitality. Carefully crafted and selected for its brilliance, Ruby remains a timeless gemstone valued for both its beauty and powerful astrological significance.",
+        "benefits": [
+            "Boosts confidence",
+            "Supports leadership",
+            "Improves self-esteem",
+            "Associated with Sun",
+            "Enhances motivation"
+        ]
+    },
+    {
+        "id": "GEM005",
+        "title": "Pearl (Moti)",
+        "slug": "pearl-moti",
+        "category": "Gemstones",
+        "subcategory": "Organic Gemstones",
+        "price": 4999,
+        "discountPrice": 3999,
+        "stock": true,
+        "rating": 4.7,
+        "reviews": 128,
+        "featured": true,
+        "bestSeller": false,
+        "tags": [
+            "pearl",
+            "moti",
+            "moon stone",
+            "calming gemstone"
+        ],
+        "images": [
+            "/products/gemstones/moti.webp",
+            "/products/gemstones/moti.webp"
+        ],
+        "shortDescription": "Natural Pearl (Moti) gemstone associated with the Moon. Traditionally worn for emotional balance, calmness, and mental peace.",
+        "description": "Pearl, commonly known as Moti, is a beautiful organic gemstone associated with the Moon. Celebrated for its soothing appearance and calming energy, Pearl is believed to promote emotional stability, mental clarity, and inner peace. It is often worn by individuals seeking relief from stress, anxiety, and emotional imbalance. Moti is associated with nurturing qualities, compassion, and harmony in relationships. Its gentle energy supports calm decision-making and improved concentration while enhancing positivity and confidence. Highly valued for its elegance and spiritual significance, Pearl remains a popular gemstone for both jewelry and astrological purposes.",
+        "benefits": [
+            "Promotes peace",
+            "Emotional balance",
+            "Enhances calmness",
+            "Moon energy",
+            "Mental clarity"
+        ]
+    },
+    {
+        "id": "GEM006",
+        "title": "Diamond (Heera)",
+        "slug": "diamond-heera",
+        "category": "Gemstones",
+        "subcategory": "Precious Gemstones",
+        "price": 24999,
+        "discountPrice": 21999,
+        "stock": true,
+        "rating": 4.9,
+        "reviews": 211,
+        "featured": true,
+        "bestSeller": true,
+        "tags": [
+            "diamond",
+            "heera",
+            "venus gemstone",
+            "luxury stone"
+        ],
+        "images": [
+            "/products/gemstones/diamond.webp",
+            "/products/gemstones/diamond.webp"
+        ],
+        "shortDescription": "Premium Diamond (Heera) gemstone associated with Venus. Symbolizes luxury, beauty, prosperity, and relationship harmony.",
+        "description": "Diamond, known as Heera, is one of the most precious and admired gemstones in the world. Associated with the planet Venus, it represents luxury, elegance, beauty, and prosperity. Diamond is believed to enhance charm, confidence, creativity, and social appeal while promoting harmonious relationships. Many people wear Heera to attract abundance, success, and emotional fulfillment. Its exceptional brilliance and timeless beauty make it a favorite choice for fine jewelry. Beyond its aesthetic appeal, Diamond is also valued for its astrological significance and ability to strengthen Venus-related qualities.",
+        "benefits": [
+            "Attracts luxury",
+            "Enhances charm",
+            "Supports relationships",
+            "Associated with Venus",
+            "Promotes prosperity"
+        ]
+    },
+    {
+        "id": "GEM007",
+        "title": "Red Coral (Moonga)",
+        "slug": "red-coral-moonga",
+        "category": "Gemstones",
+        "subcategory": "Organic Gemstones",
+        "price": 6999,
+        "discountPrice": 5499,
+        "stock": true,
+        "rating": 4.8,
+        "reviews": 137,
+        "featured": true,
+        "bestSeller": true,
+        "tags": [
+            "moonga",
+            "red coral",
+            "mars gemstone",
+            "energy stone"
+        ],
+        "images": [
+            "/products/gemstones/moonga.webp",
+            "/products/gemstones/moonga.webp"
+        ],
+        "shortDescription": "Natural Red Coral (Moonga) gemstone associated with Mars. Known for enhancing courage, confidence, energy, and determination.",
+        "description": "Red Coral, popularly known as Moonga, is an organic gemstone associated with the planet Mars. It is widely recognized for promoting strength, courage, determination, and physical vitality. Moonga is believed to help individuals overcome fear, increase confidence, and improve decision-making abilities. Often recommended for professionals, athletes, and individuals facing challenges, this gemstone supports motivation and resilience. Its vibrant red color symbolizes power and action, making it an ideal gemstone for those seeking success and personal growth. Carefully selected for quality and authenticity, Red Coral combines spiritual significance with natural beauty.",
+        "benefits": [
+            "Boosts courage",
+            "Enhances energy",
+            "Supports confidence",
+            "Associated with Mars",
+            "Improves determination"
+        ]
+    },
+    {
+        "id": "GEM008",
+        "title": "Cat's Eye (Lahsuniya)",
+        "slug": "cats-eye-lahsuniya",
+        "category": "Gemstones",
+        "subcategory": "Semi Precious Gemstones",
+        "price": 7999,
+        "discountPrice": 6499,
+        "stock": true,
+        "rating": 4.7,
+        "reviews": 104,
+        "featured": false,
+        "bestSeller": true,
+        "tags": [
+            "cat eye",
+            "lahsuniya",
+            "ketu gemstone",
+            "protection stone"
+        ],
+        "images": [
+            "/products/gemstones/cat-eye.webp",
+            "/products/gemstones/cat-eye.webp"
+        ],
+        "shortDescription": "Protective Cat's Eye (Lahsuniya) gemstone associated with Ketu. Traditionally worn for protection, intuition, and spiritual growth.",
+        "description": "Cat's Eye, also known as Lahsuniya, is a unique gemstone associated with the shadow planet Ketu. Recognized for its distinctive reflective appearance, this gemstone is believed to offer protection against negative influences and unexpected challenges. It is often worn to enhance intuition, spiritual awareness, and inner strength. Lahsuniya is considered beneficial for individuals seeking stability, confidence, and protection during difficult periods. Its powerful energy is associated with transformation, self-discovery, and personal growth. This gemstone remains highly valued for both its mystical appearance and astrological importance.",
+        "benefits": [
+            "Protection from negativity",
+            "Spiritual growth",
+            "Improves intuition",
+            "Associated with Ketu",
+            "Promotes confidence"
+        ]
+    },
+    {
+        "id": "GEM009",
+        "title": "Gomed (Hessonite Garnet)",
+        "slug": "gomed-hessonite",
+        "category": "Gemstones",
+        "subcategory": "Semi Precious Gemstones",
+        "price": 6499,
+        "discountPrice": 4999,
+        "stock": true,
+        "rating": 4.6,
+        "reviews": 98,
+        "featured": false,
+        "bestSeller": true,
+        "tags": [
+            "gomed",
+            "hessonite",
+            "rahu gemstone"
+        ],
+        "images": [
+            "/products/gemstones/gomed.webp",
+            "/products/gemstones/gomed.webp"
+        ],
+        "shortDescription": "Natural Gomed gemstone associated with Rahu. Known for improving clarity, confidence, and decision-making abilities.",
+        "description": "Gomed, also called Hessonite Garnet, is a significant gemstone associated with Rahu. It is traditionally worn to improve mental clarity, concentration, and confidence while reducing confusion and uncertainty. Many people choose Gomed to enhance their decision-making abilities and maintain emotional balance during challenging situations. This gemstone is believed to support professional growth, self-confidence, and personal stability. Its warm honey-colored appearance adds to its visual appeal while its astrological significance makes it a popular choice among gemstone enthusiasts.",
+        "benefits": [
+            "Mental clarity",
+            "Confidence",
+            "Decision making",
+            "Associated with Rahu",
+            "Removes confusion"
+        ]
+    },
+    {
+        "id": "GEM010",
+        "title": "Sunhela (Citrine)",
+        "slug": "sunhela-citrine",
+        "category": "Gemstones",
+        "subcategory": "Semi Precious Gemstones",
+        "price": 4999,
+        "discountPrice": 3499,
+        "stock": true,
+        "rating": 4.7,
+        "reviews": 84,
+        "featured": false,
+        "bestSeller": false,
+        "tags": [
+            "sunhela",
+            "citrine",
+            "wealth stone",
+            "prosperity gemstone"
+        ],
+        "images": [
+            "/products/gemstones/sunhela.webp",
+            "/products/gemstones/sunhela.webp"
+        ],
+        "shortDescription": "Natural Sunhela (Citrine) gemstone known for prosperity, positivity, confidence, and abundance.",
+        "description": "Sunhela, commonly known as Citrine, is a bright yellow gemstone associated with prosperity and success. It is believed to attract abundance, financial growth, and positive opportunities while encouraging confidence and optimism. Citrine is often called the \"Merchant's Stone\" because of its association with wealth and business success. Its uplifting energy promotes creativity, motivation, and enthusiasm. Carefully selected for its vibrant color and quality, Sunhela remains a popular gemstone for individuals seeking prosperity, happiness, and personal growth.",
+        "benefits": [
+            "Attracts prosperity",
+            "Promotes positivity",
+            "Supports business growth",
+            "Enhances confidence",
+            "Good luck stone"
+        ]
+    },
+    {
+        "id": "GEM011",
+        "title": "South Sea Pearl",
+        "slug": "south-sea-pearl",
+        "category": "Gemstones",
+        "subcategory": "Organic Gemstones",
+        "price": 15999,
+        "discountPrice": 13999,
+        "stock": true,
+        "rating": 4.9,
+        "reviews": 73,
+        "featured": true,
+        "bestSeller": false,
+        "tags": [
+            "south sea pearl",
+            "luxury pearl",
+            "premium pearl"
+        ],
+        "images": [
+            "/products/gemstones/south-sea-pearl.webp",
+            "/products/gemstones/south-sea-pearl.webp"
+        ],
+        "shortDescription": "Premium South Sea Pearl known for its rarity, elegance, beauty, and luxurious appearance.",
+        "description": "South Sea Pearl is one of the most prestigious and sought-after pearls in the world. Renowned for its exceptional size, natural luster, and rarity, it symbolizes elegance, luxury, and sophistication. These pearls are carefully cultivated and admired for their smooth surface and beautiful glow. South Sea Pearls are believed to promote calmness, emotional balance, and inner harmony while enhancing personal elegance. Their timeless appeal makes them a prized choice for collectors and jewelry enthusiasts alike.",
+        "benefits": [
+            "Luxury appeal",
+            "Promotes calmness",
+            "Enhances elegance",
+            "Moon energy",
+            "Premium quality"
+        ]
+    },
+    {
+        "id": "GEM012",
+        "title": "Sulemani Hakik",
+        "slug": "sulemani-hakik",
+        "category": "Gemstones",
+        "subcategory": "Semi Precious Gemstones",
+        "price": 2999,
+        "discountPrice": 1999,
+        "stock": true,
+        "rating": 4.6,
+        "reviews": 91,
+        "featured": false,
+        "bestSeller": true,
+        "tags": [
+            "sulemani hakik",
+            "agate stone",
+            "protection gemstone"
+        ],
+        "images": [
+            "/products/gemstones/sulemani-hakik.webp",
+            "/products/gemstones/sulemani-hakik.webp"
+        ],
+        "shortDescription": "Traditional Sulemani Hakik gemstone valued for protection, grounding energy, and spiritual balance.",
+        "description": "Sulemani Hakik is a powerful protective gemstone traditionally associated with stability and grounding energy. It is believed to help remove negative influences, enhance emotional strength, and promote mental clarity. This gemstone is often worn by individuals seeking protection, confidence, and spiritual growth. Its unique appearance and strong cultural significance have made it a popular choice for centuries. Sulemani Hakik supports balance, positivity, and inner peace while serving as a meaningful spiritual companion.",
+        "benefits": [
+            "Protection",
+            "Grounding energy",
+            "Mental stability",
+            "Removes negativity",
+            "Spiritual balance"
+        ]
+    },
+    {
+        "id": "GEM013",
+        "title": "Topaz",
+        "slug": "topaz-stone",
+        "category": "Gemstones",
+        "subcategory": "Semi Precious Gemstones",
+        "price": 5499,
+        "discountPrice": 4499,
+        "stock": true,
+        "rating": 4.7,
+        "reviews": 87,
+        "featured": false,
+        "bestSeller": false,
+        "tags": [
+            "topaz",
+            "yellow topaz",
+            "success stone"
+        ],
+        "images": [
+            "/products/gemstones/topaz.webp",
+            "/products/gemstones/topaz.webp"
+        ],
+        "shortDescription": "Natural Topaz gemstone associated with positivity, creativity, confidence, and success.",
+        "description": "Topaz is a beautiful gemstone admired for its vibrant appearance and positive energy. It is believed to enhance confidence, creativity, and optimism while supporting personal and professional growth. Many individuals wear Topaz to improve mental clarity, communication skills, and emotional balance. This gemstone is associated with success, positivity, and self-expression, making it a valuable choice for those seeking motivation and inspiration. Its attractive appearance and spiritual significance contribute to its lasting popularity.",
+        "benefits": [
+            "Boosts confidence",
+            "Enhances creativity",
+            "Positive energy",
+            "Success stone",
+            "Mental clarity"
+        ]
+    },
+    {
+        "id": "GEM014",
+        "title": "Firoza (Turquoise)",
+        "slug": "firoza-turquoise",
+        "category": "Gemstones",
+        "subcategory": "Semi Precious Gemstones",
+        "price": 5999,
+        "discountPrice": 4799,
+        "stock": true,
+        "rating": 4.8,
+        "reviews": 96,
+        "featured": true,
+        "bestSeller": false,
+        "tags": [
+            "firoza",
+            "turquoise",
+            "good luck stone"
+        ],
+        "images": [
+            "/products/gemstones/firoza.webp",
+            "/products/gemstones/firoza.webp"
+        ],
+        "shortDescription": "Natural Firoza (Turquoise) gemstone known for luck, protection, confidence, and positive energy.",
+        "description": "Firoza, also known as Turquoise, is a striking gemstone treasured for its vibrant blue-green color and protective qualities. Traditionally worn as a symbol of good fortune, it is believed to attract positive energy, confidence, and success. Many people wear Firoza for protection during travel and to strengthen emotional balance. Its calming energy supports mental clarity and encourages optimism. This gemstone has been valued across cultures for centuries as a symbol of protection, prosperity, and spiritual well-being.",
+        "benefits": [
+            "Good luck",
+            "Protection",
+            "Positive energy",
+            "Travel safety",
+            "Confidence"
+        ]
+    },
+    {
+        "id": "GEM015",
+        "title": "Opal Stone",
+        "slug": "opal-stone",
+        "category": "Gemstones",
+        "subcategory": "Semi Precious Gemstones",
+        "price": 8999,
+        "discountPrice": 7499,
+        "stock": true,
+        "rating": 4.8,
+        "reviews": 118,
+        "featured": true,
+        "bestSeller": true,
+        "tags": [
+            "opal",
+            "venus gemstone",
+            "love stone"
+        ],
+        "images": [
+            "/products/gemstones/opal.webp",
+            "/products/gemstones/opal.webp"
+        ],
+        "shortDescription": "Beautiful Opal gemstone associated with Venus. Known for enhancing creativity, love, beauty, and emotional expression.",
+        "description": "Opal is a captivating gemstone admired for its unique play of colors and strong association with Venus. It is believed to enhance creativity, romance, emotional balance, and artistic expression. Opal is often worn by individuals seeking harmony in relationships, increased confidence, and personal growth. Its mesmerizing appearance symbolizes beauty, inspiration, and positivity. Valued for both its visual appeal and astrological significance, Opal remains one of the most desirable gemstones for those seeking elegance and spiritual enrichment.",
+        "benefits": [
+            "Enhances creativity",
+            "Promotes love",
+            "Attracts beauty",
+            "Associated with Venus",
+            "Emotional balance"
+        ]
+    }
+]

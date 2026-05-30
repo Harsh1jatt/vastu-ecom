@@ -62,7 +62,9 @@ const categoryGroups = {
     'ग्रह यंत्र',
     'धन यंत्र',
   ],
-
+  gemstones: [
+    'Gemstones',
+  ],
   bracelets: [
     'Healing Bracelets',
     'Protection Bracelets',
@@ -87,13 +89,7 @@ const categoryGroups = {
     'Rudraksha Malas',
   ],
 
-  oils: [
-    'Essential Oils',
-    'Healing Oils',
-    'Meditation Oils',
-    'Aroma Oils',
-    'Anointing Oils',
-  ],
+
 };
 
 const CategoryPage = () => {

@@ -1,8 +1,16 @@
 /** Site-wide config — edit contact details here */
+
 export const SITE_NAME = 'VASTU DIVINE';
-export const WHATSAPP_NUMBER = '919115175769'; // Default WhatsApp
 
 export const CONTACT_EMAIL = 'info@vastudivine.com';
+
+export const ADDRESS = {
+  line1: 'New Delhi',
+  line2: 'India',
+  full: 'New Delhi, India'
+};
+
+export const WHATSAPP_NUMBER = '919115175769';
 
 export const CONTACT_PERSONS = [
   {

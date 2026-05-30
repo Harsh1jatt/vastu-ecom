@@ -90,18 +90,6 @@ const mainMenus = {
     'Space Energizers',
     'Vastu Remedies',
   ],
-
-  gemstones: [
-    'Gemstone Bracelet',
-    'Gemstone Pendant',
-    'Loose Gemstone',
-    'Rudraksha',
-    'Crystal Tree',
-    'Healing Crystal',
-    'Crystal Pyramid',
-    'Crystal Bracelet',
-  ],
-
 };
 
 
@@ -130,13 +118,10 @@ const Navbar = () => {
   const menuItems = useMemo(() => {
     return Object.entries(mainMenus).map(
       ([menuSlug, allowedCategories]) => {
-
         let filteredProducts = [];
+        let categories = [];
 
-        // =========================
-        // SPECIAL CASE FOR YANTRA
-        // =========================
-
+        // YANTRA
         if (menuSlug === 'yantra') {
           filteredProducts = products.filter(
             (product) =>
@@ -144,32 +129,39 @@ const Navbar = () => {
                 product.subcategory
               )
           );
-        } else {
+
+          categories = [
+            ...new Set(
+              filteredProducts.map(
+                (product) => product.subcategory
+              )
+            ),
+          ];
+        }
+
+        // NORMAL MENUS
+        else {
           filteredProducts = products.filter(
             (product) =>
               allowedCategories.includes(
                 product.category
               )
           );
-        }
 
-        const categories = [
-          ...new Set(
-            filteredProducts.map((product) =>
-              menuSlug === 'yantra'
-                ? product.subcategory
-                : product.category
-            )
-          ),
-        ];
+          categories = [
+            ...new Set(
+              filteredProducts.map(
+                (product) => product.category
+              )
+            ),
+          ];
+        }
 
         return {
           title:
             menuSlug.charAt(0).toUpperCase() +
             menuSlug.slice(1),
-
           slug: menuSlug,
-
           categories,
         };
       }
@@ -303,7 +295,12 @@ const Navbar = () => {
                   </AnimatePresence>
                 </div>
               ))}
-
+              <NavLink
+                to="/gemstones"
+                className={styles.navLink}
+              >
+                Gemstones
+              </NavLink>
               <NavLink
                 to="/shop"
                 className={styles.navLink}
@@ -488,7 +485,12 @@ const Navbar = () => {
                     </AnimatePresence>
                   </div>
                 ))}
-
+                <NavLink
+                  to="/gemstones"
+                  className={styles.navLink}
+                >
+                  Gemstones
+                </NavLink>
                 <NavLink
                   to="/shop"
                   className={styles.drawerLink}

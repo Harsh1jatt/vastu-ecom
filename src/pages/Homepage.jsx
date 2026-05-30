@@ -74,6 +74,7 @@ const Homepage = () => {
             subtitle="Every piece is hand-selected for authenticity, energy and intention."
           />
           <div className={styles.categoryGrid}>
+
             {categories.map((cat, i) => {
               const categoryProducts = getProductsByCategory(cat);
               const previewProducts = categoryProducts.slice(0, 3);
@@ -93,22 +94,22 @@ const Homepage = () => {
                   >
                     <span className={styles.catNumber}>{String(i + 1).padStart(2, '0')}</span>
                     <div className={styles.categoryPreview}>
-  {previewProducts.map((product, index) => (
-    <div
-      key={product.id}
-      className={styles.previewCard}
-      style={{
-        zIndex: 3 - index,
-        transform: `translateX(${index * 18}px) translateY(${index * 8}px)`
-      }}
-    >
-      <img
-        src={product.images?.[0] || product.image}
-        alt={product.title}
-      />
-    </div>
-  ))}
-</div>
+                      {previewProducts.map((product, index) => (
+                        <div
+                          key={product.id}
+                          className={styles.previewCard}
+                          style={{
+                            zIndex: 3 - index,
+                            transform: `translateX(${index * 18}px) translateY(${index * 8}px)`
+                          }}
+                        >
+                          <img
+                            src={product.images?.[0] || product.image}
+                            alt={product.title}
+                          />
+                        </div>
+                      ))}
+                    </div>
                     <h3>{cat}</h3>
                     <p>{count} products</p>
                     <span className={styles.catArrow}>

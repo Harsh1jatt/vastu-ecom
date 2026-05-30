@@ -3,7 +3,12 @@ import { Link } from 'react-router-dom';
 import { FiFacebook, FiInstagram, FiTwitter, FiLinkedin } from 'react-icons/fi';
 import { getCategories, getCategorySlug } from '../../utils/productUtils';
 import styles from './Footer.module.css';
-
+import {
+  SITE_NAME,
+  CONTACT_EMAIL,
+  CONTACT_PERSONS,
+  ADDRESS
+} from '../../config/site';
 const Footer = () => {
   const categories = getCategories();
   const currentYear = new Date().getFullYear();
@@ -16,11 +21,11 @@ const Footer = () => {
           {/* About Section */}
           <div className={styles.column}>
             <div className={styles.logo}>
-              <span className={styles.logoText}>Vaastu Sanctuary</span>
+              <span className={styles.logoText}>{SITE_NAME}</span>
             </div>
             <p className={styles.description}>
-              Premium spiritual products for your wellness journey. Experience the power of crystals,
-              rudraksha, and healing remedies from around the world.
+              Welcome to {SITE_NAME}, your trusted destination for authentic
+              Vastu, spiritual, and energy-balancing products.
             </p>
             <div className={styles.social}>
               <a href="#" className={styles.socialLink} aria-label="Facebook">
@@ -75,42 +80,37 @@ const Footer = () => {
           </div>
 
           {/* Contact Info */}
-          <div className={styles.column}>
-            <h4>Contact Us</h4>
+          <div className={styles.contactInfo}>
+            <p>
+              <strong>Email:</strong>
+              <br />
+              <a href={`mailto:${CONTACT_EMAIL}`}>
+                {CONTACT_EMAIL}
+              </a>
+            </p>
 
-            <div className={styles.contactInfo}>
-              <p>
-                <strong>Email:</strong><br />
-                <a href="mailto:info@vastudivine.com">
-                  info@vastudivine.com
+            {CONTACT_PERSONS.map((person) => (
+              <p key={person.phone}>
+                <strong>{person.name}:</strong>
+                <br />
+                <a href={`tel:${person.phone.replace(/\s/g, '')}`}>
+                  {person.phone}
                 </a>
               </p>
+            ))}
 
-              <p>
-                <strong>Vansyka Achary:</strong><br />
-                <a href="tel:+919115175769">
-                  +91 91151 75769
-                </a>
-              </p>
-
-              <p>
-                <strong>Manoj Kumar:</strong><br />
-                <a href="tel:+919115573937">
-                  +91 91155 73937
-                </a>
-              </p>
-
-              <p>
-                <strong>Address:</strong><br />
-                New Delhi, India
-              </p>
-            </div>
-          </div>        </div>
+            <p>
+              <strong>Address:</strong>
+              <br />
+              {ADDRESS.full}
+            </p>
+          </div>
+        </div>
 
         {/* Bottom Footer */}
         <div className={styles.bottom}>
           <div className={styles.copyright}>
-            <p>&copy; {currentYear} Vaastu Sanctuary. All rights reserved.</p>
+            <p>&copy; {currentYear} {SITE_NAME}. All rights reserved.</p>
           </div>
           <div className={styles.payments}>
             <span>We Accept:</span>
