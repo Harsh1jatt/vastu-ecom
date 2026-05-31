@@ -20,6 +20,7 @@ import {
   ShippingPolicy,
   NotFound,
 } from '../pages';
+import ScrollToTopOnRouteChange from '../components/common/ScrollToTopOnRouteChange';
 
 const pageVariants = {
   initial: { opacity: 0, y: 12 },
@@ -75,6 +76,7 @@ function AnimatedRoutes() {
 function AppRoutes() {
   return (
     <Router>
+      <ScrollToTopOnRouteChange />
       <CartProvider>
         <WishlistProvider>
           <ToastProvider>

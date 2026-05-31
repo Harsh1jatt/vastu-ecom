@@ -5,8 +5,8 @@
     "slug": "mahakali-yantra-bhojpatra",
     "category": "Yantra",
     "subcategory": "दैवीय यंत्र",
-    "price": 1499,
-    "discountPrice": 1199,
+    "price": 5999,
+    "discountPrice": 5100,
     "stock": true,
     "rating": 4.9,
     "reviews": 124,
@@ -18,7 +18,7 @@
       "सुरक्षा",
       "नकारात्मक ऊर्जा",
       "शक्ति",
-      "तांत्रिक सुरक्षा",
+      "तांत्रिक सुरक्षा",   
       "दैवीय यंत्र",
       "काली माता"
     ],
@@ -42,8 +42,8 @@
     "slug": "saraswati-yantra-sidh-bhojpatra",
     "category": "Yantra",
     "subcategory": "शिक्षा यंत्र",
-    "price": 1299,
-    "discountPrice": 999,
+    "price": 5999,
+    "discountPrice": 5100,
     "stock": true,
     "rating": 4.8,
     "reviews": 98,
@@ -79,8 +79,8 @@
     "slug": "baglamukhi-yantra-bhojpatra",
     "category": "Yantra",
     "subcategory": "सुरक्षा यंत्र",
-    "price": 1599,
-    "discountPrice": 1299,
+    "price": 5999,
+    "discountPrice": 5100,
     "stock": true,
     "rating": 4.9,
     "reviews": 110,
@@ -116,8 +116,8 @@
     "slug": "vyapar-vraddhi-yantra",
     "category": "Yantra",
     "subcategory": "व्यापार यंत्र",
-    "price": 1399,
-    "discountPrice": 1099,
+    "price": 5999,
+    "discountPrice": 5100,
     "stock": true,
     "rating": 4.8,
     "reviews": 87,
@@ -153,8 +153,8 @@
     "slug": "mangal-yantra-bhojpatra",
     "category": "Yantra",
     "subcategory": "ग्रह यंत्र",
-    "price": 1299,
-    "discountPrice": 999,
+    "price": 5999,
+    "discountPrice": 5100,
     "stock": true,
     "rating": 4.7,
     "reviews": 76,
@@ -190,8 +190,8 @@
     "slug": "durga-bisa-yantra-bhojpatra",
     "category": "Yantra",
     "subcategory": "सुरक्षा यंत्र",
-    "price": 1499,
-    "discountPrice": 1199,
+    "price": 5999,
+    "discountPrice": 5100,
     "stock": true,
     "rating": 4.9,
     "reviews": 93,
@@ -227,8 +227,8 @@
     "slug": "laxmi-bisa-yantra",
     "category": "Yantra",
     "subcategory": "धन यंत्र",
-    "price": 1599,
-    "discountPrice": 1299,
+    "price": 5999,
+    "discountPrice": 5100,
     "stock": true,
     "rating": 4.9,
     "reviews": 132,
@@ -257,491 +257,5 @@
       "घर में सकारात्मक ऊर्जा लाता है",
       "मां लक्ष्मी की कृपा प्राप्त करने में सहायक"
     ]
-  },
-  {
-    "id": "YAN008",
-    "title": "सिद्ध महाकाली सुरक्षा कवच",
-    "slug": "sidh-mahakali-surksha-kavach",
-    "category": "Yantra",
-    "subcategory": "सुरक्षा लॉकेट",
-    "price": 1699,
-    "discountPrice": 1399,
-    "stock": true,
-    "rating": 4.9,
-    "reviews": 118,
-    "featured": true,
-    "bestSeller": true,
-    "tags": [
-      "महाकाली",
-      "सुरक्षा कवच",
-      "माता जी",
-      "नकारात्मक ऊर्जा",
-      "दैवीय सुरक्षा",
-      "शक्ति",
-      "तांत्रिक सुरक्षा"
-    ],
-    "images": [
-      "/products/yantra/mahakali-kavach.webp",
-      "/products/yantra/mahakali-kavach.webp"
-    ],
-    "shortDescription": "मां महाकाली की कृपा और सुरक्षा हेतु सिद्ध सुरक्षा कवच लॉकेट।",
-    "description": "यह सिद्ध महाकाली सुरक्षा कवच नकारात्मक शक्तियों, भय और तांत्रिक बाधाओं से सुरक्षा हेतु धारण किया जाता है। इसे आध्यात्मिक शक्ति और आत्मविश्वास बढ़ाने वाला माना जाता है।",
-    "benefits": [
-      "नकारात्मक ऊर्जा से सुरक्षा",
-      "आत्मविश्वास और साहस में वृद्धि",
-      "तांत्रिक बाधाओं से रक्षा",
-      "मां महाकाली की कृपा प्राप्ति",
-      "सकारात्मक ऊर्जा बढ़ाने में सहायक"
-    ]
-  },
-  {
-    "id": "YAN009",
-    "title": "सिद्ध बगलामुखी यंत्र लॉकेट",
-    "slug": "sidh-baglamukhi-yantra-locket",
-    "category": "Yantra",
-    "subcategory": "सुरक्षा लॉकेट",
-    "price": 1599,
-    "discountPrice": 1299,
-    "stock": true,
-    "rating": 4.9,
-    "reviews": 96,
-    "featured": true,
-    "bestSeller": true,
-    "tags": [
-      "बगलामुखी",
-      "शत्रु नाश",
-      "सुरक्षा",
-      "लॉकेट",
-      "मां बगलामुखी",
-      "विजय",
-      "तांत्रिक सुरक्षा"
-    ],
-    "images": [
-      "/products/yantra/baglamukhi-locket.webp",
-      "/products/yantra/baglamukhi-locket.webp"
-    ],
-    "shortDescription": "शत्रु बाधा और नकारात्मक प्रभावों से सुरक्षा हेतु बगलामुखी लॉकेट।",
-    "description": "यह सिद्ध बगलामुखी यंत्र लॉकेट शत्रु बाधा, कोर्ट केस और नकारात्मक शक्तियों से रक्षा हेतु धारण किया जाता है।",
-    "benefits": [
-      "शत्रु बाधा से सुरक्षा",
-      "आत्मबल बढ़ाने में सहायक",
-      "नकारात्मक ऊर्जा कम करता है",
-      "विवादों में सफलता हेतु उपयोगी",
-      "सुरक्षा और विजय का प्रतीक"
-    ]
-  },
-  {
-    "id": "YAN010",
-    "title": "काल भैरव यंत्र कवच लॉकेट",
-    "slug": "kal-bhairav-yantra-kavach-locket",
-    "category": "Yantra",
-    "subcategory": "सुरक्षा लॉकेट",
-    "price": 1699,
-    "discountPrice": 1399,
-    "stock": true,
-    "rating": 4.8,
-    "reviews": 84,
-    "featured": true,
-    "bestSeller": false,
-    "tags": [
-      "काल भैरव",
-      "सुरक्षा",
-      "भैरव कवच",
-      "नकारात्मक ऊर्जा",
-      "दैवीय रक्षा",
-      "तांत्रिक सुरक्षा"
-    ],
-    "images": [
-      "/products/yantra/kal-bhairav-locket.webp",
-      "/products/yantra/kal-bhairav-locket.webp"
-    ],
-    "shortDescription": "काल भैरव की कृपा और सुरक्षा हेतु शक्तिशाली कवच लॉकेट।",
-    "description": "काल भैरव कवच लॉकेट भय, नकारात्मक ऊर्जा और बाधाओं से सुरक्षा हेतु धारण किया जाता है।",
-    "benefits": [
-      "भय और बाधाओं से सुरक्षा",
-      "नकारात्मक ऊर्जा दूर करने में सहायक",
-      "आध्यात्मिक शक्ति बढ़ाता है",
-      "दैवीय सुरक्षा प्रदान करता है",
-      "साहस और आत्मविश्वास बढ़ाता है"
-    ]
-  },
-  {
-    "id": "YAN011",
-    "title": "हनुमान यंत्र नवग्रह लॉकेट",
-    "slug": "hanuman-yantra-navgrah-locket",
-    "category": "Yantra",
-    "subcategory": "सुरक्षा लॉकेट",
-    "price": 1499,
-    "discountPrice": 1199,
-    "stock": true,
-    "rating": 4.8,
-    "reviews": 102,
-    "featured": true,
-    "bestSeller": true,
-    "tags": [
-      "हनुमान",
-      "नवग्रह",
-      "सुरक्षा",
-      "साहस",
-      "ग्रह शांति",
-      "दैवीय रक्षा"
-    ],
-    "images": [
-      "/products/yantra/hanuman-navgrah.webp",
-      "/products/yantra/hanuman-navgrah.webp"
-    ],
-    "shortDescription": "हनुमान जी की कृपा और नवग्रह शांति हेतु विशेष लॉकेट।",
-    "description": "यह लॉकेट हनुमान जी की शक्ति और नवग्रह संतुलन हेतु धारण किया जाता है।",
-    "benefits": [
-      "साहस और आत्मविश्वास बढ़ाता है",
-      "नवग्रह दोष कम करने में सहायक",
-      "सुरक्षा प्रदान करता है",
-      "सकारात्मक ऊर्जा बढ़ाता है",
-      "मानसिक शांति देता है"
-    ]
-  },
-  {
-    "id": "YAN012",
-    "title": "सिद्ध सूर्य भैरव लॉकेट",
-    "slug": "sidh-surya-bhairav-locket",
-    "category": "Yantra",
-    "subcategory": "सुरक्षा लॉकेट",
-    "price": 1499,
-    "discountPrice": 1199,
-    "stock": true,
-    "rating": 4.7,
-    "reviews": 71,
-    "featured": false,
-    "bestSeller": true,
-    "tags": [
-      "सूर्य भैरव",
-      "सुरक्षा",
-      "ऊर्जा",
-      "दैवीय शक्ति",
-      "आत्मबल"
-    ],
-    "images": [
-      "/products/yantra/surya-bhairav.webp",
-      "/products/yantra/surya-bhairav.webp"
-    ],
-    "shortDescription": "सूर्य और भैरव ऊर्जा का शक्तिशाली सुरक्षा लॉकेट।",
-    "description": "यह लॉकेट सकारात्मक ऊर्जा, सुरक्षा और आत्मविश्वास बढ़ाने हेतु उपयोग किया जाता है।",
-    "benefits": [
-      "आत्मबल बढ़ाने में सहायक",
-      "नकारात्मकता कम करता है",
-      "सकारात्मक ऊर्जा आकर्षित करता है",
-      "दैवीय सुरक्षा प्रदान करता है",
-      "मानसिक स्पष्टता बढ़ाता है"
-    ]
-  },
-  {
-    "id": "YAN013",
-    "title": "लक्ष्मी बीसा लॉकेट",
-    "slug": "laxmi-bisa-locket",
-    "category": "Yantra",
-    "subcategory": "धन लॉकेट",
-    "price": 1599,
-    "discountPrice": 1299,
-    "stock": true,
-    "rating": 4.9,
-    "reviews": 144,
-    "featured": true,
-    "bestSeller": true,
-    "tags": [
-      "लक्ष्मी",
-      "धन",
-      "समृद्धि",
-      "व्यापार",
-      "आर्थिक लाभ",
-      "लॉकेट"
-    ],
-    "images": [
-      "/products/yantra/laxmi-bisa-locket.webp",
-      "/products/yantra/laxmi-bisa-locket.webp"
-    ],
-    "shortDescription": "धन, समृद्धि और आर्थिक उन्नति हेतु लक्ष्मी बीसा लॉकेट।",
-    "description": "यह लॉकेट मां लक्ष्मी की कृपा और व्यापार में वृद्धि हेतु धारण किया जाता है।",
-    "benefits": [
-      "धन और समृद्धि आकर्षित करता है",
-      "व्यापार वृद्धि में सहायक",
-      "आर्थिक स्थिरता प्रदान करता है",
-      "सकारात्मक ऊर्जा बढ़ाता है",
-      "मां लक्ष्मी की कृपा प्राप्ति"
-    ]
-  },
-  {
-    "id": "YAN014",
-    "title": "सिद्ध राहु यंत्र लॉकेट",
-    "slug": "sidh-rahu-yantra-locket",
-    "category": "Yantra",
-    "subcategory": "सुरक्षा लॉकेट",
-    "price": 1399,
-    "discountPrice": 1099,
-    "stock": true,
-    "rating": 4.7,
-    "reviews": 68,
-    "featured": false,
-    "bestSeller": true,
-    "tags": [
-      "राहु",
-      "ग्रह दोष",
-      "सुरक्षा",
-      "ज्योतिष",
-      "ग्रह शांति"
-    ],
-    "images": [
-      "/products/yantra/rahu-locket.webp",
-      "/products/yantra/rahu-locket.webp"
-    ],
-    "shortDescription": "राहु ग्रह दोष शांति हेतु सिद्ध राहु यंत्र लॉकेट।",
-    "description": "राहु से संबंधित नकारात्मक प्रभावों को कम करने हेतु यह लॉकेट धारण किया जाता है।",
-    "benefits": [
-      "राहु दोष शांति में सहायक",
-      "मानसिक तनाव कम करता है",
-      "सकारात्मक ऊर्जा बढ़ाता है",
-      "ग्रहों की नकारात्मकता कम करता है",
-      "आत्मविश्वास बढ़ाता है"
-    ]
-  },
-  {
-    "id": "YAN015",
-    "title": "सिद्ध शनि यंत्र लॉकेट",
-    "slug": "sidh-shani-yantra-locket",
-    "category": "Yantra",
-    "subcategory": "सुरक्षा लॉकेट",
-    "price": 1499,
-    "discountPrice": 1199,
-    "stock": true,
-    "rating": 4.8,
-    "reviews": 82,
-    "featured": true,
-    "bestSeller": true,
-    "tags": [
-      "शनि",
-      "शनि दोष",
-      "ग्रह शांति",
-      "सुरक्षा",
-      "ज्योतिष"
-    ],
-    "images": [
-      "/products/yantra/shani-locket.webp",
-      "/products/yantra/shani-locket.webp"
-    ],
-    "shortDescription": "शनि दोष शांति और सुरक्षा हेतु सिद्ध शनि यंत्र लॉकेट।",
-    "description": "यह लॉकेट शनि ग्रह के नकारात्मक प्रभावों को कम करने हेतु उपयोग किया जाता है।",
-    "benefits": [
-      "शनि दोष कम करने में सहायक",
-      "मानसिक स्थिरता प्रदान करता है",
-      "सकारात्मक ऊर्जा बढ़ाता है",
-      "सुरक्षा प्रदान करता है",
-      "आध्यात्मिक संतुलन बढ़ाता है"
-    ]
-  },
-  {
-    "id": "YAN016",
-    "title": "सिद्ध चंद्र यंत्र लॉकेट",
-    "slug": "sidh-chandra-yantra-locket",
-    "category": "Yantra",
-    "subcategory": "सुरक्षा लॉकेट",
-    "price": 1399,
-    "discountPrice": 1099,
-    "stock": true,
-    "rating": 4.7,
-    "reviews": 61,
-    "featured": false,
-    "bestSeller": false,
-    "tags": [
-      "चंद्र",
-      "मानसिक शांति",
-      "ग्रह शांति",
-      "सुरक्षा",
-      "ज्योतिष"
-    ],
-    "images": [
-      "/products/yantra/chandra-locket.webp",
-      "/products/yantra/chandra-locket.webp"
-    ],
-    "shortDescription": "मानसिक शांति और चंद्र दोष शांति हेतु सिद्ध चंद्र यंत्र लॉकेट।",
-    "description": "यह लॉकेट मानसिक शांति, भावनात्मक संतुलन और चंद्र ग्रह दोष शांति हेतु धारण किया जाता है।",
-    "benefits": [
-      "मानसिक शांति प्रदान करता है",
-      "चंद्र दोष कम करने में सहायक",
-      "भावनात्मक संतुलन बढ़ाता है",
-      "सकारात्मक ऊर्जा बढ़ाता है",
-      "तनाव कम करने में उपयोगी"
-    ]
-  },
-  {
-    "id": "YAN017",
-    "title": "सिद्ध मंगल यंत्र लॉकेट",
-    "slug": "sidh-mangal-yantra-locket",
-    "category": "Yantra",
-    "subcategory": "सुरक्षा लॉकेट",
-    "price": 1499,
-    "discountPrice": 1199,
-    "stock": true,
-    "rating": 4.8,
-    "reviews": 73,
-    "featured": true,
-    "bestSeller": true,
-    "tags": [
-      "मंगल",
-      "मंगल दोष",
-      "साहस",
-      "ऊर्जा",
-      "ग्रह शांति"
-    ],
-    "images": [
-      "/products/yantra/mangal-locket.webp",
-      "/products/yantra/mangal-locket.webp"
-    ],
-    "shortDescription": "मंगल दोष शांति और साहस वृद्धि हेतु सिद्ध मंगल लॉकेट।",
-    "description": "यह लॉकेट मंगल ग्रह की सकारात्मक ऊर्जा बढ़ाने और बाधाओं को कम करने हेतु उपयोग किया जाता है।",
-    "benefits": [
-      "साहस और आत्मविश्वास बढ़ाता है",
-      "मंगल दोष शांति में सहायक",
-      "ऊर्जा संतुलन बढ़ाता है",
-      "नकारात्मकता कम करता है",
-      "सकारात्मक सोच बढ़ाता है"
-    ]
-  },
-  {
-    "id": "YAN018",
-    "title": "सिद्ध सरस्वती यंत्र लॉकेट",
-    "slug": "sidh-saraswati-yantra-locket",
-    "category": "Yantra",
-    "subcategory": "माता जी लॉकेट",
-    "price": 1399,
-    "discountPrice": 1099,
-    "stock": true,
-    "rating": 4.9,
-    "reviews": 89,
-    "featured": true,
-    "bestSeller": true,
-    "tags": [
-      "सरस्वती",
-      "विद्या",
-      "ज्ञान",
-      "बुद्धि",
-      "स्टूडेंट",
-      "माता जी"
-    ],
-    "images": [
-      "/products/yantra/saraswati-locket.webp",
-      "/products/yantra/saraswati-locket.webp"
-    ],
-    "shortDescription": "विद्या, ज्ञान और एकाग्रता हेतु सिद्ध सरस्वती लॉकेट।",
-    "description": "यह लॉकेट विद्यार्थियों और ज्ञान प्राप्ति की इच्छा रखने वालों के लिए लाभकारी माना जाता है।",
-    "benefits": [
-      "एकाग्रता बढ़ाने में सहायक",
-      "स्मरण शक्ति मजबूत करता है",
-      "विद्या और ज्ञान वृद्धि",
-      "मानसिक शांति प्रदान करता है",
-      "विद्यार्थियों के लिए उपयोगी"
-    ]
-  },
-  {
-    "id": "YAN019",
-    "title": "सिद्ध नवग्रह शांति लॉकेट",
-    "slug": "sidh-navgrah-shanti-locket",
-    "category": "Yantra",
-    "subcategory": "सुरक्षा लॉकेट",
-    "price": 1699,
-    "discountPrice": 1399,
-    "stock": true,
-    "rating": 4.8,
-    "reviews": 94,
-    "featured": true,
-    "bestSeller": true,
-    "tags": [
-      "नवग्रह",
-      "ग्रह शांति",
-      "सुरक्षा",
-      "ज्योतिष",
-      "ऊर्जा संतुलन"
-    ],
-    "images": [
-      "/products/yantra/navgrah-locket.webp",
-      "/products/yantra/navgrah-locket.webp"
-    ],
-    "shortDescription": "नवग्रह शांति और सुरक्षा हेतु सिद्ध नवग्रह लॉकेट।",
-    "description": "यह लॉकेट ग्रह दोष शांति और सकारात्मक ऊर्जा संतुलन हेतु धारण किया जाता है।",
-    "benefits": [
-      "नवग्रह दोष कम करने में सहायक",
-      "सकारात्मक ऊर्जा बढ़ाता है",
-      "मानसिक संतुलन प्रदान करता है",
-      "सुरक्षा और शांति देता है",
-      "ज्योतिषीय संतुलन बढ़ाता है"
-    ]
-  },
-  {
-    "id": "YAN020",
-    "title": "सिद्ध काल सर्प दोष लॉकेट",
-    "slug": "sidh-kal-sarp-dosh-locket",
-    "category": "Yantra",
-    "subcategory": "सुरक्षा लॉकेट",
-    "price": 1799,
-    "discountPrice": 1499,
-    "stock": true,
-    "rating": 4.8,
-    "reviews": 77,
-    "featured": true,
-    "bestSeller": false,
-    "tags": [
-      "काल सर्प दोष",
-      "ग्रह दोष",
-      "सुरक्षा",
-      "ज्योतिष",
-      "शांति"
-    ],
-    "images": [
-      "/products/yantra/kal-sarp.webp",
-      "/products/yantra/kal-sarp.webp"
-    ],
-    "shortDescription": "काल सर्प दोष शांति हेतु सिद्ध सुरक्षा लॉकेट।",
-    "description": "यह लॉकेट काल सर्प दोष के नकारात्मक प्रभावों को कम करने हेतु उपयोग किया जाता है।",
-    "benefits": [
-      "काल सर्प दोष शांति में सहायक",
-      "मानसिक तनाव कम करता है",
-      "सकारात्मक ऊर्जा बढ़ाता है",
-      "सुरक्षा प्रदान करता है",
-      "आध्यात्मिक संतुलन बढ़ाता है"
-    ]
-  },
-  {
-    "id": "YAN021",
-    "title": "सिद्ध सूर्य गुरु लॉकेट",
-    "slug": "sidh-surya-guru-locket",
-    "category": "Yantra",
-    "subcategory": "व्यापार लॉकेट",
-    "price": 1599,
-    "discountPrice": 1299,
-    "stock": true,
-    "rating": 4.9,
-    "reviews": 83,
-    "featured": true,
-    "bestSeller": true,
-    "tags": [
-      "सूर्य गुरु",
-      "व्यापार",
-      "ज्ञान",
-      "समृद्धि",
-      "आत्मविश्वास",
-      "धन लाभ"
-    ],
-    "images": [
-      "/products/yantra/surya-guru.webp",
-      "/products/yantra/surya-guru.webp"
-    ],
-    "shortDescription": "व्यापार, आत्मविश्वास और सफलता हेतु सिद्ध सूर्य गुरु लॉकेट।",
-    "description": "यह लॉकेट सकारात्मक ऊर्जा, व्यापार वृद्धि और आत्मबल बढ़ाने हेतु धारण किया जाता है।",
-    "benefits": [
-      "व्यापार वृद्धि में सहायक",
-      "आत्मविश्वास बढ़ाता है",
-      "सकारात्मक ऊर्जा आकर्षित करता है",
-      "आर्थिक स्थिरता बढ़ाता है",
-      "मानसिक स्पष्टता प्रदान करता है"
-    ]
   }
-
 ]

@@ -83,7 +83,7 @@ const mainMenus = {
     'व्यापार लॉकेट',
   ],
 
-energyvastu: [
+  energyvastu: [
     'Brahmbooster',
     'Foundation Remedy',
     'Blocker',
@@ -93,6 +93,13 @@ energyvastu: [
     'Direction Booster',
     'Balancer',
     'Protector',
+  ],
+    oils: [
+    'Essential Oils',
+    'Aroma Oils',
+    'Therapy Oils',
+    'Religious Oils',
+    'Vastu Oils',
   ],
 };
 
@@ -119,65 +126,57 @@ const Navbar = () => {
   // =========================
   // DYNAMIC MENU ITEMS
   // =========================
- const menuItems = useMemo(() => {
+  const menuItems = useMemo(() => {
+    return Object.entries(mainMenus).map(
+      ([menuSlug, allowedCategories]) => {
+        let filteredProducts = [];
+        let categories = [];
 
-  console.log(
-    'Energy Vastu Products:',
-    products.filter(
-      p => p.category === 'Energy Vastu'
-    )
-  );
+        if (
+          menuSlug === 'yantra' ||
+          menuSlug === 'energyvastu'
+        ) {
+          filteredProducts = products.filter(
+            (product) =>
+              allowedCategories.includes(
+                product.subcategory
+              )
+          );
 
-  return Object.entries(mainMenus).map(
-    ([menuSlug, allowedCategories]) => {
-      let filteredProducts = [];
-      let categories = [];
+          categories = [
+            ...new Set(
+              filteredProducts.map(
+                (product) => product.subcategory
+              )
+            ),
+          ];
+        } else {
+          filteredProducts = products.filter(
+            (product) =>
+              allowedCategories.includes(
+                product.category
+              )
+          );
 
-      if (
-        menuSlug === 'yantra' ||
-        menuSlug === 'energyvastu'
-      ) {
-        filteredProducts = products.filter(
-          (product) =>
-            allowedCategories.includes(
-              product.subcategory
-            )
-        );
+          categories = [
+            ...new Set(
+              filteredProducts.map(
+                (product) => product.category
+              )
+            ),
+          ];
+        }
 
-        categories = [
-          ...new Set(
-            filteredProducts.map(
-              (product) => product.subcategory
-            )
-          ),
-        ];
-      } else {
-        filteredProducts = products.filter(
-          (product) =>
-            allowedCategories.includes(
-              product.category
-            )
-        );
-
-        categories = [
-          ...new Set(
-            filteredProducts.map(
-              (product) => product.category
-            )
-          ),
-        ];
+        return {
+          title:
+            menuSlug.charAt(0).toUpperCase() +
+            menuSlug.slice(1),
+          slug: menuSlug,
+          categories,
+        };
       }
-
-      return {
-        title:
-          menuSlug.charAt(0).toUpperCase() +
-          menuSlug.slice(1),
-        slug: menuSlug,
-        categories,
-      };
-    }
-  );
-}, []);
+    );
+  }, []);
 
 
 
@@ -311,12 +310,6 @@ const Navbar = () => {
                 className={styles.navLink}
               >
                 Gemstones
-              </NavLink>
-              <NavLink
-                to="/shop"
-                className={styles.navLink}
-              >
-                Shop
               </NavLink>
             </div>
 
@@ -501,15 +494,6 @@ const Navbar = () => {
                   className={styles.navLink}
                 >
                   Gemstones
-                </NavLink>
-                <NavLink
-                  to="/shop"
-                  className={styles.drawerLink}
-                  onClick={() =>
-                    setMobileOpen(false)
-                  }
-                >
-                  Shop
                 </NavLink>
               </div>
             </motion.aside>

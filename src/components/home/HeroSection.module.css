@@ -23,11 +23,7 @@
 .overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.45),
-    rgba(0, 0, 0, 0.15)
-  );
+  background: transparent;
 }
 
 /* EXPLORE BUTTON */
@@ -73,7 +69,7 @@
   border: none;
   border-radius: 50%;
 
-  background: rgba(255, 255, 255, 0.18);
+  background: rgba(31, 31, 31, 0.721);
   backdrop-filter: blur(12px);
 
   color: #fff;

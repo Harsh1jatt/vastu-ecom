@@ -150,24 +150,7 @@ const ProductDetails = () => {
               <div><strong>Category:</strong> {product.category}</div>
               <div><strong>Subcategory:</strong> {product.subcategory}</div>
             </div>
-            {/* BENEFITS SECTION */}
-
-            {product.benefits &&
-              product.benefits.length > 0 && (
-                <div className={styles.benefitsSection}>
-                  <h3>Key Benefits</h3>
-
-                  <ul className={styles.benefitsList}>
-                    {product.benefits.map(
-                      (benefit, index) => (
-                        <li key={index}>
-                          ✨ {benefit}
-                        </li>
-                      )
-                    )}
-                  </ul>
-                </div>
-              )}
+      
           </div>
         </div>
 
@@ -179,7 +162,14 @@ const ProductDetails = () => {
           ))}
         </div>
         <div className={styles.tabContent}>
-          {activeTab === 'description' && <p>{product.description}</p>}
+        {activeTab === 'description' && (
+  <div
+    className={styles.productDescription}
+    dangerouslySetInnerHTML={{
+      __html: product.description,
+    }}
+  />
+)}
           {activeTab === 'details' && (
             <ul>
               <li>Product ID: {product.id}</li>
