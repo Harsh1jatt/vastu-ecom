@@ -129,7 +129,11 @@ const CategoryPage = () => {
       // YANTRA SPECIAL CASE
       // =========================
 
-      if (category === 'yantra' || category === 'energyvastu') {
+if (
+  category === 'yantra' ||
+  category === 'energyvastu' ||
+  category === 'oils'
+) {
 
         return products.filter(
           (product) =>
@@ -162,6 +166,11 @@ const CategoryPage = () => {
     if (category === 'energyvastu') {
       return products.filter(
         product => product.category === 'Energy Vastu'
+      );
+    }
+    if (category === 'oils') {
+      return products.filter(
+        product => product.category === 'Oils'
       );
     }
 

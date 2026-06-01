@@ -127,83 +127,82 @@ const ProductDetails = () => {
               )}
             </div>
             {!isGemstone && (
-  <div className={styles.stock}>
-    {product.stock ? (
-      <span className={styles.inStock}>● In Stock</span>
-    ) : (
-      <span className={styles.outOfStockText}>Out of Stock</span>
-    )}
-  </div>
-)}
+              <div className={styles.stock}>
+                {product.stock ? (
+                  <span className={styles.inStock}>● In Stock</span>
+                ) : (
+                  <span className={styles.outOfStockText}>Out of Stock</span>
+                )}
+              </div>
+            )}
             <div className={styles.tags}>
               {product.tags.map((tag) => (
                 <span key={tag} className={styles.tag}>{tag}</span>
               ))}
             </div>
             {!isGemstone && (
-  <div className={styles.quantitySection}>
-    <label>Quantity</label>
-    <div className={styles.quantityControl}>
-      <button
-        type="button"
-        onClick={() => setQuantity(Math.max(1, quantity - 1))}
-        disabled={!product.stock}
-      >
-        −
-      </button>
+              <div className={styles.quantitySection}>
+                <label>Quantity</label>
+                <div className={styles.quantityControl}>
+                  <button
+                    type="button"
+                    onClick={() => setQuantity(Math.max(1, quantity - 1))}
+                    disabled={!product.stock}
+                  >
+                    −
+                  </button>
 
-      <input
-        type="number"
-        value={quantity}
-        min={1}
-        onChange={(e) =>
-          setQuantity(Math.max(1, parseInt(e.target.value, 10) || 1))
-        }
-        disabled={!product.stock}
-      />
+                  <input
+                    type="number"
+                    value={quantity}
+                    min={1}
+                    onChange={(e) =>
+                      setQuantity(Math.max(1, parseInt(e.target.value, 10) || 1))
+                    }
+                    disabled={!product.stock}
+                  />
 
-      <button
-        type="button"
-        onClick={() => setQuantity(quantity + 1)}
-        disabled={!product.stock}
-      >
-        +
-      </button>
-    </div>
-  </div>
-)}
+                  <button
+                    type="button"
+                    onClick={() => setQuantity(quantity + 1)}
+                    disabled={!product.stock}
+                  >
+                    +
+                  </button>
+                </div>
+              </div>
+            )}
             <div className={styles.actions}>
-  {!isGemstone && (
-    <button
-      type="button"
-      className={styles.addToCartBtn}
-      onClick={handleAddToCart}
-      disabled={!product.stock}
-    >
-      <FiShoppingCart /> Add to Cart
-    </button>
-  )}
+              {!isGemstone && (
+                <button
+                  type="button"
+                  className={styles.addToCartBtn}
+                  onClick={handleAddToCart}
+                  disabled={!product.stock}
+                >
+                  <FiShoppingCart /> Add to Cart
+                </button>
+              )}
 
-  <a
-    href={getBuyNowWhatsAppLink(product, quantity)}
-    target="_blank"
-    rel="noopener noreferrer"
-    className={styles.buyNowBtn}
-  >
-    <FaWhatsapp />
-    {isGemstone ? ' Contact on WhatsApp' : ' Buy Now'}
-  </a>
+              <a
+                href={getBuyNowWhatsAppLink(product, quantity)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.buyNowBtn}
+              >
+                <FaWhatsapp />
+                {isGemstone ? ' Contact on WhatsApp' : ' Buy Now'}
+              </a>
 
-  <button
-    type="button"
-    className={`${styles.wishlistBtn} ${
-      inWishlist ? styles.wishActive : ''
-    }`}
-    onClick={() => toggleWishlist(product)}
-  >
-    <FiHeart fill={inWishlist ? 'currentColor' : 'none'} />
-  </button>
-</div>
+              <button
+                type="button"
+                className={`${styles.wishlistBtn} ${inWishlist ? styles.wishActive : ''
+                  }`}
+                onClick={() => toggleWishlist(product)}
+              >
+                <FiHeart fill={inWishlist ? 'currentColor' : 'none'} />
+              </button>
+            </div>
             <div className={styles.meta}>
               <div><strong>Category:</strong> {product.category}</div>
               <div><strong>Subcategory:</strong> {product.subcategory}</div>

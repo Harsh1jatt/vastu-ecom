@@ -134,6 +134,7 @@ const Navbar = () => {
 
         if (
           menuSlug === 'yantra' ||
+          menuSlug === 'oils' ||
           menuSlug === 'energyvastu'
         ) {
           filteredProducts = products.filter(
