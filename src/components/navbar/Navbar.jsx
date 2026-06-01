@@ -94,7 +94,7 @@ const mainMenus = {
     'Balancer',
     'Protector',
   ],
-    oils: [
+  oils: [
     'Essential Oils',
     'Aroma Oils',
     'Therapy Oils',
@@ -150,7 +150,20 @@ const Navbar = () => {
               )
             ),
           ];
-        } else {
+        } else if (menuSlug === 'oils') {
+          filteredProducts = products.filter(
+            (product) => product.category === 'Oils'
+          );
+
+          categories = [
+            ...new Set(
+              filteredProducts.map(
+                (product) => product.subcategory
+              )
+            ),
+          ];
+        }
+        else {
           filteredProducts = products.filter(
             (product) =>
               allowedCategories.includes(

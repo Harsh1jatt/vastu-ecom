@@ -10,6 +10,7 @@ import Yantras from './yantras.json';
 import Compass from './compass.json';
 import gemstones from './gemstones.json';
 import energyvastu from './energyvastu.json';
+import oils from './oils.json';
 
 /**
  * Aggregated products data from all category-wise JSON files
@@ -28,6 +29,7 @@ const productsData = [
   ...Yantras,
   ...Compass,
   ...energyvastu,
+  ...oils,
   ...gemstones,
 ];
 

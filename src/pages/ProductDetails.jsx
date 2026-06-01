@@ -44,7 +44,9 @@ const ProductDetails = () => {
   const discountPercent = getDiscountPercentage(product.price, product.discountPrice);
   const displayPrice = product.discountPrice || product.price;
   const inWishlist = isInWishlist(product.id);
-
+  const isGemstone =
+    product.category?.toLowerCase() === 'gemstones' ||
+    product.category?.toLowerCase() === 'gemstone';
   const handleAddToCart = () => {
     addToCart(product, quantity);
     showToast(`${product.title} added to cart`);
@@ -106,51 +108,107 @@ const ProductDetails = () => {
             </div>
             <p className={styles.shortDesc}>{product.shortDescription}</p>
             <div className={styles.priceSection}>
-              {product.discountPrice ? (
+              {isGemstone ? (
+                <div className={styles.gemstonePrice}>
+                  Price depends on the gemstone quality, weight, size and certification.
+                  Please contact us on WhatsApp for an exact quotation.
+                </div>
+              ) : (
                 <>
-                  <span className={styles.originalPrice}>₹{product.price}</span>
-                  <span className={styles.price}>₹{displayPrice}</span>
+                  {product.discountPrice ? (
+                    <>
+                      <span className={styles.originalPrice}>₹{product.price}</span>
+                      <span className={styles.price}>₹{displayPrice}</span>
+                    </>
+                  ) : (
+                    <span className={styles.price}>₹{displayPrice}</span>
+                  )}
                 </>
-              ) : (
-                <span className={styles.price}>₹{displayPrice}</span>
               )}
             </div>
-            <div className={styles.stock}>
-              {product.stock ? (
-                <span className={styles.inStock}>● In Stock</span>
-              ) : (
-                <span className={styles.outOfStockText}>Out of Stock</span>
-              )}
-            </div>
+            {!isGemstone && (
+  <div className={styles.stock}>
+    {product.stock ? (
+      <span className={styles.inStock}>● In Stock</span>
+    ) : (
+      <span className={styles.outOfStockText}>Out of Stock</span>
+    )}
+  </div>
+)}
             <div className={styles.tags}>
               {product.tags.map((tag) => (
                 <span key={tag} className={styles.tag}>{tag}</span>
               ))}
             </div>
-            <div className={styles.quantitySection}>
-              <label>Quantity</label>
-              <div className={styles.quantityControl}>
-                <button type="button" onClick={() => setQuantity(Math.max(1, quantity - 1))} disabled={!product.stock}>−</button>
-                <input type="number" value={quantity} min={1} onChange={(e) => setQuantity(Math.max(1, parseInt(e.target.value, 10) || 1))} disabled={!product.stock} />
-                <button type="button" onClick={() => setQuantity(quantity + 1)} disabled={!product.stock}>+</button>
-              </div>
-            </div>
+            {!isGemstone && (
+  <div className={styles.quantitySection}>
+    <label>Quantity</label>
+    <div className={styles.quantityControl}>
+      <button
+        type="button"
+        onClick={() => setQuantity(Math.max(1, quantity - 1))}
+        disabled={!product.stock}
+      >
+        −
+      </button>
+
+      <input
+        type="number"
+        value={quantity}
+        min={1}
+        onChange={(e) =>
+          setQuantity(Math.max(1, parseInt(e.target.value, 10) || 1))
+        }
+        disabled={!product.stock}
+      />
+
+      <button
+        type="button"
+        onClick={() => setQuantity(quantity + 1)}
+        disabled={!product.stock}
+      >
+        +
+      </button>
+    </div>
+  </div>
+)}
             <div className={styles.actions}>
-              <button type="button" className={styles.addToCartBtn} onClick={handleAddToCart} disabled={!product.stock}>
-                <FiShoppingCart /> Add to Cart
-              </button>
-              <a href={getBuyNowWhatsAppLink(product, quantity)} target="_blank" rel="noopener noreferrer" className={styles.buyNowBtn}>
-                <FaWhatsapp /> Buy Now
-              </a>
-              <button type="button" className={`${styles.wishlistBtn} ${inWishlist ? styles.wishActive : ''}`} onClick={() => toggleWishlist(product)}>
-                <FiHeart fill={inWishlist ? 'currentColor' : 'none'} />
-              </button>
-            </div>
+  {!isGemstone && (
+    <button
+      type="button"
+      className={styles.addToCartBtn}
+      onClick={handleAddToCart}
+      disabled={!product.stock}
+    >
+      <FiShoppingCart /> Add to Cart
+    </button>
+  )}
+
+  <a
+    href={getBuyNowWhatsAppLink(product, quantity)}
+    target="_blank"
+    rel="noopener noreferrer"
+    className={styles.buyNowBtn}
+  >
+    <FaWhatsapp />
+    {isGemstone ? ' Contact on WhatsApp' : ' Buy Now'}
+  </a>
+
+  <button
+    type="button"
+    className={`${styles.wishlistBtn} ${
+      inWishlist ? styles.wishActive : ''
+    }`}
+    onClick={() => toggleWishlist(product)}
+  >
+    <FiHeart fill={inWishlist ? 'currentColor' : 'none'} />
+  </button>
+</div>
             <div className={styles.meta}>
               <div><strong>Category:</strong> {product.category}</div>
               <div><strong>Subcategory:</strong> {product.subcategory}</div>
             </div>
-      
+
           </div>
         </div>
 
@@ -162,14 +220,14 @@ const ProductDetails = () => {
           ))}
         </div>
         <div className={styles.tabContent}>
-        {activeTab === 'description' && (
-  <div
-    className={styles.productDescription}
-    dangerouslySetInnerHTML={{
-      __html: product.description,
-    }}
-  />
-)}
+          {activeTab === 'description' && (
+            <div
+              className={styles.productDescription}
+              dangerouslySetInnerHTML={{
+                __html: product.description,
+              }}
+            />
+          )}
           {activeTab === 'details' && (
             <ul>
               <li>Product ID: {product.id}</li>
