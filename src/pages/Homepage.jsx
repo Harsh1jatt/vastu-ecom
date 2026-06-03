@@ -29,8 +29,28 @@ const fadeUp = {
 const Homepage = () => {
   const featured = getFeaturedProducts();
   const bestSellers = getBestSellers();
-  const categories = getCategories();
+const categories = getCategories();
 
+const priorityCategories = [
+  'Compass',
+  'Tapes',
+  'Strips',
+  'Energy Vastu'
+];
+
+const sortedCategories = [...categories].sort((a, b) => {
+  const aIndex = priorityCategories.indexOf(a);
+  const bIndex = priorityCategories.indexOf(b);
+
+  if (aIndex !== -1 && bIndex !== -1) {
+    return aIndex - bIndex;
+  }
+
+  if (aIndex !== -1) return -1;
+  if (bIndex !== -1) return 1;
+
+  return 0;
+});
   return (
     <div className={styles.homepage}>
       <HeroSection />
@@ -75,7 +95,7 @@ const Homepage = () => {
           />
           <div className={styles.categoryGrid}>
 
-            {categories.map((cat, i) => {
+            {sortedCategories.map((cat, i) => {
               const categoryProducts = getProductsByCategory(cat);
               const previewProducts = categoryProducts.slice(0, 3);
               const count = categoryProducts.length;

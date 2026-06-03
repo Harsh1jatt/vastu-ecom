@@ -65,6 +65,9 @@ const categoryGroups = {
   gemstones: [
     'Gemstones',
   ],
+  lockets: [
+    'Lockets',
+  ],
   energyvastu: [
     'Brahmbooster',
     'Foundation Remedy',

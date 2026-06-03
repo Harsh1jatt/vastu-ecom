@@ -158,3 +158,12 @@
     padding: 20px;
   }
 }
+.gemstonePrice {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #666;
+  padding: 12px;
+  background: #f8f8f8;
+  border-radius: 8px;
+  margin: 10px 0;
+}

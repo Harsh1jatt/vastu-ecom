@@ -64,7 +64,7 @@ const mainMenus = {
     'Pyramids',
     'Kilak',
     'Rods',
-    'Resin Articles',
+    'Vastu Remedies',
     'Devta Divs',
     'Shakti Chakra',
     'Compass',
@@ -325,6 +325,31 @@ const Navbar = () => {
               >
                 Gemstones
               </NavLink>
+              <NavLink
+                to="/lockets"
+                className={styles.navLink}
+              >
+                Locket
+              </NavLink>
+              <div className={styles.servicesDropdown}>
+                <span className={styles.navLink}>
+                  Services
+                  <FiChevronDown className={styles.chevron} />
+                </span>
+
+                <div className={styles.servicesMenu}>
+                  <NavLink to="/services#home">Home Vastu</NavLink>
+                  <NavLink to="/services#office">Office Vastu</NavLink>
+                  <NavLink to="/services#factory">Factory Vastu</NavLink>
+                  <NavLink to="/services#commercial">Commercial Vastu</NavLink>
+                  <NavLink to="/services#school">School Vastu</NavLink>
+                  <NavLink to="/services#restaurant">Restaurant Vastu</NavLink>
+                  <NavLink to="/services#warehouse">Warehouse Vastu</NavLink>
+                  <NavLink to="/services#plot">Plot Vastu</NavLink>
+                  <NavLink to="/services#farmhouse">Farmhouse Vastu</NavLink>
+                  <NavLink to="/services#industry">Industry Vastu</NavLink>
+                </div>
+              </div>
             </div>
 
 
@@ -508,6 +533,18 @@ const Navbar = () => {
                   className={styles.navLink}
                 >
                   Gemstones
+                </NavLink>
+                <NavLink
+                  to="/lockets"
+                  className={styles.navLink}
+                >
+                  Locket
+                </NavLink>
+                <NavLink
+                  to="/services"
+                  className={styles.navLink}
+                >
+                  Services
                 </NavLink>
               </div>
             </motion.aside>

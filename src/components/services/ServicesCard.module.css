@@ -1,0 +1,167 @@
+.wrapper{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:28px;
+}
+
+.card{
+    position:relative;
+
+    background:white;
+
+    border-radius:30px;
+    padding:32px;
+
+    overflow:hidden;
+
+    border:1px solid rgba(192,132,87,.15);
+
+    transition:.4s;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.04);
+}
+
+.card::before{
+    content:"";
+
+    position:absolute;
+
+    width:220px;
+    height:220px;
+
+    right:-100px;
+    top:-100px;
+
+    border-radius:50%;
+
+    background:
+    radial-gradient(
+      circle,
+      rgba(192,132,87,.18),
+      transparent 70%
+    );
+}
+
+.card:hover{
+    transform:translateY(-10px);
+
+    box-shadow:
+    0 25px 60px rgba(0,0,0,.12);
+}
+
+.badge{
+    display:inline-block;
+
+    padding:8px 14px;
+
+    border-radius:999px;
+
+    background:
+    rgba(192,132,87,.1);
+
+    color:var(--gold);
+
+    font-size:.75rem;
+    font-weight:600;
+
+    margin-bottom:15px;
+}
+
+.top h3{
+    font-size:1.5rem;
+    line-height:1.3;
+
+    color:var(--dark);
+
+    margin-bottom:25px;
+}
+
+.packages{
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+}
+
+.packageRow{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:14px 16px;
+
+    border-radius:16px;
+
+    background:
+    rgba(248,248,248,.8);
+}
+
+.packageRow div{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.packageRow svg{
+    color:var(--gold);
+}
+
+.packageRow span{
+    color:#444;
+    font-weight:500;
+}
+
+.packageRow strong{
+    color:var(--dark);
+    font-size:1rem;
+}
+
+.btn{
+    width:100%;
+
+    margin-top:24px;
+
+    border:none;
+
+    padding:16px;
+
+    border-radius:16px;
+
+    background:
+    linear-gradient(
+      135deg,
+      var(--gold),
+      #d4a574
+    );
+
+    color:white;
+
+    font-weight:600;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+
+    box-shadow:
+    0 12px 25px rgba(192,132,87,.35);
+}
+
+@media(max-width:768px){
+
+    .wrapper{
+        grid-template-columns:1fr;
+    }
+
+    .card{
+        padding:25px;
+    }
+}

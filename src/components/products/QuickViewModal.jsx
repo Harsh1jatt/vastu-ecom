@@ -22,7 +22,9 @@ const QuickViewModal = ({ product, onClose }) => {
     showToast(`${product.title} added to cart`);
     onClose();
   };
-
+  const isGemstone =
+    product.category?.toLowerCase() === 'gemstones' ||
+    product.category?.toLowerCase() === 'gemstone';
   return (
     <div className={styles.overlay} onClick={onClose}>
       <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
@@ -32,7 +34,9 @@ const QuickViewModal = ({ product, onClose }) => {
         <div className={styles.grid}>
           <div className={styles.image}>
             <ProductImage src={product.images[0]} alt={product.title} />
-            {discount > 0 && <span className={styles.badge}>{discount}% OFF</span>}
+            {!isGemstone && discount > 0 && (
+              <span className={styles.badge}>{discount}% OFF</span>
+            )}
           </div>
           <div className={styles.info}>
             <span className={styles.category}>{product.category}</span>
@@ -43,7 +47,12 @@ const QuickViewModal = ({ product, onClose }) => {
               {'★'.repeat(Math.round(product.rating))} {product.rating} ({product.reviews} reviews)
             </div>
             <div className={styles.price}>
-              {product.discountPrice ? (
+              {isGemstone ? (
+                <div className={styles.gemstonePrice}>
+                  Price depends on gemstone quality, weight and certification.
+                  Contact us on WhatsApp for exact pricing.
+                </div>
+              ) : product.discountPrice ? (
                 <>
                   <span className={styles.old}>₹{product.price}</span>
                   <span>₹{product.discountPrice}</span>
@@ -53,18 +62,22 @@ const QuickViewModal = ({ product, onClose }) => {
               )}
             </div>
             <div className={styles.actions}>
-              <button type="button" onClick={handleAdd} disabled={!product.stock}>
-                <FiShoppingCart /> Add to Cart
-              </button>
-              <button
+              {!isGemstone && (
+                <button type="button" onClick={handleAdd} disabled={!product.stock}>
+                  <FiShoppingCart /> Add to Cart
+                </button>
+              )}
+              {!isGemstone && (
+                <button
                 type="button"
                 className={inWishlist ? styles.wishActive : ''}
                 onClick={() => toggleWishlist(product)}
-              >
+                >
                 <FiHeart fill={inWishlist ? 'currentColor' : 'none'} />
               </button>
+              )}
               <Link to={`/product/${product.slug}`} onClick={onClose}>
-                View Details
+                {isGemstone ? 'View Gemstone Details' : 'View Details'}
               </Link>
             </div>
           </div>

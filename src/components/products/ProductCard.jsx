@@ -24,7 +24,7 @@ const ProductCard = ({ product, index = 0 }) => {
     addToCart(product, 1);
     showToast(`${product.title} added to cart`);
   };
-console.log(product)
+  const isGemstone = product.category === 'Gemstones';
   return (
     <>
       <article className={styles.card}>
@@ -40,8 +40,10 @@ console.log(product)
             )}
           </Link>
 
-          {discountPercent > 0 && (
-            <span className={styles.discountBadge}>-{discountPercent}%</span>
+          {!isGemstone && discountPercent > 0 && (
+            <span className={styles.discountBadge}>
+              -{discountPercent}%
+            </span>
           )}
           {!product.stock && <span className={styles.stockBadge}>Sold Out</span>}
 
@@ -69,15 +71,17 @@ console.log(product)
             >
               <FiZoomIn />
             </button>
-            <button
-              type="button"
-              className={styles.actionBtn}
-              onClick={handleAddToCart}
-              disabled={!product.stock}
-              aria-label="Add to cart"
-            >
-              <FiShoppingCart />
-            </button>
+            {!isGemstone && (
+              <button
+                type="button"
+                className={styles.actionBtn}
+                onClick={handleAddToCart}
+                disabled={!product.stock}
+                aria-label="Add to cart"
+              >
+                <FiShoppingCart />
+              </button>
+            )}
           </div>
 
           <button
@@ -105,7 +109,11 @@ console.log(product)
             <span className={styles.reviewCount}>({product.reviews})</span>
           </div>
           <div className={styles.priceRow}>
-            {product.discountPrice ? (
+            {isGemstone ? (
+              <span className={styles.contactPrice}>
+                Price on Request
+              </span>
+            ) : product.discountPrice ? (
               <>
                 <span className={styles.price}>₹{product.discountPrice}</span>
                 <span className={styles.oldPrice}>₹{product.price}</span>

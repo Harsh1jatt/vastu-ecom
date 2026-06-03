@@ -1,6 +1,74 @@
 /* =========================
    PREMIUM MODERN NAVBAR
 ========================= */
+/* SERVICES DROPDOWN */
+
+.servicesDropdown {
+  position: relative;
+}
+
+.servicesMenu {
+  position: absolute;
+
+  top: calc(100% + 16px);
+  left: 50%;
+
+  transform: translateX(-50%) translateY(10px);
+
+  width: 400px;
+
+  background: rgba(255,255,255,.97);
+  backdrop-filter: blur(20px);
+
+  border: 1px solid rgba(0,0,0,.06);
+  border-radius: 22px;
+
+  padding: 16px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transition: .3s ease;
+
+  box-shadow:
+    0 20px 60px rgba(0,0,0,.08),
+    0 4px 18px rgba(0,0,0,.04);
+
+  z-index: 1000;
+}
+
+.servicesDropdown:hover .servicesMenu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+.servicesMenu a {
+  text-decoration: none;
+
+  color: #333;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  padding: 12px;
+
+  border-radius: 12px;
+
+  transition: .25s ease;
+}
+
+.servicesMenu a:hover {
+  background: rgba(184,134,70,.08);
+  color: #b88646;
+
+  transform: translateX(4px);
+}
+
 
 .header {
   position: fixed;
