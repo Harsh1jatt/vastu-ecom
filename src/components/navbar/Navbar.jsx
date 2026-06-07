@@ -25,7 +25,7 @@ import { useCart } from '../../hooks/useCart';
 import SearchBar from '../common/SearchBar';
 
 import products from '../../data/products/';
-
+import services from '../../data/services/services.json';
 import styles from './Navbar.module.css';
 
 
@@ -319,6 +319,49 @@ const Navbar = () => {
                   </AnimatePresence>
                 </div>
               ))}
+              <div
+                className={styles.dropdownWrap}
+                onMouseEnter={() => setActiveDropdown('services')}
+                onMouseLeave={() => setActiveDropdown(null)}
+              >
+                <NavLink
+                  to="/services"
+                  className={styles.navLink}
+                >
+                  Services
+
+                  <FiChevronDown
+                    className={`${styles.chevron} ${activeDropdown === 'services'
+                      ? styles.chevronOpen
+                      : ''
+                      }`}
+                  />
+                </NavLink>
+
+                <AnimatePresence>
+                  {activeDropdown === 'services' && (
+                    <motion.div
+                      className={styles.dropdown}
+                      initial={{ opacity: 0, y: 12 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: 8 }}
+                      transition={{ duration: 0.2 }}
+                    >
+                      <div className={styles.dropdownInner}>
+                        {services.map((service) => (
+                          <Link
+                            key={service.slug}
+                            to={`/services/${service.slug}`}
+                            className={styles.dropdownItem}
+                          >
+                            {service.title}
+                          </Link>
+                        ))}
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
               <NavLink
                 to="/gemstones"
                 className={styles.navLink}
@@ -331,24 +374,73 @@ const Navbar = () => {
               >
                 Locket
               </NavLink>
-              <div className={styles.servicesDropdown}>
-                <span className={styles.navLink}>
-                  Services
-                  <FiChevronDown className={styles.chevron} />
-                </span>
+              <div
+                className={styles.dropdownWrap}
+                onMouseEnter={() =>
+                  setActiveDropdown('jewelry')
+                }
+                onMouseLeave={() =>
+                  setActiveDropdown(null)
+                }
+              >
+                <NavLink
+                  to="/bracelets-pendants"
+                  className={styles.navLink}
+                >
+                  Others
 
-                <div className={styles.servicesMenu}>
-                  <NavLink to="/services#home">Home Vastu</NavLink>
-                  <NavLink to="/services#office">Office Vastu</NavLink>
-                  <NavLink to="/services#factory">Factory Vastu</NavLink>
-                  <NavLink to="/services#commercial">Commercial Vastu</NavLink>
-                  <NavLink to="/services#school">School Vastu</NavLink>
-                  <NavLink to="/services#restaurant">Restaurant Vastu</NavLink>
-                  <NavLink to="/services#warehouse">Warehouse Vastu</NavLink>
-                  <NavLink to="/services#plot">Plot Vastu</NavLink>
-                  <NavLink to="/services#farmhouse">Farmhouse Vastu</NavLink>
-                  <NavLink to="/services#industry">Industry Vastu</NavLink>
-                </div>
+                  <FiChevronDown
+                    className={`${styles.chevron} ${activeDropdown === 'jewelry'
+                      ? styles.chevronOpen
+                      : ''
+                      }`}
+                  />
+                </NavLink>
+
+                <AnimatePresence>
+                  {activeDropdown === 'jewelry' && (
+                    <motion.div
+                      className={styles.dropdown}
+                      initial={{
+                        opacity: 0,
+                        y: 12,
+                      }}
+                      animate={{
+                        opacity: 1,
+                        y: 0,
+                      }}
+                      exit={{
+                        opacity: 0,
+                        y: 8,
+                      }}
+                      transition={{
+                        duration: 0.2,
+                      }}
+                    >
+                      <div className={styles.dropdownInner}>
+                        <Link
+                          to="/bracelets-pendants/beads-bracelet"
+                          className={styles.dropdownItem}
+                        >
+                          Bracelets
+                        </Link>
+
+                        <Link
+                          to="/bracelets-pendants/pendant"
+                          className={styles.dropdownItem}
+                        >
+                          Pendants
+                        </Link>
+                        <Link
+                          to="/bracelets-pendants/key-chain"
+                          className={styles.dropdownItem}
+                        >
+                          Key Chain
+                        </Link>
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
               </div>
             </div>
 
@@ -528,6 +620,62 @@ const Navbar = () => {
                     </AnimatePresence>
                   </div>
                 ))}
+                <div>
+                  <button
+                    type="button"
+                    className={styles.drawerLink}
+                    onClick={() =>
+                      setActiveDropdown(
+                        activeDropdown === 'services'
+                          ? null
+                          : 'services'
+                      )
+                    }
+                  >
+                    Services
+
+                    <FiChevronDown
+                      className={
+                        activeDropdown === 'services'
+                          ? styles.chevronOpen
+                          : ''
+                      }
+                    />
+                  </button>
+
+                  <AnimatePresence>
+                    {activeDropdown === 'services' && (
+                      <motion.div
+                        className={styles.drawerSub}
+                        initial={{
+                          height: 0,
+                          opacity: 0,
+                        }}
+                        animate={{
+                          height: 'auto',
+                          opacity: 1,
+                        }}
+                        exit={{
+                          height: 0,
+                          opacity: 0,
+                        }}
+                      >
+                        {services.map((service) => (
+                          <Link
+                            key={service.slug}
+                            to={`/services/${service.slug}`}
+                            className={styles.drawerSubItem}
+                            onClick={() =>
+                              setMobileOpen(false)
+                            }
+                          >
+                            {service.title}
+                          </Link>
+                        ))}
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
                 <NavLink
                   to="/gemstones"
                   className={styles.navLink}
@@ -540,12 +688,78 @@ const Navbar = () => {
                 >
                   Locket
                 </NavLink>
-                <NavLink
-                  to="/services"
-                  className={styles.navLink}
-                >
-                  Services
-                </NavLink>
+                <div>
+                  <button
+                    type="button"
+                    className={styles.drawerLink}
+                    onClick={() =>
+                      setActiveDropdown(
+                        activeDropdown === 'jewelry'
+                          ? null
+                          : 'jewelry'
+                      )
+                    }
+                  >
+                    Others
+
+                    <FiChevronDown
+                      className={
+                        activeDropdown === 'jewelry'
+                          ? styles.chevronOpen
+                          : ''
+                      }
+                    />
+                  </button>
+
+                  <AnimatePresence>
+                    {activeDropdown === 'jewelry' && (
+                      <motion.div
+                        className={styles.drawerSub}
+                        initial={{
+                          height: 0,
+                          opacity: 0,
+                        }}
+                        animate={{
+                          height: 'auto',
+                          opacity: 1,
+                        }}
+                        exit={{
+                          height: 0,
+                          opacity: 0,
+                        }}
+                      >
+                        <Link
+                          to="/bracelets-pendants/beads-bracelet"
+                          className={styles.drawerSubItem}
+                          onClick={() =>
+                            setMobileOpen(false)
+                          }
+                        >
+                          Bracelets
+                        </Link>
+
+                        <Link
+                          to="/bracelets-pendants/pendant"
+                          className={styles.drawerSubItem}
+                          onClick={() =>
+                            setMobileOpen(false)
+                          }
+                        >
+                          Pendants
+                        </Link>
+                        <Link
+                          to="/bracelets-pendants/key-chain"
+                          className={styles.drawerSubItem}
+                          onClick={() =>
+                            setMobileOpen(false)
+                          }
+                        >
+                          Key Chain
+                        </Link>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
               </div>
             </motion.aside>
           </>

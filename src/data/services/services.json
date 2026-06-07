@@ -1,0 +1,386 @@
+[
+  {
+    "id": 1,
+    "slug": "home-vastu",
+    "icon": "🏠",
+    "title": "Home Vastu Consultation",
+    "description": "Home Vastu Consultation helps create harmony, positivity, prosperity and balanced energy in your living space through detailed Vastu analysis and practical remedies.",
+    "startingPrice": "₹11,000",
+    "packages": [
+      {
+        "name": "Basic",
+        "price": "₹11,000"
+      },
+      {
+        "name": "Advanced",
+        "price": "₹21,000"
+      },
+      {
+        "name": "Premium",
+        "price": "₹31,000"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "office-vastu",
+    "icon": "🏢",
+    "title": "Office Vastu Consultation",
+    "description": "Office Vastu Consultation focuses on improving productivity, financial growth, employee performance and business success through proper workspace planning.",
+    "startingPrice": "₹11,000",
+    "packages": [
+      {
+        "name": "Basic",
+        "price": "₹11,000"
+      },
+      {
+        "name": "Advanced",
+        "price": "₹21,000"
+      },
+      {
+        "name": "Premium",
+        "price": "₹31,000"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "corporate-office-vastu",
+    "icon": "🏢",
+    "title": "Corporate Office Vastu",
+    "description": "Corporate Office Vastu helps improve organizational efficiency, leadership performance, communication and long-term business growth.",
+    "startingPrice": "₹11,000",
+    "packages": [
+      {
+        "name": "Basic",
+        "price": "₹11,000"
+      },
+      {
+        "name": "Advanced",
+        "price": "₹21,000"
+      },
+      {
+        "name": "Premium",
+        "price": "₹31,000"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "factory-vastu",
+    "icon": "🏭",
+    "title": "Factory Vastu Consultation",
+    "description": "Factory Vastu Consultation helps optimize industrial operations, machinery placement, workflow and financial performance.",
+    "startingPrice": "₹21,000",
+    "packages": [
+      {
+        "name": "Advanced",
+        "price": "₹21,000"
+      },
+      {
+        "name": "Premium",
+        "price": "₹51,000"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "commercial-vastu",
+    "icon": "🏬",
+    "title": "Commercial Vastu Consultation",
+    "description": "Commercial Vastu Consultation is ideal for shops, showrooms, commercial complexes and business establishments seeking growth and prosperity.",
+    "startingPrice": "₹21,000",
+    "packages": [
+      {
+        "name": "Advanced",
+        "price": "₹21,000"
+      },
+      {
+        "name": "Premium",
+        "price": "₹51,000"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "restaurant-vastu",
+    "icon": "🍽️",
+    "title": "Restaurant Vastu Consultation",
+    "description": "Restaurant Vastu helps create a welcoming atmosphere, attract customers and improve operational efficiency and profitability.",
+    "startingPrice": "₹21,000",
+    "packages": [
+      {
+        "name": "Advanced",
+        "price": "₹21,000"
+      },
+      {
+        "name": "Premium",
+        "price": "₹51,000"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "school-vastu",
+    "icon": "🏫",
+    "title": "School Vastu Consultation",
+    "description": "School Vastu creates an environment that supports learning, concentration, academic success and institutional development.",
+    "startingPrice": "₹21,000",
+    "packages": [
+      {
+        "name": "Advanced",
+        "price": "₹21,000"
+      },
+      {
+        "name": "Premium",
+        "price": "₹51,000"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "warehouse-vastu",
+    "icon": "📦",
+    "title": "Warehouse Vastu Consultation",
+    "description": "Warehouse Vastu improves storage management, inventory movement, logistics and business efficiency through proper planning.",
+    "startingPrice": "₹21,000",
+    "packages": [
+      {
+        "name": "Advanced",
+        "price": "₹21,000"
+      },
+      {
+        "name": "Premium",
+        "price": "₹51,000"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "industry-vastu",
+    "icon": "🏗️",
+    "title": "Industry Vastu Consultation",
+    "description": "Industry Vastu focuses on large-scale industrial establishments, workflow optimization, productivity and sustainable growth.",
+    "startingPrice": "₹21,000",
+    "packages": [
+      {
+        "name": "Advanced",
+        "price": "₹21,000"
+      },
+      {
+        "name": "Premium",
+        "price": "₹51,000"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "flats-vastu",
+    "icon": "🏢",
+    "title": "Flats Vastu Consultation",
+    "description": "Flats Vastu Consultation helps apartment owners achieve balance, prosperity, peace and positive energy.",
+    "startingPrice": "₹11,000",
+    "packages": [
+      {
+        "name": "Basic",
+        "price": "₹11,000"
+      },
+      {
+        "name": "Advanced",
+        "price": "₹21,000"
+      },
+      {
+        "name": "Premium",
+        "price": "₹31,000"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "plot-vastu",
+    "icon": "📐",
+    "title": "Plot Vastu Consultation",
+    "description": "Plot Vastu Consultation assists in selecting and evaluating land for residential, commercial and industrial development.",
+    "startingPrice": "₹11,000",
+    "packages": [
+      {
+        "name": "Basic",
+        "price": "₹11,000"
+      },
+      {
+        "name": "Advanced",
+        "price": "₹21,000"
+      },
+      {
+        "name": "Premium",
+        "price": "₹31,000"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "farmhouse-vastu",
+    "icon": "🌾",
+    "title": "Farmhouse Vastu Consultation",
+    "description": "Farmhouse Vastu Consultation helps create a peaceful, prosperous and naturally balanced environment.",
+    "startingPrice": "₹11,000",
+    "packages": [
+      {
+        "name": "Basic",
+        "price": "₹11,000"
+      },
+      {
+        "name": "Advanced",
+        "price": "₹21,000"
+      },
+      {
+        "name": "Premium",
+        "price": "₹31,000"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "mall-vastu",
+    "icon": "🛍️",
+    "title": "Mall Vastu Consultation",
+    "description": "Mall Vastu Consultation helps improve customer attraction, tenant success and commercial performance.",
+    "startingPrice": "₹21,000",
+    "packages": [
+      {
+        "name": "Advanced",
+        "price": "₹21,000"
+      },
+      {
+        "name": "Premium",
+        "price": "₹51,000"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "slug": "numerology-consultation",
+    "icon": "🔢",
+    "title": "Numerology Consultation",
+    "description": "Personalized numerology consultation based on birth date and name vibrations to provide guidance for life decisions.",
+    "startingPrice": "₹2,100",
+    "packages": [
+      {
+        "name": "Consultation",
+        "price": "₹2,100"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "astrology-consultation",
+    "icon": "⭐",
+    "title": "Astrology Consultation",
+    "description": "Detailed horoscope analysis and astrological guidance for career, marriage, business, health and finances.",
+    "startingPrice": "₹2,100",
+    "packages": [
+      {
+        "name": "Consultation",
+        "price": "₹2,100"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "mobile-number-numerology",
+    "icon": "📱",
+    "title": "Mobile Number Numerology",
+    "description": "Analysis and selection of a lucky mobile number aligned with your numerology profile.",
+    "startingPrice": "₹5,100",
+    "packages": [
+      {
+        "name": "Mobile Number Analysis",
+        "price": "₹5,100"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "lucky-car-number",
+    "icon": "🚗",
+    "title": "Lucky Car Number",
+    "description": "Get a numerologically favorable vehicle registration number for success and positive energy.",
+    "startingPrice": "₹1,100",
+    "packages": [
+      {
+        "name": "Lucky Car Number Selection",
+        "price": "₹1,100"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "slug": "lucky-bank-account-number",
+    "icon": "🏦",
+    "title": "Lucky Bank Account Number",
+    "description": "Numerology-based analysis of bank account numbers to enhance financial harmony and growth.",
+    "startingPrice": "₹1,100",
+    "packages": [
+      {
+        "name": "Lucky Bank Number Analysis",
+        "price": "₹1,100"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "slug": "lucky-house-number",
+    "icon": "🏡",
+    "title": "Lucky House Number",
+    "description": "Evaluate and select house numbers that align with your personal numerology profile.",
+    "startingPrice": "₹1,100",
+    "packages": [
+      {
+        "name": "House Number Analysis",
+        "price": "₹1,100"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "slug": "signature-analysis",
+    "icon": "✍️",
+    "title": "Signature Analysis",
+    "description": "Professional signature analysis and correction recommendations based on numerology principles.",
+    "startingPrice": "₹5,100",
+    "packages": [
+      {
+        "name": "Signature Analysis",
+        "price": "₹5,100"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "slug": "name-numerology",
+    "icon": "📝",
+    "title": "Name Numerology",
+    "description": "Detailed name analysis and correction recommendations for success, growth and balance.",
+    "startingPrice": "₹5,100",
+    "packages": [
+      {
+        "name": "Name Numerology Analysis",
+        "price": "₹5,100"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "slug": "business-numerology",
+    "icon": "💼",
+    "title": "Business Numerology",
+    "description": "Business name and brand numerology consultation to support growth, visibility and prosperity.",
+    "startingPrice": "₹11,000",
+    "packages": [
+      {
+        "name": "Business Numerology Consultation",
+        "price": "₹11,000"
+      }
+    ]
+  }
+]

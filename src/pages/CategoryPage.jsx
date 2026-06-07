@@ -79,14 +79,10 @@ const categoryGroups = {
     'Balancer',
     'Protector',
   ],
-  bracelets: [
-    'Healing Bracelets',
-    'Protection Bracelets',
-    'Rudraksha Bracelets',
-    'Crystal Bracelets',
-    'Chakra Bracelets',
+  'bracelets-pendants': [
+    'Beads Bracelet',
+    'Pendant',
   ],
-
   crystals: [
     'Raw Crystals',
     'Healing Stones',
@@ -128,31 +124,78 @@ const CategoryPage = () => {
 
     if (subcategory) {
 
-      // =========================
-      // YANTRA SPECIAL CASE
-      // =========================
-
-if (
-  category === 'yantra' ||
-  category === 'energyvastu' ||
-  category === 'oils'
-) {
+      if (
+        category === 'yantra' ||
+        category === 'energyvastu' ||
+        category === 'oils' ||
+        category ===
+        'bracelets-pendants'
+      ) {
 
         return products.filter(
-          (product) =>
-            slugify(product.subcategory) ===
-            slugify(decodedSubcategory)
+          (product) => {
+
+            // Bracelets & Pendants
+            if (
+              category ===
+              'bracelets-pendants'
+            ) {
+
+              // Bracelets page
+              if (
+                slugify(
+                  decodedSubcategory
+                ) ===
+                'beads-bracelet'
+              ) {
+                return (
+                  product.category ===
+                  'Healing Jewelry' &&
+                  [
+                    'Beads Bracelet',
+                    'Combination Bracelet',
+                  ].includes(
+                    product.subcategory
+                  )
+                );
+              }
+
+              // Pendant page
+              if (
+                slugify(
+                  decodedSubcategory
+                ) ===
+                'pendant'
+              ) {
+                return (
+                  product.category ===
+                  'Healing Jewelry' &&
+                  product.subcategory ===
+                  'Pendant'
+                );
+              }
+            }
+
+            return (
+              slugify(
+                product.subcategory
+              ) ===
+              slugify(
+                decodedSubcategory
+              )
+            );
+          }
         );
       }
 
-      // =========================
-      // NORMAL CATEGORIES
-      // =========================
-
       return products.filter(
         (product) =>
-          slugify(product.category) ===
-          slugify(decodedSubcategory)
+          slugify(
+            product.category
+          ) ===
+          slugify(
+            decodedSubcategory
+          )
       );
     }
 
@@ -174,6 +217,16 @@ if (
     if (category === 'oils') {
       return products.filter(
         product => product.category === 'Oils'
+      );
+    }
+    if (
+      category ===
+      'bracelets-pendants'
+    ) {
+      return products.filter(
+        (product) =>
+          product.category ===
+          'Healing Jewelry'
       );
     }
 

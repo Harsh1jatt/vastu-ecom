@@ -7,39 +7,16 @@ import {
   FiCheckCircle,
   FiArrowRight
 } from 'react-icons/fi';
-
+ 
 import SectionHeader from '../components/ui/SectionHeader';
 import styles from './Services.module.css';
 import ServicesCard from '../components/services/ServicesCard';
-const services = [
-  {
-    icon: <FiHome />,
-    title: 'Residential Vastu',
-    desc: 'Complete home vastu analysis for harmony, health and prosperity.'
-  },
-  {
-    icon: <FiCompass />,
-    title: 'Commercial Vastu',
-    desc: 'Office and business vastu consultation for growth and success.'
-  },
-  {
-    icon: <FiLayers />,
-    title: 'Energy Balancing',
-    desc: 'Correct negative energies using authentic vastu remedies.'
-  },
-  {
-    icon: <FiSun />,
-    title: 'Personal Consultation',
-    desc: 'One-to-one guidance based on your specific requirements.'
-  }
-];
-
 const process = [
-  'Requirement Discussion',
-  'Property Analysis',
-  'Vastu Assessment',
-  'Remedy Recommendation',
-  'Implementation Support'
+  'Consultation Booking',
+  'Space Analysis',
+  'Detailed Report',
+  'Remedies & Guidance',
+  'Follow-up Support',
 ];
 
 const Services = () => {

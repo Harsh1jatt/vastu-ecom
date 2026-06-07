@@ -1,0 +1,636 @@
+[
+  {
+    "id": "SCP001",
+    "title": "Tree Pendant",
+    "slug": "tree-pendant",
+    "category": "Healing Jewelry",
+    "subcategory": "Pendant",
+    "price": 50,
+    "discountPrice": 40,
+    "stock": true,
+    "rating": 4.5,
+    "reviews": 0,
+    "featured": false,
+    "bestSeller": true,
+    "tags": [
+      "tree pendant",
+      "tree of life",
+      "crystal pendant",
+      "wire wrapped",
+      "healing pendant",
+      "gemstone pendant",
+      "natural stone",
+      "wholesale crystals",
+      "sana crystals"
+    ],
+    "images": [
+      "/products/pendants/tree-pendant.webp",
+      "/products/pendants/tree-pendant.webp"
+    ],
+    "shortDescription": "Beautiful wire-wrapped Tree of Life pendant with natural crystal chips. Available in multiple stone varieties.",
+    "description": "The Tree Pendant from Sana Crystals features an elegant wire-wrapped tree of life design set within a circular silver-toned frame. Each pendant is adorned with natural gemstone chips forming the leaves of the tree. Available in a wide range of crystal varieties including Turquoise, Tiger Eye, Garnet, Lapis Lazuli, Clear Quartz, Amethyst, Rose Quartz, Chakra mix, and many more. A versatile and meaningful jewelry piece perfect for gifting or personal use.",
+    "benefits": [
+      "Symbolizes growth, strength and connection",
+      "Promotes harmony and balance",
+      "Enhances spiritual awareness",
+      "Brings grounding energy",
+      "Supports personal transformation"
+    ],
+    "specifications": {
+      "material": "Natural Crystal Chips + Silver-tone Wire Frame",
+      "shape": "Circular Tree of Life",
+      "type": "Pendant",
+      "availableVariants": [
+        "Turquoise",
+        "Tiger Eye",
+        "Garnet",
+        "Lapis Lazuli",
+        "Clear Quartz",
+        "Amethyst",
+        "Rose Quartz",
+        "Chakra Mix",
+        "Green Aventurine",
+        "Black Tourmaline"
+      ]
+    }
+  },
+  {
+    "id": "SCP002",
+    "title": "DP Pencil Pendant",
+    "slug": "dp-pencil-pendant",
+    "category": "Healing Jewelry",
+    "subcategory": "Pendant",
+    "price": 60,
+    "discountPrice": 50,
+    "stock": true,
+    "rating": 4.4,
+    "reviews": 0,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "dp pencil pendant",
+      "double point pendant",
+      "crystal pencil",
+      "wire wrapped pendant",
+      "healing pendant",
+      "gemstone pendant",
+      "natural stone",
+      "wholesale crystals",
+      "sana crystals"
+    ],
+    "images": [
+      "/products/pendants/dp-pencil-pendant.webp",
+      "/products/pendants/dp-pencil-pendant.webp"
+    ],
+    "shortDescription": "Double-point crystal pencil pendant wire-wrapped in silver. Available in Clear Quartz, Black Tourmaline, Green Aventurine, Amethyst, Labradorite, Carnelian and more.",
+    "description": "The DP Pencil Pendant (Double Point) from Sana Crystals features natural crystal points wire-wrapped in a silver-tone setting. These double-terminated crystals are believed to channel energy in both directions, making them especially powerful for healing and manifestation work. Available in a variety of crystal types including Clear Quartz, Black Tourmaline, Green Aventurine, Amethyst, Labradorite, Carnelian/Orange Calcite, 7 Chakra, and mixed assorted styles with decorative metal caps.",
+    "benefits": [
+      "Channels energy in both directions",
+      "Amplifies healing intentions",
+      "Balances and aligns the chakras",
+      "Enhances clarity and focus",
+      "Promotes positive energy flow"
+    ],
+    "specifications": {
+      "material": "Natural Crystal Point + Silver-tone Wire / Metal Cap",
+      "shape": "Double Point / Pencil",
+      "type": "Pendant",
+      "availableVariants": [
+        "Clear Quartz",
+        "Black Tourmaline",
+        "Green Aventurine",
+        "Amethyst",
+        "Labradorite",
+        "Carnelian / Orange Calcite",
+        "7 Chakra",
+        "Tiger Eye",
+        "Rose Quartz",
+        "Mixed Assorted"
+      ]
+    }
+  },
+  {
+    "id": "SCP003",
+    "title": "SP Pencil Pendant",
+    "slug": "sp-pencil-pendant",
+    "category": "Healing Jewelry",
+    "subcategory": "Pendant",
+    "price": 50,
+    "discountPrice": 40,
+    "stock": true,
+    "rating": 4.5,
+    "reviews": 0,
+    "featured": false,
+    "bestSeller": true,
+    "tags": [
+      "sp pencil pendant",
+      "single point pendant",
+      "crystal pencil",
+      "healing pendant",
+      "gemstone pendant",
+      "natural stone",
+      "wholesale crystals",
+      "sana crystals"
+    ],
+    "images": [
+      "/products/pendants/sp-pencil-pendant.webp",
+      "/products/pendants/sp-pencil-pendant.webp"
+    ],
+    "shortDescription": "Single-point crystal pencil pendant with decorative silver metal cap. Available in 20+ stone varieties including Tiger Eye, Sodalite, Black Tourmaline, Dalmatian Jasper and more.",
+    "description": "The SP Pencil Pendant (Single Point) from Sana Crystals is a polished, single-terminated crystal point pendant topped with an ornate silver-tone metal cap. These elegant pendants come in an extensive range of crystal varieties and colors. The decorative cap adds a regal, premium look to each piece. Available in Blue (Angelite/Chalcedony), Green Malachite, Labradorite, Amazonite, Green Aventurine, Rose Quartz, Red Jasper, Tiger Eye, Sodalite, Clear Quartz, Black Tourmaline, Indian Agate, Peach Moonstone, Black Obsidian, Dalmatian Jasper, Amethyst, Yellow Jasper and more.",
+    "benefits": [
+      "Directs and focuses healing energy",
+      "Excellent for meditation and intention setting",
+      "Amplifies personal energy field",
+      "Stone-specific metaphysical benefits",
+      "Balances mind, body and spirit"
+    ],
+    "specifications": {
+      "material": "Natural Polished Crystal + Ornate Silver-tone Metal Cap",
+      "shape": "Single Point / Pencil",
+      "type": "Pendant",
+      "availableVariants": [
+        "Blue Chalcedony / Angelite",
+        "Green Malachite",
+        "Labradorite",
+        "Amazonite",
+        "Green Aventurine",
+        "Rose Quartz",
+        "Red Jasper",
+        "Tiger Eye",
+        "Sodalite",
+        "Clear Quartz",
+        "Black Tourmaline",
+        "Indian Agate",
+        "Peach Moonstone",
+        "Black Obsidian",
+        "Dalmatian Jasper",
+        "Amethyst",
+        "Yellow Jasper"
+      ]
+    }
+  },
+  {
+    "id": "SCP004",
+    "title": "Star of David Pendant",
+    "slug": "star-of-david-pendant",
+    "category": "Healing Jewelry",
+    "subcategory": "Pendant",
+    "price": 100,
+    "discountPrice": 80,
+    "stock": true,
+    "rating": 4.6,
+    "reviews": 0,
+    "featured": true,
+    "bestSeller": false,
+    "tags": [
+      "star of david pendant",
+      "hexagon pendant",
+      "merkaba pendant",
+      "crystal pendant",
+      "healing pendant",
+      "gemstone pendant",
+      "natural stone",
+      "wholesale crystals",
+      "sana crystals"
+    ],
+    "images": [
+      "/products/pendants/star-of-david-pendant.webp",
+      "/products/pendants/star-of-david-pendant.webp"
+    ],
+    "shortDescription": "Natural crystal Star of David (hexagonal Merkaba) pendant with silver bail. Available in Amethyst, Tiger Eye, Moonstone, Black Obsidian, Rose Quartz and Green Aventurine.",
+    "description": "The Star of David Pendant from Sana Crystals is a powerful geometric crystal pendant carved in the sacred hexagonal shape, also known as the Merkaba. Each pendant is crafted from a single piece of natural gemstone and features a silver-tone bail for easy wearing. The Star of David / Merkaba shape is considered one of the most powerful sacred geometry symbols, believed to activate the light body and provide divine protection. Available in Amethyst, Tiger Eye, Moonstone/Labradorite, Black Obsidian, Rose Quartz, and Green Aventurine.",
+    "benefits": [
+      "Sacred geometry for spiritual protection",
+      "Activates and balances the energy field",
+      "Enhances meditation and spiritual practices",
+      "Promotes divine connection and higher consciousness",
+      "Stone-specific healing properties"
+    ],
+    "specifications": {
+      "material": "Natural Carved Gemstone + Silver-tone Bail",
+      "shape": "Hexagonal Star / Star of David / Merkaba",
+      "type": "Pendant",
+      "availableVariants": [
+        "Amethyst",
+        "Tiger Eye",
+        "Moonstone / Labradorite",
+        "Black Obsidian",
+        "Rose Quartz",
+        "Green Aventurine"
+      ]
+    }
+  },
+  {
+    "id": "SCP005",
+    "title": "Flat Pencil Pendant with Charm",
+    "slug": "flat-pencil-pendant-with-charm",
+    "category": "Healing Jewelry",
+    "subcategory": "Pendant",
+    "price": 100,
+    "discountPrice": 80,
+    "stock": true,
+    "rating": 4.7,
+    "reviews": 0,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "flat pencil pendant",
+      "charm pendant",
+      "crystal with charm",
+      "tree of life charm",
+      "buddha charm",
+      "star charm",
+      "healing pendant",
+      "gemstone pendant",
+      "natural stone",
+      "wholesale crystals",
+      "sana crystals"
+    ],
+    "images": [
+      "/products/pendants/flat-pencil-pendant-with-charm.webp",
+      "/products/pendants/flat-pencil-pendant-with-charm.webp"
+    ],
+    "shortDescription": "Flat crystal pencil pendant with decorative silver charm. Available in multiple crystal types and charm designs — Pentagram, Tree of Life, Yoga/Meditation, Buddha, Star and more.",
+    "description": "The Flat Pencil Pendant with Charm from Sana Crystals is a premium pendant featuring a flat, polished crystal slab in a pencil/tower shape, adorned with a beautifully crafted silver-tone decorative charm. Available in a variety of crystal types and charm designs. Crystal options include Amethyst, Tiger Eye, Rose Quartz, Labradorite, Orange Calcite / Peach Selenite, and more. Charm designs include Pentagram Star, Tree of Life, Yoga Meditating Figure, Buddha Face, Open Star, and other spiritual symbols. A highly popular and unique gift item.",
+    "benefits": [
+      "Combines crystal healing with sacred symbolism",
+      "Each charm adds specific spiritual intention",
+      "Enhances personal energy and aura",
+      "Perfect for gifting with meaning",
+      "Protective and spiritually uplifting"
+    ],
+    "specifications": {
+      "material": "Natural Flat Crystal Slab + Silver-tone Charm",
+      "shape": "Flat Pencil / Tower with Hanging Charm",
+      "type": "Pendant",
+      "availableVariants": [
+        "Amethyst + Pentagram",
+        "Tiger Eye + Yoga/Meditation",
+        "Amethyst + Tree of Life",
+        "Rose Quartz + Tree of Life",
+        "Labradorite + Buddha",
+        "Orange Calcite / Peach + Open Star"
+      ]
+    }
+  },
+  {
+    "id": "SCP006",
+    "title": "Tumble Stone Pendant",
+    "slug": "tumble-stone-pendant",
+    "category": "Healing Jewelry",
+    "subcategory": "Pendant",
+    "price": 60,
+    "discountPrice": 50,
+    "stock": true,
+    "rating": 4.3,
+    "reviews": 0,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "tumble stone pendant",
+      "wire wrapped tumble",
+      "natural stone pendant",
+      "healing pendant",
+      "gemstone pendant",
+      "raw crystal pendant",
+      "wholesale crystals",
+      "sana crystals"
+    ],
+    "images": [
+      "/products/pendants/tumble-stone-pendant.webp",
+      "/products/pendants/tumble-stone-pendant.webp"
+    ],
+    "shortDescription": "Natural tumbled gemstone pendant wire-wrapped in silver. Available in Sodalite, Amethyst, Clear Quartz, Dalmatian Jasper, Howlite, Red Jasper, Labradorite, Fluorite and more.",
+    "description": "The Tumble Stone Pendant from Sana Crystals features a naturally polished tumble stone wire-wrapped in a silver-tone setting. Each stone is unique, with its own natural variations in color and pattern. These pendants have a beautiful organic, raw aesthetic and carry the full metaphysical properties of the crystal. Available in Sodalite, Amethyst, Clear Quartz, Dalmatian Jasper, Howlite/White Turquoise, Red Jasper, Labradorite, Fluorite, Charoite/Lepidolite and more.",
+    "benefits": [
+      "Carries full natural energy of the crystal",
+      "Organic and unique — no two pieces alike",
+      "Grounding and calming properties",
+      "Stone-specific healing benefits",
+      "Versatile and lightweight to wear"
+    ],
+    "specifications": {
+      "material": "Natural Tumbled Gemstone + Silver-tone Wire Wrap",
+      "shape": "Natural Tumble (Irregular)",
+      "type": "Pendant",
+      "availableVariants": [
+        "Sodalite",
+        "Amethyst",
+        "Clear Quartz",
+        "Dalmatian Jasper",
+        "Howlite / White Turquoise",
+        "Red Jasper",
+        "Labradorite",
+        "Fluorite",
+        "Green Aventurine",
+        "Charoite / Lepidolite"
+      ]
+    }
+  },
+  {
+    "id": "SCP007",
+    "title": "Arrowhead Pendant",
+    "slug": "arrowhead-pendant",
+    "category": "Healing Jewelry",
+    "subcategory": "Pendant",
+    "price": 100,
+    "discountPrice": 80,
+    "stock": true,
+    "rating": 4.8,
+    "reviews": 0,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "arrowhead pendant",
+      "star pendant",
+      "moon pendant",
+      "wire wrapped",
+      "tree of life",
+      "healing pendant",
+      "crystal pendant",
+      "natural stone",
+      "wholesale crystals",
+      "sana crystals"
+    ],
+    "images": [
+      "/products/pendants/arrowhead-pendant.webp",
+      "/products/pendants/arrowhead-pendant.webp"
+    ],
+    "shortDescription": "Wire-wrapped crystal star and crescent moon pendants with intricate tree of life design. Available in Black Obsidian, Amethyst, Rose Quartz, Opalite, Clear Quartz and more.",
+    "description": "The Arrowhead Pendant from Sana Crystals (also appearing as Star & Moon Pendants) features beautifully wire-wrapped crystal shapes — stars, crescent moons, and arrowheads — with an intricate tree of life design embedded within the wire work. These are among the most artistic and detailed pendants in the collection. Available in star and moon shapes in Black Obsidian, Amethyst, Rose Quartz, Opalite, Clear Quartz, Blue Goldstone and more. A true statement piece.",
+    "benefits": [
+      "Combines sacred geometry with crystal healing",
+      "Star shape amplifies intentions and wishes",
+      "Moon shape enhances intuition and feminine energy",
+      "Tree of life design grounds and connects",
+      "Powerful protective and manifestation tool"
+    ],
+    "specifications": {
+      "material": "Natural Crystal + Silver-tone Wire Wrap",
+      "shape": "Star / Crescent Moon / Arrowhead with Tree of Life Wire Work",
+      "type": "Pendant",
+      "availableVariants": [
+        "Black Obsidian Star",
+        "Amethyst Star",
+        "Rose Quartz Star",
+        "Opalite Star",
+        "Clear Quartz Star",
+        "Amethyst Moon",
+        "Black Obsidian Moon",
+        "Opalite Moon",
+        "Rose Quartz + Opalite Star Set"
+      ]
+    }
+  },
+  {
+    "id": "SCKC001",
+    "title": "Tumble Key Chain",
+    "slug": "tumble-key-chain",
+    "category": "Healing Accessories",
+    "subcategory": "Key Chain",
+    "price": 75,
+    "discountPrice": 60,
+    "stock": true,
+    "rating": 4.4,
+    "reviews": 0,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "tumble key chain",
+      "crystal key chain",
+      "gemstone key chain",
+      "natural stone keychain",
+      "healing keychain",
+      "wholesale crystals",
+      "sana crystals"
+    ],
+    "images": [
+      "/products/keychains/tumble-key-chain.webp",
+      "/products/keychains/tumble-key-chain.webp"
+    ],
+    "shortDescription": "Natural tumbled gemstone key chain with silver-tone metal ring and chain. Available in Amethyst, Dalmatian Jasper, Sunstone, Black Obsidian, Amazonite, Green Aventurine, Labradorite, Pyrite and more.",
+    "description": "The Tumble Key Chain from Sana Crystals features a natural polished tumble stone attached to a sturdy silver-tone key ring via a metal chain. Each stone is naturally unique in shape and color. These make wonderful everyday accessories that double as healing crystal companions wherever you go. Available in Amethyst, Dalmatian Jasper, Sunstone/Peach Feldspar, Black Obsidian, Amazonite, Green Aventurine, Labradorite, Pyrite and more.",
+    "benefits": [
+      "Carries healing crystal energy throughout the day",
+      "Natural protection on the go",
+      "Unique and thoughtful gift",
+      "Stone-specific metaphysical benefits",
+      "Durable everyday accessory"
+    ],
+    "specifications": {
+      "material": "Natural Tumbled Gemstone + Silver-tone Key Ring & Chain",
+      "shape": "Natural Tumble (Irregular)",
+      "type": "Key Chain",
+      "availableVariants": [
+        "Amethyst",
+        "Dalmatian Jasper",
+        "Sunstone / Peach Feldspar",
+        "Black Obsidian",
+        "Amazonite",
+        "Green Aventurine",
+        "Labradorite",
+        "Pyrite"
+      ]
+    }
+  },
+  {
+    "id": "SCKC002",
+    "title": "Heart Key Chain",
+    "slug": "heart-key-chain",
+    "category": "Healing Accessories",
+    "subcategory": "Key Chain",
+    "price": 75,
+    "discountPrice": 60,
+    "stock": true,
+    "rating": 4.6,
+    "reviews": 0,
+    "featured": false,
+    "bestSeller": true,
+    "tags": [
+      "heart key chain",
+      "crystal heart keychain",
+      "gemstone heart",
+      "natural stone keychain",
+      "healing keychain",
+      "love stone",
+      "wholesale crystals",
+      "sana crystals"
+    ],
+    "images": [
+      "/products/keychains/heart-key-chain.webp",
+      "/products/keychains/heart-key-chain.webp"
+    ],
+    "shortDescription": "Carved natural gemstone heart key chain with silver-tone ring. Available in Green Aventurine, Rose Quartz, Amethyst, Red Jasper, Tiger Eye & Black Obsidian mix, Orange Calcite, Sodalite, Black Obsidian, and Sunstone.",
+    "description": "The Heart Key Chain from Sana Crystals features a beautifully carved natural gemstone in a heart shape, attached to a silver-tone key ring with a metal chain. Heart-shaped crystals are powerful symbols of love, compassion, and emotional healing. These make exceptional gifts for loved ones and are equally wonderful as a personal talisman. Available in Green Aventurine, Rose Quartz, Amethyst, Red Jasper, Tiger Eye & Black Obsidian mix, Orange Calcite, Sodalite, Black Obsidian, and Sunstone.",
+    "benefits": [
+      "Opens and heals the heart chakra",
+      "Attracts love and harmonious relationships",
+      "Provides emotional support and comfort",
+      "Promotes self-love and compassion",
+      "Stone-specific metaphysical properties"
+    ],
+    "specifications": {
+      "material": "Natural Carved Gemstone Heart + Silver-tone Key Ring & Chain",
+      "shape": "Heart",
+      "type": "Key Chain",
+      "availableVariants": [
+        "Green Aventurine",
+        "Rose Quartz",
+        "Amethyst",
+        "Red Jasper",
+        "Tiger Eye + Black Obsidian Mix",
+        "Orange Calcite",
+        "Sodalite",
+        "Black Obsidian",
+        "Sunstone"
+      ]
+    }
+  },
+  {
+    "id": "SCKC003",
+    "title": "Tree Pendant Key Chain",
+    "slug": "tree-pendant-key-chain",
+    "category": "Healing Accessories",
+    "subcategory": "Key Chain",
+    "price": 65,
+    "discountPrice": 50,
+    "stock": true,
+    "rating": 4.5,
+    "reviews": 0,
+    "featured": false,
+    "bestSeller": false,
+    "tags": [
+      "tree pendant key chain",
+      "tree of life keychain",
+      "crystal tree keychain",
+      "chakra keychain",
+      "wire wrapped keychain",
+      "healing keychain",
+      "wholesale crystals",
+      "sana crystals"
+    ],
+    "images": [
+      "/products/keychains/tree-pendant-key-chain.webp",
+      "/products/keychains/tree-pendant-key-chain.webp"
+    ],
+    "shortDescription": "Wire-wrapped Tree of Life crystal chip pendant key chain set in a heart-shaped frame with 7 Chakra stones. Elegant and spiritual daily accessory.",
+    "description": "The Tree Pendant Key Chain from Sana Crystals is a miniature version of the beloved Tree of Life pendant, now crafted as a key chain. It features an intricate wire-wrapped tree with natural gemstone chip leaves, set within a heart-shaped silver-tone frame, attached to a sturdy key ring. Shown with 7 Chakra mix stones, offering a full spectrum of healing energy in one piece. A beautiful and meaningful accessory for daily use or as a thoughtful gift.",
+    "benefits": [
+      "Carries tree of life energy and symbolism",
+      "7 Chakra variant balances all energy centers",
+      "Symbol of growth, strength and abundance",
+      "Daily crystal companion",
+      "Meaningful and decorative gift"
+    ],
+    "specifications": {
+      "material": "Natural Crystal Chips + Silver-tone Wire + Heart Frame + Key Ring",
+      "shape": "Heart Frame with Tree of Life Wire Work",
+      "type": "Key Chain",
+      "availableVariants": [
+        "7 Chakra Mix",
+        "Amethyst",
+        "Rose Quartz",
+        "Green Aventurine",
+        "Lapis Lazuli"
+      ]
+    }
+  },
+  {
+    "id": "SCKC004",
+    "title": "Health & Success Key Chain",
+    "slug": "health-success-key-chain",
+    "category": "Healing Accessories",
+    "subcategory": "Key Chain",
+    "price": 85,
+    "discountPrice": 70,
+    "stock": true,
+    "rating": 4.7,
+    "reviews": 0,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "health keychain",
+      "success keychain",
+      "engraved crystal",
+      "rune stone keychain",
+      "intention keychain",
+      "prosperity keychain",
+      "healing keychain",
+      "wholesale crystals",
+      "sana crystals"
+    ],
+    "images": [
+      "/products/keychains/health-success-key-chain.webp",
+      "/products/keychains/health-success-key-chain.webp"
+    ],
+    "shortDescription": "Engraved natural gemstone key chains with 'Health' and 'Success' symbols and text. Yellow stone for Health, Black Obsidian for Success. RS 70 each.",
+    "description": "The Health & Success Key Chain from Sana Crystals is a set of two unique engraved gemstone key chains. The Health key chain features a yellow/honey calcite or similar warm-toned stone engraved with the word 'Health' and a sacred healing symbol. The Success key chain features a Black Obsidian oval stone engraved with a runic success symbol and the word 'SUCCESS'. Both are attached to sturdy silver-tone key rings with a metal bail. These intention-set key chains serve as daily affirmation tools, keeping your goals and manifestations close at hand.",
+    "benefits": [
+      "Keeps daily intentions and affirmations active",
+      "Health stone supports physical and emotional wellness",
+      "Success stone attracts achievement and abundance",
+      "Black Obsidian provides protection and clarity",
+      "Yellow stone energizes confidence and positivity"
+    ],
+    "specifications": {
+      "material": "Natural Engraved Gemstone + Silver-tone Key Ring & Bail",
+      "shape": "Oval",
+      "type": "Key Chain",
+      "availableVariants": [
+        "Health — Yellow Calcite / Honey Stone",
+        "Success — Black Obsidian"
+      ]
+    }
+  },
+  {
+    "id": "SCP008",
+    "title": "Black Tourmaline Raw Stone Pendant",
+    "slug": "black-tourmaline-raw-stone-pendant",
+    "category": "Healing Jewelry",
+    "subcategory": "Pendant",
+    "price": 85,
+    "discountPrice": 70,
+    "stock": true,
+    "rating": 4.8,
+    "reviews": 0,
+    "featured": true,
+    "bestSeller": true,
+    "tags": [
+      "black tourmaline pendant",
+      "raw stone pendant",
+      "protection pendant",
+      "tourmaline pendant",
+      "natural raw crystal",
+      "gold dipped pendant",
+      "EMF protection",
+      "grounding pendant",
+      "healing pendant",
+      "wholesale crystals",
+      "sana crystals"
+    ],
+    "images": [
+      "/products/pendants/black-tourmaline-raw-stone-pendant.webp",
+      "/products/pendants/black-tourmaline-raw-stone-pendant.webp"
+    ],
+    "shortDescription": "Raw natural Black Tourmaline column pendant with gold electroplated top and bail. One of the most powerful protection crystals available.",
+    "description": "The Black Tourmaline Raw Stone Pendant from Sana Crystals is a powerful and stunning piece featuring a natural, unpolished Black Tourmaline column with a luxurious gold electroplated top and bail. Black Tourmaline is widely regarded as one of the most potent protective crystals in the mineral kingdom. It creates a powerful shield against negative energies, electromagnetic radiation (EMF), psychic attacks, and environmental pollutants. The raw, natural form of the stone preserves its full energetic potency. The gold-dipped cap adds a premium aesthetic, making this pendant both beautiful and energetically powerful.",
+    "benefits": [
+      "Most powerful crystal for protection against negativity",
+      "Shields from EMF and electromagnetic pollution",
+      "Grounds and anchors spiritual energy to the earth",
+      "Repels and purifies negative energies",
+      "Promotes a sense of security and stability",
+      "Helps overcome negative thought patterns"
+    ],
+    "specifications": {
+      "material": "Raw Natural Black Tourmaline + Gold Electroplated Cap & Bail",
+      "shape": "Raw Natural Column",
+      "type": "Pendant",
+      "finish": "Gold Electroplated Top",
+      "availableVariants": [
+        "Raw Black Tourmaline (Gold Dipped)"
+      ]
+    }
+  }
+]

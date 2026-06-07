@@ -1,87 +1,51 @@
 import { motion } from 'framer-motion';
-import { FiArrowRight, FiCheck } from 'react-icons/fi';
+import { FiArrowRight } from 'react-icons/fi';
 import styles from './ServicesCard.module.css';
+import servicesData from '../../data/services/services.json';
+import { Link } from 'react-router-dom';
 
-const servicesData = [
-  {
-    category: 'Office Vastu Consultation',
-    packages: [
-      { name: 'Basic', price: '₹11,000' },
-      { name: 'Advanced', price: '₹21,000' },
-      { name: 'Premium', price: '₹31,000' },
-    ]
-  },
-
-  {
-    category: 'Factory / Commercial Vastu',
-    packages: [
-      { name: 'Advanced', price: '₹21,000' },
-      { name: 'Premium', price: '₹51,000' },
-    ]
-  },
-
-  {
-    category: 'Numerology Consultation',
-    packages: [
-      { name: 'Consultation', price: '₹2,100' }
-    ]
-  },
-
-  {
-    category: 'Astrology Consultation',
-    packages: [
-      { name: 'Consultation', price: '₹2,100' }
-    ]
-  },
-
-  {
-    category: 'Special Numerology Services',
-    packages: [
-      { name: 'Mobile Number', price: '₹5,100' },
-      { name: 'Lucky Car Number', price: '₹1,100' },
-      { name: 'Lucky Bank Account', price: '₹1,100' },
-      { name: 'Lucky House Number', price: '₹1,100' },
-      { name: 'Signature Analysis', price: '₹5,100' },
-      { name: 'Name Numerology', price: '₹5,100' },
-      { name: 'Business Numerology', price: '₹11,000' },
-    ]
-  }
-];
 
 const ServicesCard = () => {
   return (
     <div className={styles.wrapper}>
       {servicesData.map((service, index) => (
-        <motion.div
-          key={service.category}
+        <motion.div 
+          key={service.slug}
           className={styles.card}
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ delay: index * 0.08 }}
+          transition={{
+            duration: 0.5,
+            delay: index * 0.08,
+          }}
         >
-          <div className={styles.top}>
-            <span className={styles.badge}>Consultation</span>
-            <h3>{service.category}</h3>
+          <div className={styles.glow}></div>
+
+          <span className={styles.badge}>
+            Consultation
+          </span>
+
+          <div className={styles.icon}>
+            {service.icon}
           </div>
 
-          <div className={styles.packages}>
-            {service.packages.map((pkg) => (
-              <div key={pkg.name} className={styles.packageRow}>
-                <div>
-                  <FiCheck />
-                  <span>{pkg.name}</span>
-                </div>
+          <h3>{service.title}</h3>
 
-                <strong>{pkg.price}</strong>
-              </div>
-            ))}
+          <p>{service.description}</p>
+
+          <div className={styles.priceBox}>
+            <span>Starting From</span>
+            <strong>{service.startingPrice}</strong>
           </div>
 
-          <button className={styles.btn}>
-            Book Now
-            <FiArrowRight />
-          </button>
+          <Link
+  to={`/services/${service.slug}`}
+  className={styles.btn}
+>
+  View Details
+  <FiArrowRight />
+</Link>
         </motion.div>
       ))}
     </div>
