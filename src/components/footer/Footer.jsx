@@ -7,7 +7,8 @@ import {
   SITE_NAME,
   CONTACT_EMAIL,
   CONTACT_PERSONS,
-  ADDRESS
+  ADDRESS,
+  SOCIAL
 } from '../../config/site';
 const Footer = () => {
   const categories = getCategories();
@@ -28,16 +29,16 @@ const Footer = () => {
               Vastu, spiritual, and energy-balancing products.
             </p>
             <div className={styles.social}>
-              <a href="#" className={styles.socialLink} aria-label="Facebook">
+              <a href={SOCIAL.facebookUrl || '#'} className={styles.socialLink} aria-label="Facebook">
                 <FiFacebook size={20} />
               </a>
-              <a href="#" className={styles.socialLink} aria-label="Instagram">
+              <a href={SOCIAL.instagramUrl || '#'} className={styles.socialLink} aria-label="Instagram">
                 <FiInstagram size={20} />
               </a>
-              <a href="#" className={styles.socialLink} aria-label="Twitter">
+              <a href={SOCIAL.twitterUrl || '#'} className={styles.socialLink} aria-label="Twitter">
                 <FiTwitter size={20} />
               </a>
-              <a href="#" className={styles.socialLink} aria-label="LinkedIn">
+              <a href={SOCIAL.linkedinUrl || '#'} className={styles.socialLink} aria-label="LinkedIn">
                 <FiLinkedin size={20} />
               </a>
             </div>

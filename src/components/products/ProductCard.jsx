@@ -25,6 +25,8 @@ const ProductCard = ({ product, index = 0 }) => {
     showToast(`${product.title} added to cart`);
   };
   const isGemstone = product.category === 'Gemstones';
+  const isPerPiece =
+    product.category === 'Oils' || product.category === 'Rods';
   return (
     <>
       <article className={styles.card}>
@@ -115,11 +117,21 @@ const ProductCard = ({ product, index = 0 }) => {
               </span>
             ) : product.discountPrice ? (
               <>
-                <span className={styles.price}>₹{product.discountPrice}</span>
+                <span className={styles.price}>
+                  ₹{product.discountPrice}
+                  {isPerPiece && (
+                    <span className={styles.priceUnit}> / Piece</span>
+                  )}
+                </span>
                 <span className={styles.oldPrice}>₹{product.price}</span>
               </>
             ) : (
-              <span className={styles.price}>₹{product.price}</span>
+              <span className={styles.price}>
+                ₹{product.price}
+                {isPerPiece && (
+                  <span className={styles.priceUnit}> / Piece</span>
+                )}
+              </span>
             )}
           </div>
           <Link to={`/product/${product.slug}`} className={styles.viewLink}>

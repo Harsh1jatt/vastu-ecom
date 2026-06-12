@@ -3,7 +3,12 @@
   padding: 40px 0 80px;
   background: var(--cream);
 }
-
+.priceUnit {
+  font-size: 0.85em;
+  font-weight: 500;
+  opacity: 0.8;
+  margin-left: 4px;
+}
 .mainImage.zoomed {
   cursor: zoom-out;
 }

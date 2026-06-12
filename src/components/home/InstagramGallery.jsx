@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { FiInstagram } from 'react-icons/fi';
 import SectionHeader from '../ui/SectionHeader';
+import { SOCIAL } from '../../config/site';
 import styles from './InstagramGallery.module.css';
 
 const images = [
@@ -18,14 +19,14 @@ const InstagramGallery = () => (
       <SectionHeader
         eyebrow="Community"
         title="Follow Our Journey"
-        subtitle="@vaastusanctuary — daily inspiration, rituals & sacred living."
+        subtitle={`${SOCIAL.instagramHandle} — daily inspiration, rituals & sacred living.`}
         light
       />
       <div className={styles.grid}>
         {images.map((src, i) => (
           <motion.a
             key={src}
-            href="https://instagram.com"
+            href={SOCIAL.instagramUrl}
             target="_blank"
             rel="noopener noreferrer"
             className={styles.item}

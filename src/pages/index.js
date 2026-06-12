@@ -1,3 +1,3 @@
-import { Blogs, FAQ, PrivacyPolicy, ShippingPolicy, NotFound } from './StaticPages';
+import { Blogs, FAQ, ShippingPolicy, NotFound } from './StaticPages';
 
-export { Blogs, FAQ, PrivacyPolicy,  ShippingPolicy, NotFound };
+export { Blogs, FAQ,  ShippingPolicy, NotFound };

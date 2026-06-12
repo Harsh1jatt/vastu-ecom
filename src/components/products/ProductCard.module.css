@@ -1,5 +1,9 @@
 /* ProductCard.module.css */
-
+.priceUnit {
+  font-size: 0.85em;
+  font-weight: 500;
+  opacity: 0.8;
+}
 .card {
   position: relative;
   background: var(--white);

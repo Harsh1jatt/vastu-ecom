@@ -47,6 +47,9 @@ const ProductDetails = () => {
   const isGemstone =
     product.category?.toLowerCase() === 'gemstones' ||
     product.category?.toLowerCase() === 'gemstone';
+  const isPerPiece =
+    product.category?.toLowerCase() === 'oils' ||
+    product.category?.toLowerCase() === 'rods';
   const handleAddToCart = () => {
     addToCart(product, quantity);
     showToast(`${product.title} added to cart`);
@@ -115,14 +118,24 @@ const ProductDetails = () => {
                 </div>
               ) : (
                 <>
-                  {product.discountPrice ? (
-                    <>
-                      <span className={styles.originalPrice}>₹{product.price}</span>
-                      <span className={styles.price}>₹{displayPrice}</span>
-                    </>
-                  ) : (
-                    <span className={styles.price}>₹{displayPrice}</span>
-                  )}
+                 {product.discountPrice ? (
+  <>
+    <span className={styles.originalPrice}>₹{product.price}</span>
+    <span className={styles.price}>
+      ₹{displayPrice}
+      {isPerPiece && (
+        <span className={styles.priceUnit}> / Piece</span>
+      )}
+    </span>
+  </>
+) : (
+  <span className={styles.price}>
+    ₹{displayPrice}
+    {isPerPiece && (
+      <span className={styles.priceUnit}> / Piece</span>
+    )}
+  </span>
+)}
                 </>
               )}
             </div>

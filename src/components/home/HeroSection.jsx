@@ -29,18 +29,15 @@ const slides = [
     image: "/images/slide4.webp",
     category: "/yantra",
   },
+  {
+    id: 5,
+    image: "/images/slide5.png",
+    category: "/contact",
+  },
 ];
 
 const HeroSection = () => {
   const [current, setCurrent] = useState(0);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrent((prev) => (prev + 1) % slides.length);
-    }, 5000);
-
-    return () => clearInterval(timer);
-  }, []);
 
   const nextSlide = () => {
     setCurrent((prev) => (prev + 1) % slides.length);

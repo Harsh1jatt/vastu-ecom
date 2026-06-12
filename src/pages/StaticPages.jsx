@@ -46,20 +46,6 @@ export const FAQ = () => (
   </div>
 );
 
-export const PrivacyPolicy = () => (
-  <div className={styles.page}>
-    <div className={styles.header}>
-      <div className={styles.container}>
-        <h1>Privacy Policy</h1>
-      </div>
-    </div>
-    <div className={styles.container}>
-      <div className={styles.content}>
-        <p>Your privacy is important to us. We collect personal information only for order processing and customer support purposes. Your data is never shared with third parties.</p>
-      </div>
-    </div>
-  </div>
-);
 
 export const Terms = () => (
   <div className={styles.page}>

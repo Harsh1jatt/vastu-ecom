@@ -1,13 +1,20 @@
 import styles from './Terms.module.css';
+import {
+    SITE_NAME,
+    SITE_URL,
+    CONTACT_EMAIL,
+    ADDRESS
+} from '../config/site';
+
 const termsSections = [
     {
         title: "Introduction",
         content: [
-            `www.vastudivine.com ("Website") is an Internet based content and e-commerce portal owned by Vastu Divine ("the Company"), a company incorporated under the laws of India.`,
+            `${SITE_URL} ("Website") is an Internet based content and e-commerce portal owned by ${SITE_NAME} ("the Company"), a company incorporated under the laws of India.`,
 
             `Please read the following terms and conditions very carefully as your use of this service is subject to your acceptance of and compliance with the following terms and conditions ("Terms"). By subscribing to or using any of our services you agree that you have read, understood and are bound by the Terms, regardless of how you subscribe to or use the services. If you do not want to be bound by the Terms, you must not subscribe to or use our services.`,
 
-            `In these Terms, references to "you", "User" shall mean the end user accessing the Website, its contents and using the Services offered through the Website, "Service Providers" mean independent third party service providers, and "we", "us" and "our" shall mean Vastu Divine.`
+            `In these Terms, references to "you", "User" shall mean the end user accessing the Website, its contents and using the Services offered through the Website, "Service Providers" mean independent third party service providers, and "we", "us" and "our" shall mean ${SITE_NAME}.`
         ]
     },
 
@@ -19,37 +26,25 @@ const termsSections = [
     },
 
     {
-        title: "User Account, Password & Security",
-        content: [
-            `You will receive a password and account designation upon completing the Website's registration process. You are responsible for maintaining the confidentiality of the password and account, and are fully responsible for all activities that occur under your password or account. You agree to:`
-        ],
-        list: [
-            `Immediately notify Vastu Divine of any unauthorized use of your password or account or any other breach of security.`,
-            `Ensure that you exit from your account at the end of each session.`
-        ],
-        footer: `Vastu Divine cannot and will not be liable for any loss or damage arising from your failure to comply with this section.`
-    },
-
-    {
         title: "Services Offered",
         content: [
-            `Vastu Divine provides a number of Internet based and hands on services through the Website (all such services, collectively, referred to as the "Service").`
+            `${SITE_NAME} provides a number of Internet based and hands on services through the Website (all such services, collectively, referred to as the "Service").`
         ]
     },
 
     {
         title: "Communication",
         content: [
-            `You understand that once you register as a Vastu Divine user on the Website or place an order on the Website, you will receive SMS messages and emails on your registered mobile number and/or email address. These messages/emails could relate to your registration, or any updates and promotions undertaken by Vastu Divine.`,
+            `You understand that once you register as a ${SITE_NAME} user on the Website or place an order on the Website, you will receive SMS messages and emails on your registered mobile number and/or email address. These messages/emails could relate to your registration, or any updates and promotions undertaken by ${SITE_NAME}.`,
 
-            `Please note that Vastu Divine will send these SMS messages/emails only to the registered mobile number or such other number or registered email address that you may designate for any particular purpose.`
+            `Please note that ${SITE_NAME} will send these SMS messages/emails only to the registered mobile number or such other number or registered email address that you may designate for any particular purpose.`
         ]
     },
 
     {
         title: "Privacy Policy",
         content: [
-            `The User hereby consents, expresses and agrees that he/she has read and fully understands the Privacy Policy of Vastu Divine in respect of the Website. The user further consents that the terms and contents of such Privacy Policy are acceptable to him/her.`
+            `The User hereby consents, expresses and agrees that he/she has read and fully understands the Privacy Policy of ${SITE_NAME} in respect of the Website. The user further consents that the terms and contents of such Privacy Policy are acceptable to him/her.`
         ]
     },
 
@@ -78,25 +73,25 @@ const termsSections = [
     {
         title: "Exactness Not Guaranteed",
         content: [
-            `Vastu Divine hereby disclaims any guarantees of exactness as to the finish and appearance of the final Product as ordered by the user. The quality of any products, Services, information, or other material purchased or obtained by you through the Website may not be identical to as depicted on the Website. In this instance you agree that Vastu Divine's return/exchange policy shall be binding and enforceable in all respects.`
+            `${SITE_NAME} hereby disclaims any guarantees of exactness as to the finish and appearance of the final Product as ordered by the user. The quality of any products, Services, information, or other material purchased or obtained by you through the Website may not be identical to as depicted on the Website. In this instance you agree that ${SITE_NAME}'s return/exchange policy shall be binding and enforceable in all respects.`
         ]
     },
 
     {
         title: "Intellectual Property",
         content: [
-            `Unless otherwise indicated or anything contained to the contrary or any proprietary material owned by a third party and so expressly mentioned, Vastu Divine owns all Intellectual Property Rights to all content on this Website, including goodwill, source code, meta tags, databases, text, content, graphics, icons, and hyperlinks. You acknowledge and agree that you shall not use, reproduce or distribute any content from the Website belonging to Vastu Divine without obtaining authorization from Vastu Divine.`,
+            `Unless otherwise indicated or anything contained to the contrary or any proprietary material owned by a third party and so expressly mentioned, ${SITE_NAME} owns all Intellectual Property Rights to all content on this Website, including goodwill, source code, meta tags, databases, text, content, graphics, icons, and hyperlinks. You acknowledge and agree that you shall not use, reproduce or distribute any content from the Website belonging to ${SITE_NAME} without obtaining authorization from ${SITE_NAME}.`,
 
-            `Vastu Divine does not own any and all rights, title and interest in and to copyright, related rights, registered designs, trademarks, trade names, service marks, designs, know how, trade secrets and inventions (whether patented or not) to the products sold on the Website.`
+            `${SITE_NAME} does not own any and all rights, title and interest in and to copyright, related rights, registered designs, trademarks, trade names, service marks, designs, know how, trade secrets and inventions (whether patented or not) to the products sold on the Website.`
         ]
     },
 
     {
         title: "Copyright Infringement, Notice & Takedown",
         content: [
-            `Vastu Divine sources all products on the website through third party vendors and specifically prohibits the posting of any content, products or text that violates or infringes the copyright rights and/or other intellectual property rights (including rights of privacy and publicity) of any person or entity.`,
+            `${SITE_NAME} sources all products on the website through third party vendors and specifically prohibits the posting of any content, products or text that violates or infringes the copyright rights and/or other intellectual property rights (including rights of privacy and publicity) of any person or entity.`,
 
-            `If you believe that any material or product contained on this site infringes your copyright or other intellectual property rights, you should notify us of your copyright infringement claim. Vastu Divine will process notices of alleged infringement and will take appropriate action as required by the Intellectual Property Office of India.`
+            `If you believe that any material or product contained on this site infringes your copyright or other intellectual property rights, you should notify us of your copyright infringement claim. ${SITE_NAME} will process notices of alleged infringement and will take appropriate action as required by the Intellectual Property Office of India.`
         ],
         highlight: `To be effective, the notification must be in writing and contain: a physical or electronic signature of a person authorized to act on behalf of the copyright owner; identification of the copyrighted work claimed to have been infringed; identification of the material claimed to be infringing; contact information of the complaining party; a good faith belief statement; and a statement of accuracy under penalty of perjury.`
     },
@@ -104,20 +99,20 @@ const termsSections = [
     {
         title: "Disclaimer of Warranties & Liabilities",
         content: [
-            `Vastu Divine has endeavored to ensure that all the information on the Website is correct, but Vastu Divine neither warrants nor makes any representations regarding the quality, accuracy or completeness of any data, information, product or Service. In no event shall Vastu Divine be liable for any direct, indirect, punitive, incidental, special, consequential damages or any other damages resulting from:`
+            `${SITE_NAME} has endeavored to ensure that all the information on the Website is correct, but ${SITE_NAME} neither warrants nor makes any representations regarding the quality, accuracy or completeness of any data, information, product or Service. In no event shall ${SITE_NAME} be liable for any direct, indirect, punitive, incidental, special, consequential damages or any other damages resulting from:`
         ],
         list: [
             `The use or the inability to use the Services.`,
             `Unauthorized access to or alteration of the user's transmissions or data.`,
             `Any other matter relating to the services, including damages for loss of use, data or profits.`
         ],
-        footer: `Vastu Divine shall not be held responsible for non-availability of the Website during periodic maintenance operations or any unplanned suspension of access due to technical reasons or for any reason beyond the Company's control.`
+        footer: `${SITE_NAME} shall not be held responsible for non-availability of the Website during periodic maintenance operations or any unplanned suspension of access due to technical reasons or for any reason beyond the Company's control.`
     },
 
     {
         title: "Indemnification",
         content: [
-            `You agree to indemnify, defend and hold harmless Vastu Divine from and against any and all losses, liabilities, claims, damages, costs and expenses (including legal fees and disbursements in connection therewith and interest chargeable thereon) asserted against or incurred by Vastu Divine that arise out of, result from, or may be payable by virtue of, any breach or non-performance of any representation, warranty, covenant or agreement made or obligation to be performed by you pursuant to these Terms.`
+            `You agree to indemnify, defend and hold harmless ${SITE_NAME} from and against any and all losses, liabilities, claims, damages, costs and expenses (including legal fees and disbursements in connection therewith and interest chargeable thereon) asserted against or incurred by ${SITE_NAME} that arise out of, result from, or may be payable by virtue of, any breach or non-performance of any representation, warranty, covenant or agreement made or obligation to be performed by you pursuant to these Terms.`
         ]
     },
 
@@ -131,16 +126,16 @@ const termsSections = [
     {
         title: "Termination",
         content: [
-            `Vastu Divine may suspend or terminate your use of the Website or any Service if it believes, in its sole and absolute discretion, that you have breached a term of these Terms. Notwithstanding the above, these Terms will survive indefinitely unless and until Vastu Divine chooses to terminate them.`,
+            `${SITE_NAME} may suspend or terminate your use of the Website or any Service if it believes, in its sole and absolute discretion, that you have breached a term of these Terms. Notwithstanding the above, these Terms will survive indefinitely unless and until ${SITE_NAME} chooses to terminate them.`,
 
-            `If you or Vastu Divine terminates your use of the Website or any Service, Vastu Divine may delete any content or other materials relating to your use of the Service and will have no liability to you or any third party for doing so. You shall be liable to pay for any Service or product that you have already ordered till the time of termination by either party.`
+            `If you or ${SITE_NAME} terminates your use of the Website or any Service, ${SITE_NAME} may delete any content or other materials relating to your use of the Service and will have no liability to you or any third party for doing so. You shall be liable to pay for any Service or product that you have already ordered till the time of termination by either party.`
         ]
     },
 
     {
         title: "Governing Law",
         content: [
-            `These terms shall be governed by and constructed in accordance with the laws of India without reference to conflict of laws principles and disputes arising in relation hereto shall be subject to the exclusive jurisdiction of the courts at Vadodara, Gujarat.`
+            `These terms shall be governed by and constructed in accordance with the laws of India without reference to conflict of laws principles and disputes arising in relation hereto shall be subject to the exclusive jurisdiction of the courts at ${ADDRESS.full}.`
         ]
     },
 
@@ -154,9 +149,9 @@ const termsSections = [
     {
         title: "Report Abuse",
         content: [
-            `As per these Terms, users are solely responsible for every material or content uploaded on to the Website. Vastu Divine does not review the contents in any way before they appear on the Website. Vastu Divine does not verify, endorse or otherwise vouch for the contents of any user or any content generally posted or uploaded on to the Website.`,
+            `As per these Terms, users are solely responsible for every material or content uploaded on to the Website. ${SITE_NAME} does not review the contents in any way before they appear on the Website. ${SITE_NAME} does not verify, endorse or otherwise vouch for the contents of any user or any content generally posted or uploaded on to the Website.`,
 
-            `Users can be held legally liable for their contents and may be held legally accountable if their contents or material include, for example, defamatory comments or material protected by copyright, trademark, etc. If you come across any abuse or violation of these Terms, please report to Vastu Divine at the address mentioned on the Website.`
+            `Users can be held legally liable for their contents and may be held legally accountable if their contents or material include, for example, defamatory comments or material protected by copyright, trademark, etc. If you come across any abuse or violation of these Terms, please report to ${SITE_NAME} at ${CONTACT_EMAIL}.`
         ]
     }
 ];

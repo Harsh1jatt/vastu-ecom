@@ -1,7 +1,5 @@
-/** Site-wide config — edit contact details here */
-
 export const SITE_NAME = 'VASTU DIVINE';
-
+export const SITE_URL = 'https://www.vastudivine.com';
 export const CONTACT_EMAIL = 'info@vastudivine.com';
 
 export const ADDRESS = {
@@ -24,3 +22,11 @@ export const CONTACT_PERSONS = [
     whatsapp: '919115573937'
   }
 ];
+
+export const SOCIAL = {
+  instagramHandle: '@vaastusanctuary',
+  instagramUrl: 'https://instagram.com/vaastusanctuary',
+  facebookUrl: '',
+  twitterUrl: '',
+  linkedinUrl: ''
+};

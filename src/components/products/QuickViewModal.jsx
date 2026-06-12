@@ -25,6 +25,9 @@ const QuickViewModal = ({ product, onClose }) => {
   const isGemstone =
     product.category?.toLowerCase() === 'gemstones' ||
     product.category?.toLowerCase() === 'gemstone';
+    const isPerPiece =
+  product.category?.toLowerCase() === 'oils' ||
+  product.category?.toLowerCase() === 'rods';
   return (
     <div className={styles.overlay} onClick={onClose}>
       <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
@@ -46,21 +49,31 @@ const QuickViewModal = ({ product, onClose }) => {
             <div className={styles.rating}>
               {'★'.repeat(Math.round(product.rating))} {product.rating} ({product.reviews} reviews)
             </div>
-            <div className={styles.price}>
-              {isGemstone ? (
-                <div className={styles.gemstonePrice}>
-                  Price depends on gemstone quality, weight and certification.
-                  Contact us on WhatsApp for exact pricing.
-                </div>
-              ) : product.discountPrice ? (
-                <>
-                  <span className={styles.old}>₹{product.price}</span>
-                  <span>₹{product.discountPrice}</span>
-                </>
-              ) : (
-                <span>₹{product.price}</span>
-              )}
-            </div>
+          <div className={styles.price}>
+  {isGemstone ? (
+    <div className={styles.gemstonePrice}>
+      Price depends on gemstone quality, weight and certification.
+      Contact us on WhatsApp for exact pricing.
+    </div>
+  ) : product.discountPrice ? (
+    <>
+      <span className={styles.old}>₹{product.price}</span>
+      <span>
+        ₹{product.discountPrice}
+        {isPerPiece && (
+          <span className={styles.priceUnit}> / Piece</span>
+        )}
+      </span>
+    </>
+  ) : (
+    <span>
+      ₹{product.price}
+      {isPerPiece && (
+        <span className={styles.priceUnit}> / Piece</span>
+      )}
+    </span>
+  )}
+</div>
             <div className={styles.actions}>
               {!isGemstone && (
                 <button type="button" onClick={handleAdd} disabled={!product.stock}>

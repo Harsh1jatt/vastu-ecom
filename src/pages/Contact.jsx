@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from './Contact.module.css';
+import { CONTACT_EMAIL, ADDRESS, CONTACT_PERSONS, WHATSAPP_NUMBER } from '../config/site';
 
 const Contact = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -52,15 +53,21 @@ const Contact = () => {
             <h2>Get in Touch</h2>
             <div className={styles.infoItem}>
               <h3>📍 Address</h3>
-              <p>New Delhi, India</p>
+              <p>{ADDRESS.full}</p>
             </div>
             <div className={styles.infoItem}>
               <h3>📞 Phone</h3>
-              <p><a href="tel:+919876543210">+91 98765 43210</a></p>
+              <p>
+                <a href={`tel:${(CONTACT_PERSONS?.[0]?.phone || WHATSAPP_NUMBER || '').replace(/\s+/g, '')}`}>
+                  {CONTACT_PERSONS?.[0]?.phone || WHATSAPP_NUMBER || ''}
+                </a>
+              </p>
             </div>
             <div className={styles.infoItem}>
               <h3>📧 Email</h3>
-              <p><a href="mailto:info@vaastusanctuary.com">info@vaastusanctuary.com</a></p>
+              <p>
+                <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
+              </p>
             </div>
             <div className={styles.infoItem}>
               <h3>🕒 Hours</h3>
