@@ -1,121 +1,215 @@
 import { motion } from 'framer-motion';
 import {
-  FiHome,
-  FiCompass,
-  FiLayers,
-  FiSun,
   FiCheckCircle,
-  FiArrowRight
+  FiArrowRight,
+  FiPhoneCall
 } from 'react-icons/fi';
- 
+
 import SectionHeader from '../components/ui/SectionHeader';
-import styles from './Services.module.css';
 import ServicesCard from '../components/services/ServicesCard';
-const process = [
-  'Consultation Booking',
-  'Space Analysis',
-  'Detailed Report',
-  'Remedies & Guidance',
-  'Follow-up Support',
+
+import styles from './Services.module.css';
+
+const PROCESS = [
+  {
+    step: '01',
+    title: 'Consultation Booking',
+    desc: 'Choose your preferred consultation package.'
+  },
+  {
+    step: '02',
+    title: 'Space Analysis',
+    desc: 'Detailed review of your environment and requirements.'
+  },
+  {
+    step: '03',
+    title: 'Report & Remedies',
+    desc: 'Receive practical personalized recommendations.'
+  },
+  {
+    step: '04',
+    title: 'Follow-up Support',
+    desc: 'Continued guidance for implementation.'
+  }
 ];
 
-const Services = () => {
+export default function Services() {
   return (
-    <div className={styles.servicesPage}>
-      
-      {/* Hero */}
+    <div className={styles.page}>
+
+      {/* HERO */}
+
       <section className={styles.hero}>
         <div className={styles.container}>
+
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: .7 }}
+            className={styles.heroContent}
           >
-            <span className={styles.eyebrow}>Our Expertise</span>
-            <h1>Professional Vastu Consultation Services</h1>
+            <span className={styles.eyebrow}>
+              Consultation Services
+            </span>
+
+            <h1>
+              Professional Vastu
+              <br />
+              Consultation Services
+            </h1>
+
             <p>
-              Transform your home, office and personal space with
-              expert vastu guidance and authentic remedies.
+              Discover harmony, prosperity and balanced energy
+              through expert Vastu, Numerology and Astrology guidance.
             </p>
+
+            <a
+              href="https://wa.me/919115175769"
+              className={styles.heroBtn}
+            >
+              Book Consultation
+              <FiArrowRight />
+            </a>
+
           </motion.div>
+
         </div>
+
+        <div className={styles.heroGlow}/>
       </section>
 
-      {/* Services */}
-<section className={styles.services}>
-  <div className={styles.container}>
-    <SectionHeader
-      eyebrow="Consultation Packages"
-      title="Our Professional Services"
-      subtitle="Vastu, Numerology and Astrology consultations tailored to your needs."
-    />
 
-    <ServicesCard />
-  </div>
-</section>
+      {/* SERVICES */}
 
-      {/* Why Choose Us */}
-      <section className={styles.whyUs}>
+      <section className={styles.services}>
+
         <div className={styles.container}>
-          <div className={styles.whyGrid}>
-            <div>
-              <span className={styles.eyebrow}>Why Us</span>
 
-              <h2>Trusted Guidance Backed By Experience</h2>
+          <SectionHeader
+            eyebrow="Our Services"
+            title="Choose Your Consultation"
+            subtitle="Tailored solutions designed around your needs."
+          />
+
+          <ServicesCard />
+
+        </div>
+
+      </section>
+
+
+      {/* WHY US */}
+
+      <section className={styles.whyUs}>
+
+        <div className={styles.container}>
+
+          <div className={styles.whyGrid}>
+
+            <div>
+
+              <span className={styles.sectionLabel}>
+                Why Choose Us
+              </span>
+
+              <h2>
+                Ancient Wisdom
+                <br />
+                Modern Guidance
+              </h2>
 
               <ul className={styles.list}>
-                <li><FiCheckCircle /> Certified Vastu Experts</li>
-                <li><FiCheckCircle /> Personalized Solutions</li>
-                <li><FiCheckCircle /> Authentic Remedies</li>
-                <li><FiCheckCircle /> Ongoing Support</li>
+                <li><FiCheckCircle/> 15+ Years Experience</li>
+                <li><FiCheckCircle/> 5000+ Consultations</li>
+                <li><FiCheckCircle/> Personalized Reports</li>
+                <li><FiCheckCircle/> Ongoing Support</li>
               </ul>
+
             </div>
 
-            <div className={styles.glassCard}>
-              <h3>5000+</h3>
-              <p>Spaces Successfully Guided</p>
+            <div className={styles.statsCard}>
+              <span>5000+</span>
+              <p>Happy Clients Guided</p>
             </div>
+
           </div>
+
         </div>
+
       </section>
 
-      {/* Process */}
+
+      {/* PROCESS */}
+
       <section className={styles.process}>
+
         <div className={styles.container}>
+
           <SectionHeader
             eyebrow="Process"
             title="How It Works"
-            subtitle="A simple step-by-step consultation journey."
+            subtitle="Simple consultation journey."
           />
 
-          <div className={styles.timeline}>
-            {process.map((step, index) => (
-              <div key={step} className={styles.step}>
-                <span>{index + 1}</span>
-                <h4>{step}</h4>
+          <div className={styles.steps}>
+
+            {PROCESS.map((item)=>(
+
+              <div
+                key={item.step}
+                className={styles.step}
+              >
+
+                <div className={styles.stepNumber}>
+                  {item.step}
+                </div>
+
+                <h4>
+                  {item.title}
+                </h4>
+
+                <p>
+                  {item.desc}
+                </p>
+
               </div>
+
             ))}
+
           </div>
+
         </div>
+
       </section>
 
+
       {/* CTA */}
+
       <section className={styles.cta}>
+
         <div className={styles.ctaBox}>
-          <h2>Ready To Transform Your Space?</h2>
+
+          <h2>
+            Ready To Transform
+            Your Space?
+          </h2>
 
           <p>
-            Get expert vastu guidance and personalized recommendations.
+            Get personalized guidance today.
           </p>
 
-          <button>
+          <a
+            href="https://wa.me/919115175769"
+            className={styles.ctaBtn}
+          >
+            <FiPhoneCall/>
             Book Consultation
-            <FiArrowRight />
-          </button>
+          </a>
+
         </div>
+
       </section>
 
     </div>
   );
-};
-
-export default Services;
+}

@@ -3,20 +3,21 @@
     "id": 1,
     "slug": "home-vastu",
     "icon": "🏠",
+    "image":"/services/house.webp",
     "title": "Home Vastu Consultation",
     "description": "Home Vastu Consultation helps create harmony, positivity, prosperity and balanced energy in your living space through detailed Vastu analysis and practical remedies.",
     "startingPrice": "₹11,000",
     "packages": [
       {
-        "name": "Basic",
+        "name": "Basic (Up to 200 Gaj / 1,800 Sq. Ft.)",
         "price": "₹11,000"
       },
       {
-        "name": "Advanced",
+        "name": "Advanced (Up to 500 Gaj / 4,500 Sq. Ft.)",
         "price": "₹21,000"
       },
       {
-        "name": "Premium",
+        "name": "Premium (Up to 1,000+ Gaj / 9,000+ Sq. Ft.)",
         "price": "₹31,000"
       }
     ]
@@ -30,15 +31,15 @@
     "startingPrice": "₹11,000",
     "packages": [
       {
-        "name": "Basic",
+        "name": "Basic (Up to 100 Gaj / 900 Sq. Ft.)",
         "price": "₹11,000"
       },
       {
-        "name": "Advanced",
+        "name": "Advanced (Up to 300 Gaj / 1,500 Sq. Ft.)",
         "price": "₹21,000"
       },
       {
-        "name": "Premium",
+        "name": "Premium (Up to 300+ Gaj / 1500+ Sq. Ft.)",
         "price": "₹31,000"
       }
     ]
@@ -49,16 +50,8 @@
     "icon": "🏢",
     "title": "Corporate Office Vastu",
     "description": "Corporate Office Vastu helps improve organizational efficiency, leadership performance, communication and long-term business growth.",
-    "startingPrice": "₹11,000",
+    "startingPrice": "₹31,000",
     "packages": [
-      {
-        "name": "Basic",
-        "price": "₹11,000"
-      },
-      {
-        "name": "Advanced",
-        "price": "₹21,000"
-      },
       {
         "name": "Premium",
         "price": "₹31,000"
@@ -125,14 +118,15 @@
     "icon": "🏫",
     "title": "School Vastu Consultation",
     "description": "School Vastu creates an environment that supports learning, concentration, academic success and institutional development.",
+    "image": "/services/school.webp",
     "startingPrice": "₹21,000",
     "packages": [
       {
-        "name": "Advanced",
+        "name": "Advanced (Up to 500 Gaj / 4,500 Sq. Ft.)",
         "price": "₹21,000"
       },
       {
-        "name": "Premium",
+        "name": "Premium (Up to 1,000+ Gaj / 9,000+ Sq. Ft.)",
         "price": "₹51,000"
       }
     ]
@@ -146,11 +140,11 @@
     "startingPrice": "₹21,000",
     "packages": [
       {
-        "name": "Advanced",
+        "name": "Advanced (Up to 500 Gaj / 4,500 Sq. Ft.)",
         "price": "₹21,000"
       },
       {
-        "name": "Premium",
+        "name": "Premium (Up to 1,000+ Gaj / 9,000+ Sq. Ft.)",
         "price": "₹51,000"
       }
     ]
@@ -206,14 +200,6 @@
       {
         "name": "Basic",
         "price": "₹11,000"
-      },
-      {
-        "name": "Advanced",
-        "price": "₹21,000"
-      },
-      {
-        "name": "Premium",
-        "price": "₹31,000"
       }
     ]
   },
@@ -226,16 +212,8 @@
     "startingPrice": "₹11,000",
     "packages": [
       {
-        "name": "Basic",
-        "price": "₹11,000"
-      },
-      {
-        "name": "Advanced",
-        "price": "₹21,000"
-      },
-      {
         "name": "Premium",
-        "price": "₹31,000"
+        "price": "₹5,00,000"
       }
     ]
   },
@@ -245,15 +223,15 @@
     "icon": "🛍️",
     "title": "Mall Vastu Consultation",
     "description": "Mall Vastu Consultation helps improve customer attraction, tenant success and commercial performance.",
-    "startingPrice": "₹21,000",
+    "startingPrice": "₹2,50,000",
     "packages": [
       {
         "name": "Advanced",
-        "price": "₹21,000"
+        "price": "₹2,50,000"
       },
       {
         "name": "Premium",
-        "price": "₹51,000"
+        "price": "₹5,00,000"
       }
     ]
   },
@@ -278,6 +256,7 @@
     "title": "Astrology Consultation",
     "description": "Detailed horoscope analysis and astrological guidance for career, marriage, business, health and finances.",
     "startingPrice": "₹2,100",
+    "image": "/services/astrology.webp",
     "packages": [
       {
         "name": "Consultation",
@@ -291,11 +270,11 @@
     "icon": "📱",
     "title": "Mobile Number Numerology",
     "description": "Analysis and selection of a lucky mobile number aligned with your numerology profile.",
-    "startingPrice": "₹5,100",
+    "startingPrice": "₹2,100",
     "packages": [
       {
         "name": "Mobile Number Analysis",
-        "price": "₹5,100"
+        "price": "₹2,100"
       }
     ]
   },
