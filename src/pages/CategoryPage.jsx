@@ -14,7 +14,7 @@ import {
 import products from '../data/products';
 
 import ProductCard from '../components/products/ProductCard';
-
+import SEO from '../components/common/SEO';
 import styles from './CategoryPage.module.css';
 
 // =========================
@@ -256,8 +256,14 @@ const CategoryPage = () => {
         );
 
   return (
+    
     <div className={styles.page}>
-
+  <SEO
+    title={`${pageTitle}`}
+    description={`Explore authentic ${pageTitle} products at Vastu Divine. Premium spiritual, vastu and healing solutions for positivity, prosperity and harmony.`}
+    keywords={`${pageTitle}, Vastu Divine, ${pageTitle} products`}
+    url={window.location.pathname}
+  />
       {/* HERO */}
 
       <section className={styles.hero}>

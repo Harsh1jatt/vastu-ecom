@@ -60,7 +60,7 @@ const Homepage = () => {
   return (
     <div className={styles.homepage}>
       <SEO
-        title="Vastu Divine | Expert Vastu Consultation & Energy Solutions"
+        title="Expert Vastu Consultation & Energy Solutions"
         description="Vastu Divine offers professional Vastu consultation, home vastu, office vastu and energy solutions."
         keywords="Vastu Divine, vastu consultant, vastu expert, home vastu"
         url="/"

@@ -171,7 +171,7 @@ const ProductDetails = () => {
               ) : (
                 <>
                   {product.discountPrice ? (
-                    <>
+                    <>harsh
                       <span className={styles.originalPrice}>₹{product.price}</span>
                       <span className={styles.price}>
                         ₹{displayPrice}
