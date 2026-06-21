@@ -103,6 +103,7 @@ const SEO = ({
         name="robots"
         content="index, follow"
       />
+      <meta name="author" content="Vastu Divine"/>
     </Helmet>
   );
 };

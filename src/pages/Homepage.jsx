@@ -59,13 +59,21 @@ const Homepage = () => {
   });
   return (
     <div className={styles.homepage}>
-      <SEO
-        title="Best Vastu Consultant in India"
-        description="Professional Vastu consultation services for homes, offices, shops and businesses."
-        keywords="vastu consultant, vastu expert, home vastu, office vastu"
-        url="/"
-      />
+     <SEO
+ title="Vastu Divine"
+ description="Vastu Divine offers professional Vastu consultation, home vastu, office vastu and energy solutions."
+ keywords="Vastu Divine, vastu consultant, vastu expert, home vastu"
+ url="/"
+/>
       <Helmet>
+        <script type="application/ld+json">
+{JSON.stringify({
+ "@context":"https://schema.org",
+ "@type":"WebSite",
+ "name":"Vastu Divine",
+ "url":"https://vastudivine.in"
+})}
+</script>
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -232,7 +240,7 @@ const Homepage = () => {
               <span className={styles.whyEyebrow}>Our Promise</span>
               <h2>Where Ancient Wisdom Meets Modern Luxury</h2>
               <p>
-                Vaastu Sanctuary curates authentic spiritual products from trusted sources
+                Vastu Divine curates authentic spiritual products from trusted sources
                 worldwide — each item energy-cleansed and quality-verified before it reaches you.
               </p>
               <ul className={styles.whyList}>
