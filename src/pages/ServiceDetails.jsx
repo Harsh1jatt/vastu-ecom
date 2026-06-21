@@ -2,7 +2,13 @@ import { useParams } from 'react-router-dom';
 import { FiPhoneCall, FiCheck, FiArrowRight } from 'react-icons/fi';
 import servicesData from '../data/services/services.json';
 import styles from './ServiceDetails.module.css';
-
+import SEO from '../components/common/SEO';
+import { Helmet } from 'react-helmet-async';
+import {
+  SITE_URL,
+  SITE_NAME,
+  WHATSAPP_NUMBER
+} from '../config/site';
 const BENEFITS = [
   { icon: '🌟', label: 'Improved Prosperity' },
   { icon: '🌊', label: 'Positive Energy Flow' },
@@ -26,14 +32,48 @@ const ServiceDetails = () => {
     );
   }
 
-  const whatsappMsg = encodeURIComponent(
-    `Hello, I'd like to book a consultation for ${service.title}`
-  );
-  const whatsappUrl = `https://wa.me/919115175769?text=${whatsappMsg}`;
+const createWhatsappUrl = (packageName = '', packagePrice = '') => {
+  const message = `
+Hello ${SITE_NAME},
 
+I would like to book a consultation.
+
+Service: ${service.title}
+Package: ${packageName}
+Price: ${packagePrice}
+
+Please share further details.
+
+Thank you.
+`;
+
+  return `https://wa.me/${WHATSAPP_NUMBER.replace(/\D/g, '')}?text=${encodeURIComponent(message)}`;
+};
   return (
     <div className={styles.page}>
-
+  <SEO
+    title={service.title}
+    description={service.description}
+    keywords={`${service.title}, vastu consultation, vastu expert, astrology consultation`}
+    image={service.image}
+    url={`/services/${service.slug}`}
+  />
+  <Helmet>
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Service",
+      name: service.title,
+      description: service.description,
+      provider: {
+        "@type": "ProfessionalService",
+        name: "Vaastu Divine"
+      },
+      areaServed: "India",
+      url: `${SITE_URL}/services/${service.slug}`
+    })}
+  </script>
+</Helmet>
       {/* ── HERO ─────────────────────────────────────────── */}
       <section
         className={`${styles.hero} ${service.image ? styles.heroWithImage : ''}`}
@@ -47,7 +87,7 @@ const ServiceDetails = () => {
             <span className={styles.heroFrom}>Starting from</span>
             <span className={styles.heroPrice}>{service.startingPrice}</span>
           </div>
-          <a href={whatsappUrl} target="_blank" rel="noreferrer" className={styles.heroCta}>
+          <a href={createWhatsappUrl(service.title, service.startingPrice)} target="_blank" rel="noreferrer" className={styles.heroCta}>
             Book Consultation <FiArrowRight />
           </a>
         </div>
@@ -137,9 +177,14 @@ const ServiceDetails = () => {
                     </li>
                   ))}
                 </ul>
-                <a href={whatsappUrl} target="_blank" rel="noreferrer" className={styles.pkgBtn}>
-                  Book This Package
-                </a>
+                <a
+  href={createWhatsappUrl(pkg.name, pkg.price)}
+  target="_blank"
+  rel="noreferrer"
+  className={styles.pkgBtn}
+>
+  Book This Package
+</a>
               </div>
             ))}
           </div>
@@ -203,7 +248,7 @@ const ServiceDetails = () => {
             Our experts are ready to guide you.
           </p>
           <div className={styles.ctaBtns}>
-            <a href={whatsappUrl} target="_blank" rel="noreferrer" className={styles.ctaPrimary}>
+            <a href={createWhatsappUrl(service.title, service.startingPrice)} target="_blank" rel="noreferrer" className={styles.ctaPrimary}>
               <FiPhoneCall /> Book Your Consultation
             </a>
             <a href="tel:+919115175769" className={styles.ctaSecondary}>

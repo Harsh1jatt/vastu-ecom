@@ -1,6 +1,6 @@
 export const SITE_NAME = 'VASTU DIVINE';
-export const SITE_URL = 'https://www.vastudivine.com';
-export const CONTACT_EMAIL = 'info@vastudivine.com';
+export const SITE_URL = 'https://www.vastudivine.in';
+export const CONTACT_EMAIL = 'info@vastudivine.in';
 
 export const ADDRESS = {
   line1: 'New Delhi',
@@ -8,7 +8,7 @@ export const ADDRESS = {
   full: 'New Delhi, India'
 };
 
-export const WHATSAPP_NUMBER = '919115175769';
+export const WHATSAPP_NUMBER = '+91 91151 75769';
 
 export const CONTACT_PERSONS = [
   {

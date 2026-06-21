@@ -1,6 +1,11 @@
 import styles from './RefundPolicy.module.css';
 import replaceSiteVariables from '../utils/replaceSiteVariables';
-
+import SEO from '../components/common/SEO';
+import {
+    SITE_URL,
+    SITE_NAME,
+    WHATSAPP_NUMBER
+} from '../config/site';
 const refundSections = [
     {
         title: "No Return Policy",
@@ -83,7 +88,7 @@ const refundSections = [
         content: [
             `Follow the steps below to raise a return or replacement request:`
         ],
-            list: [
+        list: [
             `Share your order number and phone/email via WhatsApp to {WHATSAPP_NUMBER}.`,
             `You will be given an option to return or exchange your item.`,
             `Include your order number, photos, and videos of the damaged or incorrect product along with any comments.`,
@@ -119,21 +124,24 @@ const refundSections = [
 const RefundPolicy = () => {
     return (
         <div className={styles.page}>
+            <SEO
+                title="Refund & Returns Policy"
+                description={`Read the official refund, return, replacement and cancellation policy of ${SITE_NAME}.`}
+                keywords={`refund policy, return policy, cancellation policy, ${SITE_NAME}`}
+                url="/refund-policy"
+            />
             <div className={styles.header}>
                 <div className={styles.container}>
-                    <h1>Refund &amp; Returns Policy</h1>
+                    <h1>{SITE_NAME} Refund &amp; Returns Policy</h1>
                     <p>
-                        Please read our refund and exchange policy carefully before making a purchase.
+                        Please read the refund, replacement and cancellation policy of {SITE_NAME} carefully before making a purchase.
                     </p>
                 </div>
             </div>
 
             <div className={styles.container}>
                 <div className={styles.content}>
-                    <div className={styles.noRefundBanner}>
-                        ⚠️ Once a product is sold, <strong>no refund will be provided</strong> under any circumstances. All sales are final.
-                    </div>
-
+                 <div className={styles.noRefundBanner}>   ⚠️ Once a product is sold through {SITE_NAME}, <strong>no refund will be provided</strong> under any circumstances.</div>
                     {replaceSiteVariables(refundSections).map((section) => (
                         <section
                             key={section.title}
@@ -167,6 +175,22 @@ const RefundPolicy = () => {
                         </section>
                     ))}
                 </div>
+            <section className={styles.section}>
+                <h2>Need Help?</h2>
+
+                <p>
+                    If you have any questions regarding returns,
+                    replacements or cancellations, please contact us.
+                </p>
+
+                <p>
+                    WhatsApp: +{WHATSAPP_NUMBER}
+                </p>
+
+                <p>
+                    Website: {SITE_URL}
+                </p>
+            </section>
             </div>
         </div>
     );

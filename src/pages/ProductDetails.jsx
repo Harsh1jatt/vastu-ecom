@@ -10,7 +10,13 @@ import { getDiscountPercentage, getBuyNowWhatsAppLink } from '../utils/helpers';
 import ProductCard from '../components/products/ProductCard';
 import ProductImage from '../components/common/ProductImage';
 import styles from './ProductDetails.module.css';
-
+import {
+  SITE_URL,
+  SITE_NAME,
+  WHATSAPP_NUMBER
+} from '../config/site';
+import SEO from '../components/common/SEO';
+import { Helmet } from 'react-helmet-async';
 const TABS = ['description', 'details', 'reviews'];
 
 const ProductDetails = () => {
@@ -58,6 +64,52 @@ const ProductDetails = () => {
 
   return (
     <div className={styles.productDetails}>
+      <SEO
+        title={product.title}
+        description={product.shortDescription}
+        keywords={product.tags?.join(', ')}
+        image={product.images?.[0]}
+        url={`/product/${product.slug}`}
+      />
+      <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            name: product.title,
+            image: product.images?.map(img =>
+              img.startsWith('http')
+                ? img
+                : `${SITE_URL}${img}`
+            ),
+            description: product.shortDescription,
+            sku: product.id,
+            category: product.category,
+            brand: {
+              "@type": "Brand",
+              name: SITE_NAME
+            },
+            offers: {
+              "@type": "Offer",
+              priceCurrency: "INR",
+              price: product.discountPrice || product.price,
+              availability: product.stock
+                ? "https://schema.org/InStock"
+                : "https://schema.org/OutOfStock",
+              url: `${SITE_URL}/product/${product.slug}`
+            },
+            ...(product.rating > 0 && product.reviews > 0
+              ? {
+                aggregateRating: {
+                  "@type": "AggregateRating",
+                  ratingValue: product.rating,
+                  reviewCount: product.reviews
+                }
+              }
+              : {})
+          })}
+        </script>
+      </Helmet>
       <div className={styles.container}>
         <button type="button" className={styles.breadcrumb} onClick={() => navigate(-1)}>
           ← Back
@@ -106,7 +158,7 @@ const ProductDetails = () => {
             <h1>{product.title}</h1>
             <p className={styles.productId}>SKU: {product.id}</p>
             <div className={styles.rating}>
-              <span>{'★'.repeat(Math.round(product.rating))}</span>
+              <span>{'★'.repeat(Math.round(product.rating || 0))}</span>
               {product.rating} ({product.reviews} reviews)
             </div>
             <p className={styles.shortDesc}>{product.shortDescription}</p>
@@ -118,24 +170,24 @@ const ProductDetails = () => {
                 </div>
               ) : (
                 <>
-                 {product.discountPrice ? (
-  <>
-    <span className={styles.originalPrice}>₹{product.price}</span>
-    <span className={styles.price}>
-      ₹{displayPrice}
-      {isPerPiece && (
-        <span className={styles.priceUnit}> / Piece</span>
-      )}
-    </span>
-  </>
-) : (
-  <span className={styles.price}>
-    ₹{displayPrice}
-    {isPerPiece && (
-      <span className={styles.priceUnit}> / Piece</span>
-    )}
-  </span>
-)}
+                  {product.discountPrice ? (
+                    <>
+                      <span className={styles.originalPrice}>₹{product.price}</span>
+                      <span className={styles.price}>
+                        ₹{displayPrice}
+                        {isPerPiece && (
+                          <span className={styles.priceUnit}> / Piece</span>
+                        )}
+                      </span>
+                    </>
+                  ) : (
+                    <span className={styles.price}>
+                      ₹{displayPrice}
+                      {isPerPiece && (
+                        <span className={styles.priceUnit}> / Piece</span>
+                      )}
+                    </span>
+                  )}
                 </>
               )}
             </div>
@@ -149,7 +201,7 @@ const ProductDetails = () => {
               </div>
             )}
             <div className={styles.tags}>
-              {product.tags.map((tag) => (
+              {product.tags?.map((tag) => (
                 <span key={tag} className={styles.tag}>{tag}</span>
               ))}
             </div>
@@ -245,7 +297,7 @@ const ProductDetails = () => {
               <li>Product ID: {product.id}</li>
               <li>Category: {product.category}</li>
               <li>Subcategory: {product.subcategory}</li>
-              <li>Tags: {product.tags.join(', ')}</li>
+              <li>Tags: {product.tags?.join(', ')}</li>
             </ul>
           )}
           {activeTab === 'reviews' && (

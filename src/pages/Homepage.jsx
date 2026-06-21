@@ -9,6 +9,11 @@ import HomeFaq from '../components/home/HomeFaq';
 import ProductCard from '../components/products/ProductCard';
 import SectionHeader from '../components/ui/SectionHeader';
 import {
+  SITE_URL,
+  SITE_NAME,
+  WHATSAPP_NUMBER
+} from '../config/site';
+import {
   getFeaturedProducts,
   getBestSellers,
   getCategories,
@@ -16,7 +21,8 @@ import {
   getProductsByCategory,
 } from '../utils/productUtils';
 import styles from './Homepage.module.css';
-
+import SEO from '../components/common/SEO';
+import { Helmet } from 'react-helmet-async';
 const fadeUp = {
   hidden: { opacity: 0, y: 32 },
   visible: (i) => ({
@@ -29,30 +35,53 @@ const fadeUp = {
 const Homepage = () => {
   const featured = getFeaturedProducts();
   const bestSellers = getBestSellers();
-const categories = getCategories();
+  const categories = getCategories();
 
-const priorityCategories = [
-  'Compass',
-  'Tapes',
-  'Strips',
-  'Energy Vastu'
-];
+  const priorityCategories = [
+    'Compass',
+    'Tapes',
+    'Strips',
+    'Energy Vastu'
+  ];
 
-const sortedCategories = [...categories].sort((a, b) => {
-  const aIndex = priorityCategories.indexOf(a);
-  const bIndex = priorityCategories.indexOf(b);
+  const sortedCategories = [...categories].sort((a, b) => {
+    const aIndex = priorityCategories.indexOf(a);
+    const bIndex = priorityCategories.indexOf(b);
 
-  if (aIndex !== -1 && bIndex !== -1) {
-    return aIndex - bIndex;
-  }
+    if (aIndex !== -1 && bIndex !== -1) {
+      return aIndex - bIndex;
+    }
 
-  if (aIndex !== -1) return -1;
-  if (bIndex !== -1) return 1;
+    if (aIndex !== -1) return -1;
+    if (bIndex !== -1) return 1;
 
-  return 0;
-});
+    return 0;
+  });
   return (
     <div className={styles.homepage}>
+      <SEO
+        title="Best Vastu Consultant in India"
+        description="Professional Vastu consultation services for homes, offices, shops and businesses."
+        keywords="vastu consultant, vastu expert, home vastu, office vastu"
+        url="/"
+      />
+      <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ProfessionalService",
+            name: "Vaastu Divine",
+            url: SITE_URL,
+            telephone: WHATSAPP_NUMBER,
+            areaServed: "India",
+            serviceType: [
+              "Vastu Consultation",
+              "Astrology Consultation",
+              "Numerology Consultation"
+            ]
+          })}
+        </script>
+      </Helmet>
       <HeroSection />
 
       {/* Trust bar */}

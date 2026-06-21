@@ -4,7 +4,7 @@ import {
   FiArrowRight,
   FiPhoneCall
 } from 'react-icons/fi';
-
+import SEO from '../components/common/SEO';
 import SectionHeader from '../components/ui/SectionHeader';
 import ServicesCard from '../components/services/ServicesCard';
 
@@ -36,7 +36,17 @@ const PROCESS = [
 export default function Services() {
   return (
     <div className={styles.page}>
+<>
+  <SEO
+    title={service.title}
+    description={service.description}
+    keywords={service.title}
+    image={service.image}
+    url={`/services/${service.slug}`}
+  />
 
+  {/* Existing Content */}
+</>
       {/* HERO */}
 
       <section className={styles.hero}>
