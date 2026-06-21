@@ -1,5 +1,5 @@
 export const SITE_NAME = 'VASTU DIVINE';
-export const SITE_URL = 'https://www.vastudivine.in';
+export const SITE_URL = 'https://vastudivine.in';
 export const CONTACT_EMAIL = 'info@vastudivine.in';
 
 export const ADDRESS = {
