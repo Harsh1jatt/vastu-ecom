@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const BASE_URL = 'https://www.vastudivine.in';
+const BASE_URL = 'https://vastudivine.in';
 
 const productsDir = './src/data/products';
 const servicesFile = './src/data/services/services.json';
@@ -16,7 +16,6 @@ const staticRoutes = [
     '/about',
     '/contact',
     '/services',
-    '/blogs',
     '/faq',
     '/privacy-policy',
     '/terms',

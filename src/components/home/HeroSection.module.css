@@ -1,9 +1,10 @@
 .hero {
   position: relative;
   width: 100%;
-  height: min(100vh, 900px);
-  min-height: 500px;
   overflow: hidden;
+  margin-top: 80px; /* navbar offset */
+  height: calc(100vh - 80px);
+  min-height: 600px;
 }
 
 .slide {
@@ -11,13 +12,17 @@
   inset: 0;
   width: 100%;
   height: 100%;
+  overflow: hidden;
+  will-change: transform;
 }
 
 .image {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  background: #000;
+  display: block;
+  user-select: none;
+  pointer-events: none;
 }
 
 .overlay {
@@ -31,13 +36,13 @@
 .exploreBtn {
   position: absolute;
   left: 50%;
-  bottom: 90px;
+  bottom: 100px;
   transform: translateX(-50%);
-  z-index: 5;
+  z-index: 20;
 
   text-decoration: none;
 
-  padding: 16px 38px;
+  padding: 14px 32px;
   border-radius: 999px;
 
   background: #fff;
@@ -47,13 +52,16 @@
   font-size: 1rem;
   white-space: nowrap;
 
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
 
-  transition: all 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .exploreBtn:hover {
   transform: translateX(-50%) translateY(-3px);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.25);
 }
 
 /* ARROWS */
@@ -69,7 +77,7 @@
   border: none;
   border-radius: 50%;
 
-  background: rgba(31, 31, 31, 0.721);
+  background: rgba(31, 31, 31, 0.72);
   backdrop-filter: blur(12px);
 
   color: #fff;
@@ -82,13 +90,13 @@
 
   font-size: 1.4rem;
 
-  z-index: 10;
+  z-index: 30;
 
   transition: all 0.3s ease;
 }
 
 .arrow:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(31, 31, 31, 0.9);
 }
 
 .left {
@@ -104,14 +112,14 @@
 .dots {
   position: absolute;
   left: 50%;
-  bottom: 30px;
+  bottom: 35px;
   transform: translateX(-50%);
 
   display: flex;
   align-items: center;
   gap: 10px;
 
-  z-index: 10;
+  z-index: 20;
 }
 
 .dots button {
@@ -121,7 +129,7 @@
   border: none;
   border-radius: 50%;
 
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 156, 85, 0.5);
 
   cursor: pointer;
 
@@ -137,14 +145,13 @@
 /* LARGE DESKTOP */
 
 @media (min-width: 1600px) {
-  .exploreBtn {
-    padding: 18px 42px;
-    font-size: 1.05rem;
+  .hero {
+    min-height: 750px;
   }
 
-  .arrow {
-    width: 60px;
-    height: 60px;
+  .exploreBtn {
+    padding: 16px 38px;
+    font-size: 1.05rem;
   }
 }
 
@@ -152,51 +159,56 @@
 
 @media (max-width: 992px) {
   .hero {
-    height: 80vh;
-    min-height: 450px;
+    margin-top: 70px;
+    height: calc(100vh - 70px);
+    min-height: 500px;
   }
 
   .exploreBtn {
-    bottom: 80px;
-    padding: 14px 32px;
+    bottom: 90px;
   }
 
   .arrow {
-    width: 50px;
-    height: 50px;
+    display: none;
   }
 }
 
 /* MOBILE */
 
 @media (max-width: 768px) {
-  .hero {
-    height: 70vh;
-    min-height: 380px;
+ .hero {
+    margin-top: 70px;
+    height: 75vw;
+    min-height: 300px;
+    max-height: 650px;
+  }
+
+@media (max-width: 768px) {
+  .slide {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+  .image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
   }
 
   .exploreBtn {
-    bottom: 70px;
-    padding: 13px 28px;
+    bottom: 75px;
+    padding: 12px 24px;
     font-size: 0.95rem;
   }
 
-  .arrow {
-    width: 42px;
-    height: 42px;
-    font-size: 1.1rem;
-  }
-
-  .left {
-    left: 12px;
-  }
-
-  .right {
-    right: 12px;
-  }
-
   .dots {
-    bottom: 20px;
+    bottom: 25px;
+  }
+
+  .arrow {
+    display: none;
   }
 }
 
@@ -204,20 +216,17 @@
 
 @media (max-width: 480px) {
   .hero {
-    height: 60vh;
-    min-height: 320px;
+    margin-top: 65px;
   }
 
   .exploreBtn {
-    bottom: 60px;
-    padding: 12px 24px;
+    bottom: 65px;
+    padding: 11px 22px;
     font-size: 0.9rem;
   }
 
-  .arrow {
-    width: 38px;
-    height: 38px;
-    font-size: 1rem;
+  .dots {
+    bottom: 20px;
   }
 
   .dots button {
@@ -233,12 +242,17 @@
 /* VERY SMALL DEVICES */
 
 @media (max-width: 360px) {
+  .hero {
+    margin-top: 60px;
+  }
+
   .exploreBtn {
+    bottom: 60px;
     padding: 10px 20px;
     font-size: 0.85rem;
   }
 
-  .hero {
-    min-height: 280px;
+  .dots {
+    bottom: 15px;
   }
 }

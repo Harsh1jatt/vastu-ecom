@@ -1,10 +1,7 @@
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
-import {
-  FiChevronLeft,
-  FiChevronRight,
-} from "react-icons/fi";
+import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
 import styles from "./HeroSection.module.css";
 
@@ -36,34 +33,73 @@ const slides = [
   },
 ];
 
-const HeroSection = () => {
-  const [current, setCurrent] = useState(0);
+const variants = {
+  enter: (direction) => ({
+    x: direction > 0 ? "100%" : "-100%",
+  }),
 
-  const nextSlide = () => {
-    setCurrent((prev) => (prev + 1) % slides.length);
+  center: {
+    x: 0,
+  },
+
+  exit: (direction) => ({
+    x: direction > 0 ? "-100%" : "100%",
+  }),
+};
+
+export default function HeroSection() {
+  const [[current, direction], setCurrent] = useState([0, 0]);
+
+  const paginate = (newDirection) => {
+    setCurrent(([prev]) => [
+      (prev + newDirection + slides.length) % slides.length,
+      newDirection,
+    ]);
   };
 
-  const prevSlide = () => {
-    setCurrent((prev) =>
-      prev === 0 ? slides.length - 1 : prev - 1
-    );
+  useEffect(() => {
+    const timer = setInterval(() => {
+      paginate(1);
+    }, 6000);
+
+    return () => clearInterval(timer);
+  }, []);
+
+  const handleDragEnd = (_, info) => {
+    const swipeThreshold = 80;
+
+    if (info.offset.x < -swipeThreshold) {
+      paginate(1);
+    } else if (info.offset.x > swipeThreshold) {
+      paginate(-1);
+    }
   };
 
   return (
     <section className={styles.hero}>
-      <AnimatePresence mode="wait">
+      <AnimatePresence initial={false} custom={direction}>
         <motion.div
           key={slides[current].id}
           className={styles.slide}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.8 }}
+          custom={direction}
+          variants={variants}
+          initial="enter"
+          animate="center"
+          exit="exit"
+          transition={{
+            duration: 0.7,
+            ease: [0.22, 1, 0.36, 1],
+          }}
+          drag="x"
+          dragConstraints={{ left: 0, right: 0 }}
+          dragElastic={0.12}
+          onDragEnd={handleDragEnd}
         >
           <img
             src={slides[current].image}
-            alt="Hero Banner"
+            alt={`Slide ${current + 1}`}
             className={styles.image}
+            draggable={false}
           />
 
           <div className={styles.overlay} />
@@ -79,14 +115,16 @@ const HeroSection = () => {
 
       <button
         className={`${styles.arrow} ${styles.left}`}
-        onClick={prevSlide}
+        onClick={() => paginate(-1)}
+        aria-label="Previous Slide"
       >
         <FiChevronLeft />
       </button>
 
       <button
         className={`${styles.arrow} ${styles.right}`}
-        onClick={nextSlide}
+        onClick={() => paginate(1)}
+        aria-label="Next Slide"
       >
         <FiChevronRight />
       </button>
@@ -95,17 +133,19 @@ const HeroSection = () => {
         {slides.map((_, index) => (
           <button
             key={index}
-            onClick={() => setCurrent(index)}
+            onClick={() => {
+              const dir = index > current ? 1 : -1;
+              setCurrent([index, dir]);
+            }}
             className={
               current === index
                 ? styles.activeDot
                 : ""
             }
+            aria-label={`Go to slide ${index + 1}`}
           />
         ))}
       </div>
     </section>
   );
-};
-
-export default HeroSection;
+}

@@ -1,6 +1,5 @@
 /
 /about
-/blogs
 /compass
 /compass/compass
 /contact

@@ -24,8 +24,8 @@ export const CONTACT_PERSONS = [
 ];
 
 export const SOCIAL = {
-  instagramHandle: '@vaastusanctuary',
-  instagramUrl: 'https://instagram.com/vaastusanctuary',
+  instagramHandle: '@vastudivine',
+  instagramUrl: 'https://instagram.com/vastudivine',
   facebookUrl: '',
   twitterUrl: '',
   linkedinUrl: ''
