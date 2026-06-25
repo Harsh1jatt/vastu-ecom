@@ -58,12 +58,12 @@ function AnimatedRoutes() {
           <Route path="/view-cart" element={<Cart />} />
           <Route path="/wishlist" element={<Wishlist />} />
           <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
+          <Route path="/services" element={<Services />} />
 
-<Route
-  path="/services/:slug"
-  element={<ServiceDetails />}
-/>
+          <Route
+            path="/services/:slug"
+            element={<ServiceDetails />}
+          />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/faq" element={<FAQ />} />

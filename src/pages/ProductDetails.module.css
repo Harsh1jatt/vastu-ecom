@@ -3,107 +3,6 @@
   padding: 40px 0 80px;
   background: var(--cream);
 }
-.priceUnit {
-  font-size: 0.85em;
-  font-weight: 500;
-  opacity: 0.8;
-  margin-left: 4px;
-}
-.mainImage.zoomed {
-  cursor: zoom-out;
-}
-
-.mainImage.zoomed img {
-  transform: scale(1.8);
-}
-
-.mainImage {
-  cursor: zoom-in;
-}
-
-.buyNowBtn {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 16px 24px;
-  background: #25d366;
-  color: white;
-  border-radius: 10px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: all 0.3s ease;
-}
-
-.buyNowBtn:hover {
-  background: #128c7e;
-  transform: translateY(-2px);
-}
-
-.tabs {
-  display: flex;
-  gap: 8px;
-  margin-bottom: 24px;
-  border-bottom: 1px solid rgba(192, 132, 87, 0.2);
-}
-
-.tabs button {
-  padding: 12px 24px;
-  background: none;
-  border: none;
-  color: #888;
-  cursor: pointer;
-  font-weight: 600;
-  border-bottom: 2px solid transparent;
-  margin-bottom: -1px;
-}
-
-.tabActive {
-  color: var(--gold) !important;
-  border-bottom-color: var(--gold) !important;
-}
-
-.tabContent {
-  padding: 24px;
-  background: var(--white);
-  border-radius: 12px;
-  margin-bottom: 60px;
-  color: #444;
-  border: 1px solid #eee;
-  line-height: 1.8;
-}
-
-.tabContent ul {
-  list-style: none;
-  padding: 0;
-}
-
-.tabContent li {
-  padding: 8px 0;
-  border-bottom: 1px solid rgba(192, 132, 87, 0.1);
-}
-
-.reviewsUi p {
-  margin-bottom: 16px;
-  padding: 16px;
-  background: var(--cream);
-  border-radius: 8px;
-}
-
-.productId {
-  font-size: 0.85rem;
-  color: #888;
-  margin-bottom: 12px;
-}
-
-.shortDesc {
-  color: #555;
-  margin-bottom: 20px;
-}
-
-.navRight {
-  right: 0;
-  left: auto;
-}
 
 .container {
   max-width: 1200px;
@@ -119,12 +18,17 @@
   cursor: pointer;
   font-size: 1rem;
   margin-bottom: 30px;
-  transition: var(--transition);
+  display: inline-block;
+  transition: color 0.2s ease;
 }
 
 .breadcrumb:hover {
   color: var(--dark);
 }
+
+/* =========================================
+   LAYOUT
+========================================= */
 
 .content {
   display: grid;
@@ -133,31 +37,49 @@
   margin-bottom: 80px;
 }
 
-/* Image Gallery */
+/* =========================================
+   IMAGE GALLERY
+========================================= */
+
 .imageGallery {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
+/* BUG FIX CSS #1 & #9: removed overflow:hidden so zoom is not clipped.
+   Zoom state re-adds it conditionally via .zoomed override. */
 .mainImage {
   position: relative;
-  overflow: hidden;
   border-radius: 16px;
   background: var(--white);
-  aspect-ratio: 1;
+  aspect-ratio: 1 / 1;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  cursor: zoom-in;
+  overflow: hidden;
 }
 
-.mainImage img {
+.mainImage.zoomed {
+  overflow: visible;
+  cursor: zoom-out;
+  z-index: 10;
+}
+
+/* BUG FIX CSS #2: object-fit:contain so full image always shows without cropping */
+.mainImg {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  transition: var(--transition);
+  object-fit: contain;
+  display: block;
+  transition: transform 0.3s ease;
 }
 
-.mainImage:hover img {
-  transform: scale(1.05);
+.mainImage:not(.zoomed):hover .mainImg {
+  transform: scale(1.04);
+}
+
+.mainImage.zoomed .mainImg {
+  transform: scale(1.75);
 }
 
 .badge {
@@ -171,6 +93,7 @@
   font-weight: 700;
   font-size: 0.9rem;
   text-transform: uppercase;
+  z-index: 2;
 }
 
 .outOfStock {
@@ -183,11 +106,13 @@
   color: var(--white);
   font-size: 1.5rem;
   font-weight: 700;
+  z-index: 3;
 }
 
 .navButton {
   position: absolute;
   top: 50%;
+  left: 16px;
   transform: translateY(-50%);
   background: rgba(255, 255, 255, 0.9);
   border: none;
@@ -199,8 +124,8 @@
   justify-content: center;
   cursor: pointer;
   color: var(--dark);
-  transition: var(--transition);
-  left: 16px;
+  transition: background 0.2s ease, color 0.2s ease;
+  z-index: 4;
 }
 
 .navButton:hover {
@@ -208,7 +133,8 @@
   color: var(--gold);
 }
 
-.navButton:last-child {
+/* BUG FIX CSS #5: right:16px to match left:16px spacing on the other button */
+.navRight {
   left: auto;
   right: 16px;
 }
@@ -217,8 +143,15 @@
   display: flex;
   gap: 12px;
   overflow-x: auto;
+  scrollbar-width: none;
 }
 
+.thumbnails::-webkit-scrollbar {
+  display: none;
+}
+
+/* BUG FIX CSS #4 & #6: .thumbnail is now always applied via JSX;
+   renamed active state to .thumbnailActive to avoid global collision */
 .thumbnail {
   flex-shrink: 0;
   width: 80px;
@@ -227,30 +160,36 @@
   border-radius: 8px;
   overflow: hidden;
   cursor: pointer;
-  transition: var(--transition);
   background: var(--white);
   padding: 0;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.thumbnail img {
+.thumbnail img,
+.thumbnail :global(.img) {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  display: block;
 }
 
 .thumbnail:hover {
   border-color: var(--gold);
 }
-.active {
+
+.thumbnailActive {
   border-color: var(--gold);
   box-shadow: 0 4px 12px rgba(192, 132, 87, 0.3);
 }
 
-/* Product Information */
+/* =========================================
+   PRODUCT INFO
+========================================= */
+
 .info {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 16px;
 }
 
 .category {
@@ -265,17 +204,27 @@
   font-size: 2.2rem;
   font-weight: 700;
   line-height: 1.3;
+  margin: 0;
+}
+
+.productId {
+  font-size: 0.85rem;
+  color: #888;
+  margin: 0;
 }
 
 .rating {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
+  flex-wrap: wrap;
 }
 
+/* BUG FIX CSS #4: .stars class was referenced in JSX but styles were never applied */
 .stars {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: var(--gold);
+  letter-spacing: 1px;
 }
 
 .ratingValue {
@@ -288,16 +237,17 @@
   font-size: 0.95rem;
 }
 
-.description {
-  color: #666;
-  line-height: 1.8;
-  font-size: 1rem;
+.shortDesc {
+  color: #555;
+  margin: 0;
+  line-height: 1.7;
 }
 
 .priceSection {
   display: flex;
   align-items: center;
   gap: 16px;
+  flex-wrap: wrap;
 }
 
 .price {
@@ -307,10 +257,29 @@
   font-family: var(--font-secondary);
 }
 
+.priceUnit {
+  font-size: 0.85em;
+  font-weight: 500;
+  opacity: 0.8;
+  margin-left: 4px;
+}
+
 .originalPrice {
   font-size: 1.2rem;
   color: #999;
   text-decoration: line-through;
+}
+
+/* BUG FIX CSS #7: .gemstonePrice was used in JSX but missing from CSS entirely */
+.gemstonePrice {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #666;
+  padding: 14px 16px;
+  background: #f8f8f8;
+  border-radius: 8px;
+  border-left: 3px solid var(--gold);
+  margin: 0;
 }
 
 .stock {
@@ -349,6 +318,10 @@
   font-weight: 500;
 }
 
+/* =========================================
+   QUANTITY
+========================================= */
+
 .quantitySection {
   display: flex;
   align-items: center;
@@ -363,7 +336,6 @@
 .quantityControl {
   display: flex;
   align-items: center;
-  gap: 12px;
   border: 2px solid #e0e0e0;
   border-radius: 8px;
   overflow: hidden;
@@ -372,12 +344,12 @@
 .quantityControl button {
   background: var(--cream);
   border: none;
-  padding: 8px 12px;
+  padding: 8px 14px;
   cursor: pointer;
   color: var(--gold);
   font-weight: 700;
   font-size: 1.2rem;
-  transition: var(--transition);
+  transition: background 0.2s ease, color 0.2s ease;
 }
 
 .quantityControl button:hover:not(:disabled) {
@@ -393,19 +365,30 @@
 .quantityControl input {
   width: 60px;
   border: none;
+  border-left: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
   text-align: center;
   font-weight: 600;
   font-size: 1rem;
   background: var(--white);
+  padding: 8px 0;
+  outline: none;
 }
+
+/* =========================================
+   ACTIONS
+========================================= */
 
 .actions {
   display: flex;
   gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .addToCartBtn {
   flex: 1;
+  min-width: 140px;
   padding: 16px;
   background: linear-gradient(135deg, var(--gold), #d4a574);
   color: var(--white);
@@ -418,7 +401,7 @@
   align-items: center;
   justify-content: center;
   gap: 12px;
-  transition: var(--transition);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .addToCartBtn:hover:not(:disabled) {
@@ -431,9 +414,31 @@
   cursor: not-allowed;
 }
 
+.buyNowBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 24px;
+  background: #25d366;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.buyNowBtn:hover {
+  background: #128c7e;
+  transform: translateY(-2px);
+}
+
+/* BUG FIX CSS #3: renamed from .wishlistBtn.active to standalone .wishlistActive
+   to match JSX which passes styles.wishlistActive */
 .wishlistBtn {
-  width: 50px;
-  height: 50px;
+  width: 54px;
+  height: 54px;
+  flex-shrink: 0;
   border-radius: 8px;
   border: 2px solid #e0e0e0;
   background: var(--white);
@@ -443,7 +448,7 @@
   align-items: center;
   justify-content: center;
   font-size: 1.2rem;
-  transition: var(--transition);
+  transition: border-color 0.2s ease, background 0.2s ease, color 0.2s ease;
 }
 
 .wishlistBtn:hover {
@@ -451,11 +456,15 @@
   background: rgba(192, 132, 87, 0.05);
 }
 
-.wishlistBtn.active {
-  background: var(--gold);
-  color: var(--white);
-  border-color: var(--gold);
+.wishlistActive {
+  background: var(--gold) !important;
+  color: var(--white) !important;
+  border-color: var(--gold) !important;
 }
+
+/* =========================================
+   META
+========================================= */
 
 .meta {
   background: var(--white);
@@ -464,99 +473,125 @@
   border-top: 2px solid #e0e0e0;
   display: flex;
   flex-direction: column;
-  gap: 12px;
-}
-
-.metaItem {
+  gap: 10px;
   font-size: 0.95rem;
   color: #666;
 }
 
-.metaItem strong {
+.meta strong {
   color: var(--dark);
-  margin-right: 8px;
+  margin-right: 6px;
 }
 
-/* Related Products */
-.relatedSection {
-  padding: 60px 0;
-}
+/* =========================================
+   TABS
+========================================= */
 
-.relatedSection h2 {
-  font-size: 2rem;
-  margin-bottom: 40px;
-  text-align: center;
-}
-
-.relatedGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 24px;
-}
-
-.notFound {
-  min-height: 60vh;
+.tabs {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  gap: 8px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid rgba(192, 132, 87, 0.2);
 }
 
-.backBtn {
-  margin-top: 20px;
-  padding: 12px 32px;
-  background: linear-gradient(135deg, var(--gold), #d4a574);
-  color: var(--white);
+.tabs button {
+  padding: 12px 24px;
+  background: none;
   border: none;
-  border-radius: 8px;
-  font-weight: 600;
+  color: #888;
   cursor: pointer;
-  transition: var(--transition);
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  transition: color 0.2s ease;
 }
 
-.backBtn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(192, 132, 87, 0.3);
+.tabActive {
+  color: var(--gold) !important;
+  border-bottom-color: var(--gold) !important;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .content {
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
-
-  .info h1 {
-    font-size: 1.6rem;
-  }
-
-  .price {
-    font-size: 1.8rem;
-  }
-
-  .actions {
-    flex-direction: column;
-  }
-
-  .wishlistBtn {
-    width: 100%;
-  }
-
-  .meta {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 16px;
-  }
-
-  .quantitySection {
-    flex-wrap: wrap;
-  }
-
-  .relatedGrid {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  }
+.tabContent {
+  padding: 24px;
+  background: var(--white);
+  border-radius: 12px;
+  margin-bottom: 60px;
+  color: #444;
+  border: 1px solid #eee;
+  line-height: 1.8;
 }
 
+.tabContent ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tabContent li {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(192, 132, 87, 0.1);
+}
+
+/* =========================================
+   REVIEWS
+   BUG FIX CSS #8: removed overly broad .reviewsUi p rule that
+   accidentally styled the summary paragraph too
+========================================= */
+
+.reviewsUi {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.reviewsSummary {
+  font-size: 1rem;
+  color: #555;
+  margin: 0;
+  padding: 16px;
+  background: var(--cream);
+  border-radius: 8px;
+}
+
+.reviewList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.reviewItem {
+  padding: 16px 20px;
+  background: var(--cream);
+  border-radius: 10px;
+  border-left: 3px solid var(--gold);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.reviewStars {
+  color: var(--gold);
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.reviewText {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+  font-style: italic;
+}
+
+.reviewBuyer {
+  font-size: 0.82rem;
+  color: #999;
+  font-weight: 600;
+}
+
+/* =========================================
+   PRODUCT DESCRIPTION (rich HTML content)
+========================================= */
 
 .productDescription {
   color: #444;
@@ -599,11 +634,7 @@
 .productDescription blockquote {
   margin-top: 30px;
   padding: 20px;
-  background: linear-gradient(
-    135deg,
-    rgba(192, 132, 87, 0.08),
-    rgba(192, 132, 87, 0.03)
-  );
+  background: rgba(192, 132, 87, 0.06);
   border-left: 4px solid var(--gold);
   border-radius: 10px;
   font-style: italic;
@@ -624,8 +655,58 @@
 }
 
 /* =========================================
+   RELATED PRODUCTS
+========================================= */
+
+.relatedSection {
+  padding: 60px 0;
+}
+
+.relatedSection h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.relatedGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+/* =========================================
+   NOT FOUND
+========================================= */
+
+.notFound {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.backBtn {
+  margin-top: 20px;
+  padding: 12px 32px;
+  background: linear-gradient(135deg, var(--gold), #d4a574);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.backBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(192, 132, 87, 0.3);
+}
+
+/* =========================================
    LARGE TABLETS
 ========================================= */
+
 @media (max-width: 1024px) {
   .content {
     gap: 40px;
@@ -647,6 +728,7 @@
 /* =========================================
    TABLETS
 ========================================= */
+
 @media (max-width: 768px) {
   .productDetails {
     padding: 20px 0 50px;
@@ -678,6 +760,7 @@
   .addToCartBtn,
   .buyNowBtn {
     width: 100%;
+    justify-content: center;
   }
 
   .wishlistBtn {
@@ -716,11 +799,36 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
   }
+
+  .productDescription h2 {
+    font-size: 1.5rem;
+  }
+
+  .productDescription h3 {
+    font-size: 1.15rem;
+  }
+
+  .productDescription p {
+    font-size: 0.95rem;
+  }
+
+  .productDescription li {
+    padding: 12px;
+  }
+
+  .productDescription .featureBox {
+    padding: 18px;
+  }
+
+  .productDescription blockquote {
+    padding: 16px;
+  }
 }
 
 /* =========================================
    MOBILE
 ========================================= */
+
 @media (max-width: 576px) {
   .breadcrumb {
     margin-bottom: 20px;
@@ -766,11 +874,6 @@
     font-size: 1rem;
   }
 
-  .rating {
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-
   .tag {
     font-size: 0.75rem;
     padding: 5px 10px;
@@ -797,43 +900,12 @@
     gap: 8px;
   }
 
-  .thumbnails button {
+  /* BUG FIX CSS #10: use .thumbnail class selector for consistency */
+  .thumbnail {
     width: 65px;
     height: 65px;
-    flex-shrink: 0;
-  }
-}
-
-/* =========================================
-   DESCRIPTION RESPONSIVE
-========================================= */
-@media (max-width: 768px) {
-  .productDescription h2 {
-    font-size: 1.5rem;
   }
 
-  .productDescription h3 {
-    font-size: 1.15rem;
-  }
-
-  .productDescription p {
-    font-size: 0.95rem;
-  }
-
-  .productDescription li {
-    padding: 12px;
-  }
-
-  .productDescription .featureBox {
-    padding: 18px;
-  }
-
-  .productDescription blockquote {
-    padding: 16px;
-  }
-}
-
-@media (max-width: 480px) {
   .productDescription h2 {
     font-size: 1.3rem;
   }

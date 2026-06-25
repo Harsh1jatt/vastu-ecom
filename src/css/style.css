@@ -15,7 +15,7 @@ html {
   --cream: #f8f6f3;
   --dark: #111111;
   --white: #ffffff;
-  
+    --navbar-height: 82px;
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Cormorant Garamond', serif;
   
@@ -511,4 +511,19 @@ input:focus, textarea:focus, select:focus {
   .grid-2, .grid-3, .grid-4 {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --navbar-height: 76px;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --navbar-height: 72px;
+  }
+}
+.pageContent {
+  padding-top: var(--navbar-height);
 }

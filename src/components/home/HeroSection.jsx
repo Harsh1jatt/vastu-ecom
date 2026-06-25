@@ -8,28 +8,28 @@ import styles from "./HeroSection.module.css";
 const slides = [
   {
     id: 1,
+    image: "/images/slide5.png",
+    category: "/contact",
+  },
+  {
+    id: 2,
     image: "/images/slide1.webp",
     category: "/vastu",
   },
   {
-    id: 2,
+    id: 3,
     image: "/images/slide2.webp",
     category: "/energyvastu",
   },
   {
-    id: 3,
+    id: 4,
     image: "/images/slide3.webp",
     category: "/gemstones",
   },
   {
-    id: 4,
+    id: 5,
     image: "/images/slide4.webp",
     category: "/yantra",
-  },
-  {
-    id: 5,
-    image: "/images/slide5.png",
-    category: "/contact",
   },
 ];
 
@@ -58,13 +58,12 @@ export default function HeroSection() {
   };
 
   useEffect(() => {
-    const timer = setInterval(() => {
+    const timer = setTimeout(() => {
       paginate(1);
-    }, 6000);
+    }, 12000);
 
-    return () => clearInterval(timer);
-  }, []);
-
+    return () => clearTimeout(timer);
+  }, [current]);
   const handleDragEnd = (_, info) => {
     const swipeThreshold = 80;
 
@@ -77,6 +76,13 @@ export default function HeroSection() {
 
   return (
     <section className={styles.hero}>
+        <motion.div
+        key={current}
+        className={styles.progressBar}
+        initial={{ width: 0 }}
+        animate={{ width: "100%" }}
+        transition={{ duration: 12, ease: "linear" }}
+      />
       <AnimatePresence initial={false} custom={direction}>
         <motion.div
           key={slides[current].id}
@@ -87,7 +93,7 @@ export default function HeroSection() {
           animate="center"
           exit="exit"
           transition={{
-            duration: 0.7,
+            duration: 0.9,
             ease: [0.22, 1, 0.36, 1],
           }}
           drag="x"

@@ -10,7 +10,7 @@
 }
 
 .mainPadded {
-  padding-top: 76px;
+  padding-top: var(--navbar-height);
 }
 
 @media (max-width: 768px) {

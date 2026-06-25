@@ -1,18 +1,18 @@
 /* ProductCard.module.css */
-.priceUnit {
-  font-size: 0.85em;
-  font-weight: 500;
-  opacity: 0.8;
-}
+
+/* =========================================
+   CARD
+========================================= */
+
 .card {
   position: relative;
   background: var(--white);
   border-radius: 20px;
   overflow: hidden;
 
-  /* SAFER MOBILE RENDERING */
+  /* SAFER MOBILE RENDERING — only translateZ, removed will-change to avoid
+     BUG FIX CSS #4: stacking context conflicts on Android Chrome */
   transform: translateZ(0);
-  will-change: transform;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 
@@ -29,19 +29,21 @@
   flex-direction: column;
 }
 
-/* REMOVED MASK COMPOSITE EFFECT */
-/* It causes GPU glitches on Android Chrome */
-
 .card:hover {
   transform: translateY(-4px);
   box-shadow: 0 14px 34px rgba(192, 132, 87, 0.12);
   border-color: rgba(192, 132, 87, 0.2);
 }
 
+/* =========================================
+   IMAGE WRAP
+========================================= */
+
 .imageWrap {
   position: relative;
   width: 100%;
-  height: 240px;
+  aspect-ratio: 1 / 1;
+  /* overflow:hidden kept for card clip — image itself uses contain so nothing is cut */
   overflow: hidden;
   background: #f8f5f1;
 }
@@ -53,6 +55,7 @@
   height: 100%;
 }
 
+/* BUG FIX CSS #1: changed object-fit from cover → contain so full image always shows */
 .image,
 .imageAlt {
   position: absolute;
@@ -61,7 +64,7 @@
   width: 100%;
   height: 100%;
 
-  object-fit: cover;
+  object-fit: contain;
   display: block;
 
   backface-visibility: hidden;
@@ -92,6 +95,10 @@
     opacity: 1;
   }
 }
+
+/* =========================================
+   BADGES
+========================================= */
 
 .discountBadge {
   position: absolute;
@@ -129,7 +136,9 @@
   z-index: 5;
 }
 
-/* ACTION BUTTONS */
+/* =========================================
+   FLOATING ACTION BUTTONS
+========================================= */
 
 .floatingActions {
   position: absolute;
@@ -198,7 +207,9 @@
   color: var(--white) !important;
 }
 
-/* QUICK ADD */
+/* =========================================
+   QUICK ADD
+========================================= */
 
 .quickAdd {
   position: absolute;
@@ -246,7 +257,9 @@
   display: none;
 }
 
-/* BODY */
+/* =========================================
+   CARD BODY
+========================================= */
 
 .body {
   padding: 18px;
@@ -312,6 +325,10 @@
   overflow: hidden;
 }
 
+/* =========================================
+   RATING
+========================================= */
+
 .rating {
   display: flex;
   align-items: center;
@@ -329,6 +346,10 @@
 .reviewCount {
   color: #aaa;
 }
+
+/* =========================================
+   PRICE
+========================================= */
 
 .priceRow {
   display: flex;
@@ -348,11 +369,30 @@
   color: var(--dark);
 }
 
+.priceUnit {
+  font-size: 0.85em;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
 .oldPrice {
   font-size: 0.9rem;
   color: #aaa;
   text-decoration: line-through;
 }
+
+/* BUG FIX CSS #3: .contactPrice was used in JSX but had no CSS rule — now defined */
+.contactPrice {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--gold);
+  font-style: italic;
+  letter-spacing: 0.3px;
+}
+
+/* =========================================
+   VIEW LINK
+========================================= */
 
 .viewLink {
   display: inline-flex;
@@ -371,9 +411,13 @@
   transition: opacity 0.2s ease;
 }
 
-/* ========================= */
-/* MOBILE RESPONSIVE */
-/* ========================= */
+.viewLink:hover {
+  opacity: 0.75;
+}
+
+/* =========================================
+   MOBILE RESPONSIVE
+========================================= */
 
 @media (max-width: 768px) {
   .card {
@@ -381,7 +425,7 @@
   }
 
   .imageWrap {
-    height: 180px;
+    aspect-ratio: 1 / 1;
   }
 
   .body {
@@ -400,6 +444,7 @@
     font-size: 1.15rem;
   }
 
+  /* On mobile: always show floating actions (no hover) — move to bottom row */
   .floatingActions {
     opacity: 1;
     transform: none;
@@ -428,7 +473,7 @@
 
 @media (max-width: 480px) {
   .imageWrap {
-    height: 160px;
+    aspect-ratio: 1 / 1;
   }
 
   .body {

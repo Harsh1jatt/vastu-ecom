@@ -130,14 +130,6 @@
   transform: rotate(180deg);
 }
 
-.dropdown {
-  position: absolute;
-  top: calc(100% + 16px);
-  width: 20px;
-
-  z-index: 100;
-}
-
 .dropdownInner {
   background: white;
 
