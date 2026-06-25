@@ -45,7 +45,7 @@
 .exploreBtn {
   position: absolute;
   left: 50%;
-  bottom: 100px;
+  bottom: 70px;
   transform: translateX(-50%);
   z-index: 20;
 
@@ -169,12 +169,12 @@
 
 @media (max-width: 992px) {
   .hero {
-    height: calc(100vh - var(--navbar-height));
+    height: 50vw;
     min-height: 500px;
   }
 
   .exploreBtn {
-    bottom: 90px;
+    bottom: 40px;
   }
 
   .arrow {
@@ -186,7 +186,7 @@
 @media (max-width: 768px) {
   .hero {
     margin-top: var(--navbar-height);
-    height: calc(100vh - var(--navbar-height));
+    height: 50vw;
     min-height: 300px;
     max-height: 650px;
   }
@@ -224,11 +224,11 @@
 @media (max-width: 480px) {
   .hero {
     margin-top: var(--navbar-height);
-    height: calc(100vh - var(--navbar-height));
+    height: 50vw;
   }
 
   .exploreBtn {
-    bottom: 75px;
+    bottom: 40px;
     padding: 11px 22px;
     font-size: 0.9rem;
   }
@@ -253,7 +253,7 @@
 
 
   .exploreBtn {
-    bottom: 60px;
+    bottom: 40px;
     padding: 10px 20px;
     font-size: 0.85rem;
   }
