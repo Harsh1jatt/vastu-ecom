@@ -3,9 +3,9 @@ export const SITE_URL = 'https://vastudivine.in';
 export const CONTACT_EMAIL = 'info@vastudivine.in';
 
 export const ADDRESS = {
-  line1: 'New Delhi',
+  line1: 'Ludhiana, Punjab',
   line2: 'India',
-  full: 'New Delhi, India'
+  full: 'Ludhiana, Punjab, India'
 };
 
 export const WHATSAPP_NUMBER = '+91 91151 75769';
