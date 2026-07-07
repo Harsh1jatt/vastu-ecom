@@ -49,13 +49,35 @@ const Contact = () => {
   const [submitted, setSubmitted] = useState(false);
   const [openFaq, setOpenFaq] = useState(null);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle form submission
-    setSubmitted(true);
-    setFormData({ name: '', phone: '', propertyType: '', message: '' });
-    setTimeout(() => setSubmitted(false), 5000);
-  };
+const handleSubmit = (e) => {
+  e.preventDefault();
+
+  const message = `
+*New Vastu Consultation Enquiry*
+
+👤 Name: ${formData.name}
+📞 Phone: ${formData.phone}
+🏠 Property Type: ${formData.propertyType}
+
+📝 Message:
+${formData.message}
+`;
+
+  const whatsappURL = `https://wa.me/${whatsappDigits}?text=${encodeURIComponent(message)}`;
+
+  window.open(whatsappURL, "_blank");
+
+  setSubmitted(true);
+
+  setFormData({
+    name: "",
+    phone: "",
+    propertyType: "",
+    message: "",
+  });
+
+  setTimeout(() => setSubmitted(false), 5000);
+};
 
   const primaryContact = CONTACT_PERSONS?.[0];
   const whatsappDigits = (primaryContact?.whatsapp || WHATSAPP_NUMBER || '').replace(/\D/g, '');
