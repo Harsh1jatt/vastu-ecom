@@ -8,7 +8,7 @@ export const ADDRESS = {
   full: 'Ludhiana, Punjab, India'
 };
 
-export const WHATSAPP_NUMBER = '+91 91151 75769';
+export const WHATSAPP_NUMBER = '+919115175769';
 
 export const CONTACT_PERSONS = [
   {

@@ -77,7 +77,7 @@ ${formData.message}
   });
 
   setTimeout(() => setSubmitted(false), 5000);
-};
+};  
 
   const primaryContact = CONTACT_PERSONS?.[0];
   const whatsappDigits = (primaryContact?.whatsapp || WHATSAPP_NUMBER || '').replace(/\D/g, '');
