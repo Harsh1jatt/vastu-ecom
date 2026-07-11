@@ -201,6 +201,7 @@
 /product/purple-cats-eye-beads-bracelet
 /product/pusha-devta-div-no-22-sacred-45-devta-vastu-energizer
 /product/pushpadant-devta-div-no-32-sacred-45-devta-vastu-energizer
+/product/pyrite-manjusha-box-size-6-inches
 /product/rajyakshma-devta-div-no-12-sacred-45-devta-vastu-energizer
 /product/red-coral-moonga
 /product/red-elephant-fame-recognition
@@ -323,6 +324,8 @@
 /tapes
 /tapes/vastu-color-tapes
 /terms
+/vastu-products
+/vastu-products/spiritual-energizing-kits
 /vastu-remedies
 /vastu-remedies/animal-figurines
 /vastu-remedies/decorative-figurines

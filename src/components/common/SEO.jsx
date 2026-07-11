@@ -23,7 +23,7 @@ const SEO = ({
       ? image
       : `${SITE_URL}${image}`
     : `${SITE_URL}/images/og-image.jpg`;
-
+console.log(fullImage);
   return (
     <Helmet>
       {/* =========================

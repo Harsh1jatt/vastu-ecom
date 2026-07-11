@@ -1,6 +1,6 @@
 export const shareProduct = async (product) => {
   const url = `${window.location.origin}/product/${product.slug}`;
-
+console.log()
   const data = {
     title: product.title,
     text: product.shortDescription,

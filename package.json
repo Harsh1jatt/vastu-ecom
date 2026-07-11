@@ -3,21 +3,18 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-
   "scripts": {
     "generate-urls": "node scripts/generate-urls.js",
     "generate-sitemap": "node scripts/generate-sitemap.js",
-
     "dev": "npm run generate-urls && npm run generate-sitemap && vite",
-
     "build": "npm run generate-urls && npm run generate-sitemap && vite build",
-
+    "serve": "node server/index.js",
     "lint": "eslint .",
-
     "preview": "vite preview"
   },
-
   "dependencies": {
+    "compression": "^1.8.1",
+    "express": "^5.2.1",
     "framer-motion": "^12.39.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
@@ -28,7 +25,6 @@
     "swiper": "^12.1.4",
     "vite-plugin-sitemap": "^0.8.2"
   },
-
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@types/react": "^19.2.14",
