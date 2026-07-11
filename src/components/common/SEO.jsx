@@ -1,16 +1,16 @@
-import { Helmet } from 'react-helmet-async';
+import { Helmet } from "react-helmet-async";
 import {
   SITE_URL,
-  SITE_NAME
-} from './../../config/site';
+  SITE_NAME,
+} from "../../config/site";
 
 const SEO = ({
   title,
   description,
-  keywords = '',
-  image = '',
-  url = '',
-  type = 'website'
+  keywords = "",
+  image = "",
+  url = "",
+  type = "website",
 }) => {
   const fullTitle = title
     ? `${title} | ${SITE_NAME}`
@@ -19,14 +19,17 @@ const SEO = ({
   const fullUrl = `${SITE_URL}${url}`;
 
   const fullImage = image
-    ? image.startsWith('http')
+    ? image.startsWith("http")
       ? image
       : `${SITE_URL}${image}`
     : `${SITE_URL}/images/og-image.jpg`;
 
   return (
     <Helmet>
-      {/* Basic SEO */}
+      {/* =========================
+          BASIC SEO
+      ========================== */}
+
       <title>{fullTitle}</title>
 
       <meta
@@ -41,12 +44,32 @@ const SEO = ({
         />
       )}
 
+      <meta
+        name="robots"
+        content="index, follow"
+      />
+
+      <meta
+        name="author"
+        content="Vastu Divine"
+      />
+
       <link
         rel="canonical"
         href={fullUrl}
       />
 
-      {/* Open Graph */}
+      {/* =========================
+          OPEN GRAPH
+      ========================== */}
+
+      <meta property="og:type" content={type} />
+
+      <meta
+        property="og:site_name"
+        content={SITE_NAME}
+      />
+
       <meta
         property="og:title"
         content={fullTitle}
@@ -68,16 +91,34 @@ const SEO = ({
       />
 
       <meta
-        property="og:type"
-        content={type}
+        property="og:image:secure_url"
+        content={fullImage}
       />
 
       <meta
-        property="og:site_name"
-        content={SITE_NAME}
+        property="og:image:width"
+        content="1200"
       />
 
-      {/* Twitter */}
+      <meta
+        property="og:image:height"
+        content="630"
+      />
+
+      <meta
+        property="og:image:alt"
+        content={title || SITE_NAME}
+      />
+
+      <meta
+        property="og:locale"
+        content="en_IN"
+      />
+
+      {/* =========================
+          TWITTER
+      ========================== */}
+
       <meta
         name="twitter:card"
         content="summary_large_image"
@@ -98,12 +139,19 @@ const SEO = ({
         content={fullImage}
       />
 
-      {/* Robots */}
       <meta
-        name="robots"
-        content="index, follow"
+        name="twitter:image:alt"
+        content={title || SITE_NAME}
       />
-      <meta name="author" content="Vastu Divine"/>
+
+      {/* =========================
+          EXTRA
+      ========================== */}
+
+      <meta
+        name="theme-color"
+        content="#C08457"
+      />
     </Helmet>
   );
 };

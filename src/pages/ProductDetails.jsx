@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { FiShoppingCart, FiHeart, FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import { FaWhatsapp } from 'react-icons/fa';
+import { shareProduct } from "../utils/shareUtils";
+import { FiShare2 } from "react-icons/fi";
 import { useCart } from '../hooks/useCart';
 import { useWishlist } from '../hooks/useWishlist';
 import { useToast } from '../context/ToastContext';
@@ -88,9 +90,10 @@ const ProductDetails = () => {
       <SEO
         title={product.title}
         description={product.shortDescription}
-        keywords={product.tags?.join(', ')}
+        keywords={product.tags?.join(", ")}
         image={product.images?.[0]}
         url={`/product/${product.slug}`}
+        type="product"
       />
       <Helmet>
         <script type="application/ld+json">
@@ -295,6 +298,7 @@ const ProductDetails = () => {
                   <FiShoppingCart /> Add to Cart
                 </button>
               )}
+
               <a
                 href={getBuyNowWhatsAppLink(product, quantity)}
                 target="_blank"
@@ -304,6 +308,19 @@ const ProductDetails = () => {
                 <FaWhatsapp />
                 {isGemstone ? ' Contact on WhatsApp' : ' Buy Now'}
               </a>
+              <button
+                className={styles.shareBtn}
+                onClick={async () => {
+                  const res = await shareProduct(product);
+
+                  if (res?.copied) {
+                    showToast(res.message);
+                  }
+                }}
+              >
+                <FiShare2 />
+                Share
+              </button>
               {/* BUG FIX #5: renamed to styles.wishlistActive to match CSS */}
               <button
                 type="button"

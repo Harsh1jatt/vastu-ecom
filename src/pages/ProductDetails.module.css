@@ -730,6 +730,10 @@
 ========================================= */
 
 @media (max-width: 768px) {
+    .shareBtn{
+      width:100%;
+      justify-content:center;
+  }
   .productDetails {
     padding: 20px 0 50px;
   }
@@ -921,4 +925,36 @@
   .productDescription li {
     font-size: 0.9rem;
   }
+}
+
+.shareBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  padding: 16px 22px;
+
+  background: var(--white);
+  color: var(--gold);
+
+  border: 2px solid var(--gold);
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  transition: all .25s ease;
+}
+
+.shareBtn:hover {
+  background: var(--gold);
+  color: var(--white);
+  transform: translateY(-2px);
+}
+
+.shareBtn svg {
+  font-size: 20px;
 }
